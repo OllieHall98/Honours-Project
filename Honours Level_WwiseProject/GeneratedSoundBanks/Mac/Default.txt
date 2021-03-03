@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2407527377	StartRain			\Default Work Unit\StartRain	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1866329414	RainIntensity			\Default Work Unit\RainIntensity	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	345965029	Heavy Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Heavy Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Heavy Rain		10379772
+	733600970	Light Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Light Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Light Rain		5636116
+

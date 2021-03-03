@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C286BDD9-FFEC-43CB-BE2A-739E96C240DF}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C286BDD9-FFEC-43CB-BE2A-739E96C240DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Default" ID="{F1D2CE1E-C9EF-46B8-B3CA-73A567B39D78}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StartRain" ID="{61C69A30-A521-4DBF-9F69-FD084230C63A}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="782826392" Language="SFX" Hash="3281354013">
+			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
+			<ShortName>Default</ShortName>
+			<Path>Default.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2407527377" Name="StartRain" ObjectPath="\Events\Default Work Unit\StartRain" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="345965029" Language="SFX">
+							<ShortName>Heavy Rain.wav</ShortName>
+							<Path>SFX\Heavy Rain_D79FB2B7.wem</Path>
+						</File>
+						<File Id="733600970" Language="SFX">
+							<ShortName>Light Rain.wav</ShortName>
+							<Path>SFX\Light Rain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1866329414" Name="RainIntensity" ObjectPath="\Game Parameters\Default Work Unit\RainIntensity"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2665470246">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
