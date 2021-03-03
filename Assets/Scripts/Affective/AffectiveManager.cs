@@ -118,8 +118,8 @@ namespace Affective
                 return;
             }
 
-            CancelInvoke();
-            e.Invoke();
+            //CancelInvoke();
+            //e.Invoke();
 
         }
 
