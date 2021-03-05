@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using OpenCvSharp;
 using OpenCvSharp.Demo;
 using UnityEngine;
 using UnityEngine.UI;
@@ -48,8 +49,8 @@ namespace Affective
             _processor.DataStabilizer.SamplesCount = 2;      // how many samples do we need to compute stable data
 
             // performance data - some tricks to make it work faster
-            _processor.Performance.Downscale = 256;          // processed image is pre-scaled down to N px by long side
-            _processor.Performance.SkipRate = 0;             // we actually process only each Nth frame (and every frame for skipRate = 0)
+            _processor.Performance.Downscale = 512;          // processed image is pre-scaled down to N px by long side
+            _processor.Performance.SkipRate = 21;             // we actually process only each Nth frame (and every frame for skipRate = 0)
         }
 
         void Start()
@@ -97,6 +98,10 @@ namespace Affective
 
         private void Update()
         {
+            _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
+            
+            OutputProcessedImage();
+            
             if (!_coroutineExecuting && _webcamTex)
             {
                 StartCoroutine(CheckFace());
@@ -108,13 +113,13 @@ namespace Affective
             _coroutineExecuting = true;
             
             // detect everything we're interested in
-            _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
-            
+           // _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
+
             _facialExpressionDetection.DetectFacialExpression(_processor.Image);
 
-            OutputProcessedImage();
+           // OutputProcessedImage();
 
-            yield return new WaitForSecondsRealtime(0.1f);
+            yield return new WaitForSecondsRealtime(3f);
 
             _coroutineExecuting = false;
         }
