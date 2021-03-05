@@ -125,12 +125,16 @@ namespace Affective
 
         public void SetCurrentEmotion(string emotion)
         {
-            if (emotion == "N/A") 
+            if (emotion == "N/A")
+            { 
+                Debug.Log("No Face Detected");
                 return;
+            }
+                
 
             string strongestEmotion = CalculateStrongestEmotion(emotion);
 
-            if (strongestEmotion == currentEmotion)
+            if (strongestEmotion == null || strongestEmotion == currentEmotion)
                 return;
 
             Debug.Log("Strongest emotion is now " + strongestEmotion);
@@ -190,7 +194,10 @@ namespace Affective
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1)) RaiseEvent(_neutralEvent);
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                RaiseEvent(_neutralEvent);
+            }
             if (Input.GetKeyDown(KeyCode.Alpha2)) RaiseEvent(_joyEvent);
             if (Input.GetKeyDown(KeyCode.Alpha3)) RaiseEvent(_sadnessEvent);
             if (Input.GetKeyDown(KeyCode.Alpha4)) RaiseEvent(_fearEvent);

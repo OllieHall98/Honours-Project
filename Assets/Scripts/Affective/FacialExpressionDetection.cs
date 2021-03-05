@@ -8,6 +8,7 @@ using DlibDotNet;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using UnityEngine;
+using DlibDotNet.Extensions;
 
 namespace Affective
 {
@@ -16,9 +17,11 @@ namespace Affective
         private FacialDetection _facialDetection;
         private AffectiveManager _affectiveManager = null;
 
-        private Thread _t1;
+        private Thread _thread;
 
         private string _emotion;
+
+        public Array2D<RgbPixel> ImageData;
 
         private void Awake()
         {
@@ -31,44 +34,45 @@ namespace Affective
         {
             _facialDetection.Init();
             
-            _t1 = new Thread(Yeet) {Name = "fea thread"};
+            _thread = new Thread(Yeet) {Name = "fea thread"};
         }
 
-        public void DetectFacialExpression(byte[] imageData)
+        public void DetectFacialExpression(Array2D<RgbPixel> imageData)
         {
+            ImageData = imageData;
+            
             const int interval = 100;
             var timer = new System.Timers.Timer(interval) { AutoReset = false };
 
             timer.Elapsed += ((sender, eventArgs) =>
             {
                 //Debug.Log("Joined thread");
-                _t1.Join();
+                _thread.Join();
            
             });
 
-            if (_t1 != null && !_t1.IsAlive)
+            if (_thread != null && !_thread.IsAlive)
             {
                 // Debug.Log("Started thread");
-                _t1 = new Thread(Yeet);
-                _t1.Start(imageData);
+                _thread = new Thread(Yeet);
+                _thread.Start();
                 timer.Start();
             }
 
-                _affectiveManager.SetCurrentEmotion(_emotion);
+            _affectiveManager.SetCurrentEmotion(_emotion);
         }
 
-        private void Yeet(object data)
+        private void Yeet()
         {
-            _emotion = _facialDetection.TestCustomImage(data);
+            _emotion = _facialDetection.TestCustomImage(ImageData);
         }
 
         private void OnApplicationQuit()
         {
-            if(_t1 != null && _t1.IsAlive) _t1.Abort();
+            if(_thread != null && _thread.IsAlive) _thread.Abort();
         }
     }
-
-    [SuppressMessage("ReSharper", "InconsistentNaming")]
+    
     public class FacialDetection
     {
         private enum Datatype { Training, Testing };
@@ -227,24 +231,23 @@ namespace Affective
 
             //Form1.HideImage();
         }
-
-        public string TestCustomImage(object data)
+        
+        public string TestCustomImage(Array2D<RgbPixel> image)
         {
-            using (var ms = new MemoryStream((byte[])data))
-            {
-                _bmp = new System.Drawing.Bitmap(ms);
-            }
-
-            var img = ToArray2D(_bmp);
+            // // convert byte data into bitmap for DlibDotNet to process
+            // using (var memoryStream = new MemoryStream((byte[])data))
+            // {
+            //     _bmp = new System.Drawing.Bitmap(memoryStream);
+            // }
 
             // find all faces in the image
-            var faces = _fd.Operator(img);
+            var faces = _fd.Operator(image);
 
             if (!faces.Any())
                 return "N/A";
 
             // find the landmark points for this face
-            var shape = _sp.Detect(img, faces[0]);
+            var shape = _sp.Detect(image, faces[0]);
 
             FeatureInputData inputData = new FeatureInputData
             {

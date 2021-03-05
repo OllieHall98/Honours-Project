@@ -47,4 +47,4 @@ MonoBehaviour:
     changeIntensity: 1
     changeColor: 1
     color: {r: 1, g: 1, b: 1, a: 1}
-    intensity: 29
+    intensity: 0
