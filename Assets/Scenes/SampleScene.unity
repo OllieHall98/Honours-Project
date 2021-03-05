@@ -2555,6 +2555,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
         type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 4900000, guid: a1203bc8d0ab3b5469c52993e6874d7a, type: 3}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
+      propertyPath: faces
+      value: 
+      objectReference: {fileID: 4900000, guid: 44207fecda17deb4f89f1d2d8d1f99bc, type: 3}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
+      propertyPath: shapes
+      value: 
+      objectReference: {fileID: 4900000, guid: 8141d4a0988291c4f9e5fba2a3e448f1, type: 3}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
+      propertyPath: eyesGlasses
+      value: 
+      objectReference: {fileID: 4900000, guid: b585093eb39717641b2c81ae99bc599c, type: 3}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
       propertyPath: imageOutput
       value: 
       objectReference: {fileID: 586185966}
@@ -3864,7 +3884,6 @@ MonoBehaviour:
   m_Script: {fileID: 1147462742}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries: []
 --- !u!4 &777991727
 Transform:
   m_ObjectHideFlags: 19
@@ -5214,6 +5233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4d10f1156ed5c4094116628f3fa605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  affectiveManager: {fileID: 0}
 --- !u!1 &1159088217
 GameObject:
   m_ObjectHideFlags: 0
@@ -11143,7 +11163,7 @@ PrefabInstance:
     - target: {fileID: 627632169679015083, guid: af2d1e89f699b774da2387707bce001a,
         type: 3}
       propertyPath: m_Intensity
-      value: 25000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 627632169679015084, guid: af2d1e89f699b774da2387707bce001a,
         type: 3}
