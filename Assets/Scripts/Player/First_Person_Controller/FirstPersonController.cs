@@ -144,6 +144,7 @@ namespace VHS
             {
                 GetComponents();
                 InitVariables();
+                
             }
 
             protected virtual void Update()

@@ -68,6 +68,7 @@ namespace Weather
 
     }
     
+    #if UNITY_EDITOR
     [CustomEditor(typeof(WeatherTypeData))]
     [CanEditMultipleObjects]
     public class WeatherTypeDataEditor : Editor
@@ -86,6 +87,7 @@ namespace Weather
             data = (WeatherTypeData) target;
         }
 
+        
         public override void OnInspectorGUI()
         {
             GUILayout.BeginVertical(EditorStyles.helpBox);
@@ -299,5 +301,5 @@ namespace Weather
         
         
     }
-    
+    #endif
 }

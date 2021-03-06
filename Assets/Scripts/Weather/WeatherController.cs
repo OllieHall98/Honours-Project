@@ -372,6 +372,7 @@ namespace Weather
         }
     }
     
+    #if UNITY_EDITOR
     
     [CustomEditor(typeof(WeatherController))]
     [CanEditMultipleObjects]
@@ -458,5 +459,6 @@ namespace Weather
         }
 
     }
+    #endif
     
 }

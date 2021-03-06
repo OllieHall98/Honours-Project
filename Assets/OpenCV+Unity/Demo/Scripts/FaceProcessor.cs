@@ -204,6 +204,49 @@
                 processingImage = Image;
             }
         }
+        
+        public virtual Mat ConvertToMat(T texture, Unity.TextureConversionParams texParams)
+        {
+            // free currently used textures
+            if (null != processingImage)
+                processingImage.Dispose();
+            if (null != Image)
+                Image.Dispose();
+
+            // convert and prepare
+            Image = MatFromTexture(texture, texParams);
+            if (Performance.Downscale > 0 && (Performance.Downscale < Image.Width || Performance.Downscale < Image.Height))
+            {
+                // compute aspect-respective scaling factor
+                int w = Image.Width;
+                int h = Image.Height;
+
+                // scale by max side
+                if (w >= h)
+                {
+                    appliedFactor = (double)Performance.Downscale / (double)w;
+                    w = Performance.Downscale;
+                    h = (int)(h * appliedFactor + 0.5);
+                }
+                else
+                {
+                    appliedFactor = (double)Performance.Downscale / (double)h;
+                    h = Performance.Downscale;
+                    w = (int)(w * appliedFactor + 0.5);
+                }
+
+                // resize
+                processingImage = new Mat();
+                Cv2.Resize(Image, processingImage, new Size(w, h));
+            }
+            else
+            {
+                appliedFactor = 1.0;
+                processingImage = Image;
+            }
+
+            return Image;
+        }
 
         /// <summary>
         /// Detector

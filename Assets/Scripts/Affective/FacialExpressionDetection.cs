@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
@@ -10,8 +11,7 @@ using DlibDotNet;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using UnityEngine;
-using System.Threading.Tasks;
-using DlibDotNet.Extensions;
+
 using OpenCvSharp;
 using ShapePredictor = DlibDotNet.ShapePredictor;
 
@@ -22,13 +22,8 @@ namespace Affective
         private FacialDetection _facialDetection;
         public AffectiveManager affectiveManager;
 
-        private Thread _thread;
-
-        private string _emotion;
-
-       // private OpenCvSharp.Mat _imageData;
+        private bool startedCoroutine;
         
-
         private void Awake()
         {
             _facialDetection = new FacialDetection();
@@ -37,45 +32,28 @@ namespace Affective
         private void Start()
         {
             _facialDetection.Init();
-            
-            //_thread = new Thread(RetrieveEmotion) {Name = "fea thread"};
         }
 
-        public void DetectFacialExpression(OpenCvSharp.Mat imageData)
+        public void DetectFacialExpression(Mat imageData)
         {
-           // _imageData = imageData;
-            
-            //const int interval = 100;
-            //var timer = new System.Timers.Timer(interval) { AutoReset = false };
-
-            // timer.Elapsed += ((sender, eventArgs) =>
-            // {
-            //     //Debug.Log("Joined thread");
-            //     _thread.Join();
-            //
-            // });
-            //
-            // if (_thread != null && !_thread.IsAlive)
-            // {
-            //     // Debug.Log("Started thread");
-            //     _thread = new Thread(RetrieveEmotion);
-            //     _thread.Start();
-            //     timer.Start();
-            // }
-
-            
             affectiveManager.SetCurrentEmotion(_facialDetection.DetectFacialLandmarks(imageData));
+        }
+
+        private void Update()
+        {
+            if (!startedCoroutine)
+            {
+                StartCoroutine(FindFace());
+            }
+        }
+
+        IEnumerator FindFace()
+        {
+            startedCoroutine = true;
             
-        }
-
-        private void RetrieveEmotion()
-        {
-            //_emotion = _facialDetection.DetectFacialLandmarks(_imageData);
-        }
-
-        private void OnApplicationQuit()
-        {
-            if(_thread != null && _thread.IsAlive) _thread.Abort();
+            _facialDetection.FindFaces();
+            yield return new WaitForSecondsRealtime(10);
+            startedCoroutine = false;
         }
     }
     
@@ -100,8 +78,14 @@ namespace Affective
         private Thread _lipWidthThread;
         private Thread _lipHeightThread;
 
+        private Rectangle[] faces;
+        private Array2D<BgrPixel> cimg;
+
         public void Init()
         {
+            faces = new Rectangle[0];
+            cimg = new Array2D<BgrPixel>();
+            
             _leftEyebrowThread = new Thread(CalculateLeftEyebrow);
             _rightEyebrowThread = new Thread(CalculateRightEyebrow);
             _leftLipThread = new Thread(CalculateLeftLip);
@@ -117,66 +101,32 @@ namespace Affective
             _frontalFaceDetector = Dlib.GetFrontalFaceDetector();
             
         }
+
+        public void FindFaces()
+        {
+            // find all faces in the image
+            faces = _frontalFaceDetector.Operator(cimg);
+        }
         
         public string DetectFacialLandmarks(OpenCvSharp.Mat image)
         {
-
-            
-            
-            var cimg = GenerateDlibArray2D(image);
-
-            // find all faces in the image
-            var faces = _frontalFaceDetector.Operator(cimg);
+            cimg = GenerateDlibArray2D(image);
             
             if (!faces.Any())
+            {
+                FindFaces();
                 return "N/A";
+            }
 
             // find the landmark points for this face
             var shape = _shapePredictor.Detect(cimg, faces[0]);
 
-            var t1 = new Thread(CalculateLeftEyebrow);
-            var t2 = new Thread(CalculateRightEyebrow);
-            var t3 = new Thread(CalculateLeftLip);
-            var t4 = new Thread(CalculateRightLip);
-            var t5 = new Thread(CalculateLipWidth);
-            var t6 = new Thread(CalculateLipHeight);
-            
-            t1.Start(shape);
-            t2.Start(shape);
-            t3.Start(shape);
-            t4.Start(shape);
-            t5.Start(shape);
-            t6.Start(shape);
-            
-            t1.Join();
-            t2.Join();
-            t3.Join();
-            t4.Join();
-            t5.Join();
-            t6.Join();
-            
-            // _leftEyebrowThread = new Thread(new ThreadStart(CalculateLeftEyebrow));
-            //
-            // if(_leftEyebrowThread.ThreadState != ThreadState.Running) _leftEyebrowThread.Start(shape);
-            // if(_rightEyebrowThread.ThreadState != ThreadState.Running) _rightEyebrowThread.Start(shape);
-            // if(_leftLipThread.ThreadState != ThreadState.Running) _leftLipThread.Start(shape);
-            // if(_rightLipThread.ThreadState != ThreadState.Running) _rightLipThread.Start(shape);
-            // if(_lipWidthThread.ThreadState != ThreadState.Running) _lipWidthThread.Start(shape);
-            // if(_lipHeightThread.ThreadState != ThreadState.Running) _lipHeightThread.Start(shape);
-            //
-            // _leftEyebrowThread.Join();
-            // _rightEyebrowThread.Join(); 
-            // _leftLipThread.Join();
-            // _rightLipThread.Join();
-            // _lipWidthThread.Join();
-            // _lipHeightThread.Join();
-            
-            // CalculateLeftEyebrow(shape);
-            // CalculateRightEyebrow(shape);
-            // CalculateLeftLip(shape);
-            // CalculateRightLip(shape);
-            // CalculateLipWidth(shape);
-            // CalculateLipHeight(shape);
+            new Thread(() => CalculateLeftEyebrow(shape)).Start();
+            new Thread(() => CalculateRightEyebrow(shape)).Start();
+            new Thread(() => CalculateLeftLip(shape)).Start();
+            new Thread(() => CalculateRightLip(shape)).Start();
+            new Thread(() => CalculateLipWidth(shape)).Start();
+            new Thread(() => CalculateLipHeight(shape)).Start();
 
             FeatureInputData inputData = new FeatureInputData
             {
@@ -187,18 +137,17 @@ namespace Affective
                 lipWidth = _lipWidth,
                 lipHeight = _lipHeight
             };
-            //return "N/A";
             return _predictionEngine.Predict(inputData).Expression;
         }
         
         
-        Array2D<RgbPixel> GenerateDlibArray2D(OpenCvSharp.Mat image)
+        Array2D<BgrPixel> GenerateDlibArray2D(OpenCvSharp.Mat image)
         {
             var array = new byte[image.Width * image.Height * image.ElemSize()];
             
             Marshal.Copy(image.Data, array, 0 , array.Length);
             
-            return  Dlib.LoadImageData<RgbPixel>(array, (uint) image.Height, (uint) image.Width,
+            return  Dlib.LoadImageData<BgrPixel>(array, (uint) image.Height, (uint) image.Width,
                 (uint) (image.Width * image.ElemSize()));
             
         }

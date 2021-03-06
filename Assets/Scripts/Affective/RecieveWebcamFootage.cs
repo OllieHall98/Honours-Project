@@ -1,8 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using OpenCvSharp;
 using OpenCvSharp.Demo;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Rect = OpenCvSharp.Rect;
 
 namespace Affective
 {
@@ -26,15 +31,24 @@ namespace Affective
     
         private Texture2D _outputTexture;
         private RawImage _imageOutput;
-    
+
+        public WebCamDevice[] webcams;
+        public TMPro.TMP_Dropdown webcamDropdown;
+        public Toggle showFaceToggle;
+        public Toggle glassesToggle;
+        public Toggle markingToggle;
+
+        public AspectRatioFitter imageFitter;
+        
         private bool _coroutineExecuting = false;
         
 
         private void Awake()
         {
-            _facialExpressionDetection = GetComponent<FacialExpressionDetection>();
-            _webcamNotFoundImage = transform.GetChild(0).gameObject;
+            SearchForWebcam();
             
+            _facialExpressionDetection = GetComponent<FacialExpressionDetection>();
+
             _imageOutput = GetComponent<RawImage>();
         
             _processor = new FaceProcessorLive<WebCamTexture>();
@@ -53,35 +67,49 @@ namespace Affective
             _processor.Performance.SkipRate = 21;             // we actually process only each Nth frame (and every frame for skipRate = 0)
         }
 
-        void Start()
+        private void Start()
         {
-            _webcamNotFoundImage.SetActive(true);
-
-            SearchForWebcam();
+            showFaceToggle.onValueChanged.AddListener(delegate {SetWebcamVisibility(showFaceToggle);});
+            glassesToggle.onValueChanged.AddListener(delegate {SetGlasses(glassesToggle);});
+            markingToggle.onValueChanged.AddListener(delegate {SetMarkFace(markingToggle);});
+            webcamDropdown.onValueChanged.AddListener(delegate { PickWebcamFromDropdown(webcamDropdown); });
         }
 
+
+        public void PickWebcamFromDropdown(TMPro.TMP_Dropdown change)
+        {
+            foreach (var webcam in webcams)
+            {
+                if (webcam.name != webcamDropdown.options[webcamDropdown.value].text) continue;
+                SelectWebcam(webcam);
+                return;
+            }
+        }
+        
         void SearchForWebcam()
         {
-            var devices = WebCamTexture.devices;
+            _webcamNotFoundImage = transform.GetChild(0).gameObject;
+            _webcamNotFoundImage.SetActive(true);
+            
+            webcams = WebCamTexture.devices;
 
-            for (var i = 0; i < devices.Length; i++)
+            if (webcams.Length == 0)
             {
-                if (devices[i].name.Contains("Webcam") || 
-                    devices[i].name.Contains("webcam") || 
-                    devices[i].name.Contains("Camera") || 
-                    devices[i].name.Contains("camera") ||
-                    devices[i].name.Contains("Cam")    ||
-                    devices[i].name.Contains("HD")    ||
-                    devices[i].name.Contains("cam"))
-                {
-                    SelectWebcam(devices[i]);
-                    _webcamNotFoundImage.SetActive(false);
-                    return;
-                }
+                _webcamNotFoundImage.SetActive(true);
+                Debug.LogError("No camera detected!");
+                return;
             }
 
-            _webcamNotFoundImage.SetActive(true);
-            Debug.LogError("Webcam not found!");
+            var webcamList = webcams.Select(webcam => webcam.name).ToList();
+
+            webcamDropdown.ClearOptions();
+            webcamDropdown.AddOptions(webcamList);
+            
+            SelectWebcam(webcams[0]);
+            _webcamNotFoundImage.SetActive(false);
+
+            float videoRatio = (float) _webcamTex.width / (float) _webcamTex.height;
+            imageFitter.aspectRatio = videoRatio;
         }
 
 
@@ -98,10 +126,12 @@ namespace Affective
 
         private void Update()
         {
-            _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
+           //_processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
             
+            //_processor.ConvertToMat(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
+
             OutputProcessedImage();
-            
+
             if (!_coroutineExecuting && _webcamTex)
             {
                 StartCoroutine(CheckFace());
@@ -112,29 +142,79 @@ namespace Affective
         {
             _coroutineExecuting = true;
             
-            // detect everything we're interested in
-           // _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
+            _facialExpressionDetection.DetectFacialExpression(PreprocessedImage());
 
-            _facialExpressionDetection.DetectFacialExpression(_processor.Image);
-
-           // OutputProcessedImage();
-
-            yield return new WaitForSecondsRealtime(3f);
+            yield return new WaitForSecondsRealtime(1f);
 
             _coroutineExecuting = false;
         }
 
+        Mat PreprocessedImage()
+        {
+            // detect everything we're interested in
+            _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams(), false);
+
+            // Shrink the image for easier processing
+            Cv2.Resize(_processor.Image, _processor.Image, new Size(_webcamTex.width / 2, _webcamTex.height / 2), interpolation: InterpolationFlags.Linear);
+            
+            // Apply a gaussian blur to remove distractions/unnecessary details
+            Cv2.GaussianBlur(_processor.Image, _processor.Image, new Size(5, 5), 0);
+
+
+            //
+            // Rect crop = new Rect(_processor.Image.Width / 3, _processor.Image.Height / 4, (int)(_processor.Image.Width / 1.5f),
+            //     (int)(_processor.Image.Height / 1.5f));
+
+           // Mat croppedImage = _processor.Image;
+            
+            //croppedImage = _processor.Image[crop];
+            
+            ConvertToGrayscale(_processor.Image);
+
+            return _processor.Image;
+        }
+
+        void ConvertToGrayscale(Mat image)
+        {
+            // Convert to grayscale
+            Cv2.CvtColor(image, image, ColorConversionCodes.RGB2GRAY);
+            
+            Mat[] channels = new Mat[3];
+            channels[0] = image;
+            channels[1] = image;
+            channels[2] = image;
+            Cv2.Merge(channels,image);
+        }
+
         void OutputProcessedImage()
         {
-            if (markFace)
-            {
-                // mark detected objects
-                _processor.MarkDetected();
-            }
+            if (!_imageOutput.enabled)
+                return;
+            
+            // if (markFace)
+            // {
+            //     // mark detected objects
+            //     _processor.MarkDetected();
+            // }
       
             // processor.Image now holds data we'd like to visualize
-            _outputTexture = OpenCvSharp.Unity.MatToTexture(_processor.Image, _outputTexture);   // if output is valid texture it's buffer will be re-used, otherwise it will be re-created
-            _imageOutput.texture = _outputTexture;
+            //outputTexture = OpenCvSharp.Unity.MatToTexture(_processor.Image, _outputTexture);   // if output is valid texture it's buffer will be re-used, otherwise it will be re-created
+            _imageOutput.texture = _webcamTex;
+        }
+        
+        public void SetWebcamVisibility(Toggle change)
+        {
+            _imageOutput.enabled = showFaceToggle.isOn;
+        }
+        
+        public void SetGlasses(Toggle change)
+        {
+            _processor.Initialize(faces.text, glassesToggle.isOn ? eyesGlasses.text : eyes.text, shapes.bytes);
+        }
+
+        public void SetMarkFace(Toggle change)
+        {
+            markFace = markingToggle.isOn;
         }
 
     }
