@@ -2447,6 +2447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
         type: 3}
+      propertyPath: faces
+      value: 
+      objectReference: {fileID: 4900000, guid: 6b25a0e0227666d40b282be78b80780c, type: 3}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
       propertyPath: glassesToggle
       value: 
       objectReference: {fileID: 405969932}
@@ -11190,6 +11195,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524402331}
     m_Modifications:
+    - target: {fileID: 6979329731907295721, guid: e1dda9054b949de448f33b623bee08f2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6979329731907295721, guid: e1dda9054b949de448f33b623bee08f2,
+        type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6979329731907295721, guid: e1dda9054b949de448f33b623bee08f2,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6979329731907295722, guid: e1dda9054b949de448f33b623bee08f2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11299,6 +11319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Notification Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 6979329731907295723, guid: e1dda9054b949de448f33b623bee08f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1dda9054b949de448f33b623bee08f2, type: 3}

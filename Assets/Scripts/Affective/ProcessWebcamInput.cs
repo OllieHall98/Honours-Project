@@ -12,6 +12,7 @@ using System.Threading;
 using DlibDotNet;
 using Microsoft.ML;
 using Microsoft.ML.Data;
+using UI;
 using Rect = OpenCvSharp.Rect;
 
 namespace Affective
@@ -34,8 +35,7 @@ namespace Affective
         public TextAsset shapes;
 
         private FaceProcessorLive<WebCamTexture> _processor;
-    
-        private Texture2D _outputTexture;
+
         private RawImage _imageOutput;
 
         private WebCamDevice[] _webcams;
@@ -51,8 +51,6 @@ namespace Affective
 
         private void Awake()
         {
-            
-
             _facialDetection = new FacialDetection();
             _facialDetection.Init();
             
@@ -73,7 +71,7 @@ namespace Affective
 
             // performance data - some tricks to make it work faster
             _processor.Performance.Downscale = 512;          // processed image is pre-scaled down to N px by long side
-            _processor.Performance.SkipRate = 21;             // we actually process only each Nth frame (and every frame for skipRate = 0)
+            _processor.Performance.SkipRate = 0;             // we actually process only each Nth frame (and every frame for skipRate = 0)
         }
 
         private void Start()
@@ -164,7 +162,7 @@ namespace Affective
             
             affectiveManager.SetCurrentEmotion(_facialDetection.DetectFacialLandmarks(PreprocessedImage()));
 
-            yield return new WaitForSecondsRealtime(1.25f);
+            yield return new WaitForSecondsRealtime(0.05f);
 
             _checkFaceStarted = false;
         }
@@ -265,7 +263,7 @@ namespace Affective
         {
             _cimg = GenerateArray2D(image);
 
-            ImageWindow yeet = new ImageWindow(_cimg);
+            //ImageWindow yeet = new ImageWindow(_cimg);
             
             if (!_faces.Any())
             {

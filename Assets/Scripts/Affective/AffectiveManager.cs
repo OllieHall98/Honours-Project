@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using UI;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -31,7 +32,7 @@ namespace Affective
         [SerializeField] [Range(0,10)] private float angerValue;
         [SerializeField] [Range(0,10)] private float surpriseValue;
 
-        Queue<string> _lastEmotions;
+        Queue<string> _emotionList;
 
         [SerializeField] string currentEmotion;
 
@@ -57,7 +58,7 @@ namespace Affective
             InitialiseEvents();
             InitialiseEmotions();
 
-            _lastEmotions = new Queue<string>();
+            _emotionList = new Queue<string>();
         }
 
         void InitialiseEvents()
@@ -138,7 +139,10 @@ namespace Affective
             Debug.Log("Strongest emotion is now " + strongestEmotion);
             
             emotionText.text = "Current Emotion: " + char.ToUpper(strongestEmotion[0]) + strongestEmotion.Substring(1);
-
+            
+            NotificationText.Instance.DisplayMessage("Current Emotion: " + char.ToUpper(strongestEmotion[0]) + strongestEmotion.Substring(1), 1f);
+            
+            
             currentEmotion = strongestEmotion;
 
             switch (strongestEmotion)
@@ -170,23 +174,24 @@ namespace Affective
 
         private string CalculateStrongestEmotion(string emotion)
         {
-            if (_lastEmotions.Count >= 10) _lastEmotions.Dequeue();
-            _lastEmotions.Enqueue(emotion);
+            if (_emotionList.Count >= 50) _emotionList.Dequeue();
+            _emotionList.Enqueue(emotion);
 
-            string[] emotions = _lastEmotions.ToArray();
+            string[] emotions = _emotionList.ToArray();
 
+            if (emotions.Length < 25) return "neutral";
+            
             var groups = emotions.GroupBy(s => s);
 
-            int highestGroupCount = 0;
+            var highestGroupCount = 0;
             string strongestEmotion = null;
 
             foreach (var group in groups)
             {
-                if (group.Count() > highestGroupCount)
-                {
-                    highestGroupCount = group.Count();
-                    strongestEmotion = group.Key;
-                }
+                if (@group.Count() <= highestGroupCount) continue;
+                
+                highestGroupCount = @group.Count();
+                strongestEmotion = @group.Key;
             }
 
             return strongestEmotion;
