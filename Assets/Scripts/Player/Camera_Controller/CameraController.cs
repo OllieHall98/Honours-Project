@@ -1,7 +1,8 @@
 ﻿using NaughtyAttributes;
 using UnityEngine;
+using VHS;
 
-namespace VHS
+namespace Player.Camera_Controller
 {    
     public class CameraController : MonoBehaviour
     {
@@ -114,8 +115,8 @@ namespace VHS
 
             void ChangeCursorState()
             {
-                //Cursor.lockState = CursorLockMode.Locked;
-               // Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
         #endregion
     }

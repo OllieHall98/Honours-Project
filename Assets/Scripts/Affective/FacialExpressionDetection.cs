@@ -17,47 +17,7 @@ using ShapePredictor = DlibDotNet.ShapePredictor;
 
 namespace Affective
 {
-    public class FacialExpressionDetection : MonoBehaviour
-    {
-        private FacialDetection _facialDetection;
-        public AffectiveManager affectiveManager;
-
-        private bool startedCoroutine;
-        
-        private void Awake()
-        {
-            _facialDetection = new FacialDetection();
-        }
-
-        private void Start()
-        {
-            _facialDetection.Init();
-        }
-
-        public void DetectFacialExpression(Mat imageData)
-        {
-            affectiveManager.SetCurrentEmotion(_facialDetection.DetectFacialLandmarks(imageData));
-        }
-
-        private void Update()
-        {
-            if (!startedCoroutine)
-            {
-                StartCoroutine(FindFace());
-            }
-        }
-
-        IEnumerator FindFace()
-        {
-            startedCoroutine = true;
-            
-            _facialDetection.FindFaces();
-            yield return new WaitForSecondsRealtime(10);
-            startedCoroutine = false;
-        }
-    }
-    
-    public class FacialDetection
+    public class FacialDetectionOld
     {
         private MLContext _mlContext;
         private PredictionEngine<FeatureInputData, ExpressionPrediction> _predictionEngine;
@@ -120,7 +80,7 @@ namespace Affective
 
             // find the landmark points for this face
             var shape = _shapePredictor.Detect(cimg, faces[0]);
-
+            
             new Thread(() => CalculateLeftEyebrow(shape)).Start();
             new Thread(() => CalculateRightEyebrow(shape)).Start();
             new Thread(() => CalculateLeftLip(shape)).Start();

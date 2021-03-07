@@ -2454,7 +2454,7 @@ PrefabInstance:
         type: 3}
       propertyPath: markingToggle
       value: 
-      objectReference: {fileID: 2120107444}
+      objectReference: {fileID: 0}
     - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
         type: 3}
       propertyPath: showFaceToggle
@@ -2462,15 +2462,26 @@ PrefabInstance:
       objectReference: {fileID: 619857514}
     - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
         type: 3}
+      propertyPath: wearingGlasses
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
       propertyPath: webcamDropdown
       value: 
       objectReference: {fileID: 1590286624}
+    - target: {fileID: 5607421283239745489, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
+      propertyPath: affectiveManager
+      value: 
+      objectReference: {fileID: 1148144453}
     - target: {fileID: 7615455542741327383, guid: 64cd7672ce1abc547a6b5497165208af,
         type: 3}
       propertyPath: m_text
       value: No Emotion Detected
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1677076349, guid: 64cd7672ce1abc547a6b5497165208af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64cd7672ce1abc547a6b5497165208af, type: 3}
 --- !u!1001 &559855960
 PrefabInstance:
@@ -5911,6 +5922,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1589257330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1344313819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2580820401748547572, guid: c687b3ae396763b4497fa0d221c1c830,
+    type: 3}
+  m_PrefabInstance: {fileID: 2580820401300917058}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1350644004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6917,6 +6934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1524402331}
+  - component: {fileID: 1524402333}
   - component: {fileID: 1524402332}
   - component: {fileID: 1524402330}
   - component: {fileID: 1524402329}
@@ -7026,6 +7044,19 @@ MonoBehaviour:
   text: {fileID: 254360992}
   speed: 0.5
   offset: {x: 0, y: 25}
+--- !u!114 &1524402333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524402327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a32a0a1cdad9d04ead7f4b6426edbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1344313819}
 --- !u!4 &1526155766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1f187f870e86de4d95d6a19784d8d25,
@@ -10368,18 +10399,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1568460454}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2120107444 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2580820401806446326, guid: c687b3ae396763b4497fa0d221c1c830,
-    type: 3}
-  m_PrefabInstance: {fileID: 2580820401300917058}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2120487822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 87c26d00e09811a468086f304e34eedf,
@@ -10889,6 +10908,11 @@ PrefabInstance:
       propertyPath: rain.lightPS
       value: 
       objectReference: {fileID: 1937419166}
+    - target: {fileID: 627632169679015083, guid: af2d1e89f699b774da2387707bce001a,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 627632171399728662, guid: af2d1e89f699b774da2387707bce001a,
         type: 3}
       propertyPath: m_RootOrder
@@ -10948,6 +10972,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Weather
+      objectReference: {fileID: 0}
+    - target: {fileID: 627632171399728663, guid: af2d1e89f699b774da2387707bce001a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5405870909712001103, guid: af2d1e89f699b774da2387707bce001a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2d1e89f699b774da2387707bce001a, type: 3}

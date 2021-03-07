@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 using NaughtyAttributes;
+using Player.Camera_Controller;
+
 namespace VHS
 {
     [RequireComponent(typeof(CharacterController))]
