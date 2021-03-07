@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -36,10 +37,8 @@ namespace Affective
 
         [SerializeField] float affectiveValue;
 
-        public AffectiveManager(EmotionType neutral)
-        {
-            _neutral = neutral;
-        }
+        public TextMeshProUGUI emotionText;
+        
 
         public class EmotionType
         {
@@ -130,14 +129,15 @@ namespace Affective
                 Debug.Log("No Face Detected");
                 return;
             }
-                
-
+            
             string strongestEmotion = CalculateStrongestEmotion(emotion);
 
             if (strongestEmotion == null || strongestEmotion == currentEmotion)
                 return;
 
             Debug.Log("Strongest emotion is now " + strongestEmotion);
+            
+            emotionText.text = "Current Emotion: " + char.ToUpper(strongestEmotion[0]) + strongestEmotion.Substring(1);
 
             currentEmotion = strongestEmotion;
 

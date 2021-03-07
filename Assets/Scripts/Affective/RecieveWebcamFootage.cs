@@ -126,10 +126,6 @@ namespace Affective
 
         private void Update()
         {
-           //_processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
-            
-            //_processor.ConvertToMat(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams());
-
             OutputProcessedImage();
 
             if (!_coroutineExecuting && _webcamTex)
@@ -144,7 +140,7 @@ namespace Affective
             
             _facialExpressionDetection.DetectFacialExpression(PreprocessedImage());
 
-            yield return new WaitForSecondsRealtime(1f);
+            yield return new WaitForSecondsRealtime(0.25f);
 
             _coroutineExecuting = false;
         }
@@ -155,19 +151,10 @@ namespace Affective
             _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams(), false);
 
             // Shrink the image for easier processing
-            Cv2.Resize(_processor.Image, _processor.Image, new Size(_webcamTex.width / 2, _webcamTex.height / 2), interpolation: InterpolationFlags.Linear);
+            Cv2.Resize(_processor.Image, _processor.Image, new Size(_webcamTex.width / 2.5f, _webcamTex.height / 2.5f), interpolation: InterpolationFlags.Linear);
             
             // Apply a gaussian blur to remove distractions/unnecessary details
             Cv2.GaussianBlur(_processor.Image, _processor.Image, new Size(5, 5), 0);
-
-
-            //
-            // Rect crop = new Rect(_processor.Image.Width / 3, _processor.Image.Height / 4, (int)(_processor.Image.Width / 1.5f),
-            //     (int)(_processor.Image.Height / 1.5f));
-
-           // Mat croppedImage = _processor.Image;
-            
-            //croppedImage = _processor.Image[crop];
             
             ConvertToGrayscale(_processor.Image);
 
@@ -190,15 +177,7 @@ namespace Affective
         {
             if (!_imageOutput.enabled)
                 return;
-            
-            // if (markFace)
-            // {
-            //     // mark detected objects
-            //     _processor.MarkDetected();
-            // }
-      
-            // processor.Image now holds data we'd like to visualize
-            //outputTexture = OpenCvSharp.Unity.MatToTexture(_processor.Image, _outputTexture);   // if output is valid texture it's buffer will be re-used, otherwise it will be re-created
+    
             _imageOutput.texture = _webcamTex;
         }
         
