@@ -2465,6 +2465,11 @@ PrefabInstance:
       propertyPath: webcamDropdown
       value: 
       objectReference: {fileID: 1590286624}
+    - target: {fileID: 7615455542741327383, guid: 64cd7672ce1abc547a6b5497165208af,
+        type: 3}
+      propertyPath: m_text
+      value: No Emotion Detected
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64cd7672ce1abc547a6b5497165208af, type: 3}
 --- !u!1001 &559855960

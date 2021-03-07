@@ -449,3 +449,35 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.262 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.3 MB.
+System memory in use after: 275.6 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5404.
+Total: 5.857000 ms (FindLiveObjects: 0.776500 ms CreateObjectMapping: 0.603200 ms MarkObjects: 4.046200 ms  DeleteObjects: 0.429600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 59.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 205 unused Assets to reduce memory usage. Loaded Objects now: 5404.
+Total: 5.267800 ms (FindLiveObjects: 0.536400 ms CreateObjectMapping: 0.376400 ms MarkObjects: 4.087800 ms  DeleteObjects: 0.266100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 62.13 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 205 unused Assets to reduce memory usage. Loaded Objects now: 5404.
+Total: 5.830800 ms (FindLiveObjects: 0.587000 ms CreateObjectMapping: 0.386400 ms MarkObjects: 4.563800 ms  DeleteObjects: 0.291900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
