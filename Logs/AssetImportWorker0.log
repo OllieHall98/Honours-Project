@@ -257,3 +257,108 @@ Received Import Request.
 Start importing Assets/ScriptableObjects/Weather Types/presets/preset_Sunny.asset using Guid(569ee07373b54ad4ca5675e8d652490a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cae3f54f94fbec5b4641aea484105f4') in 0.002834 seconds
   Import took 0.011706 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1451.340735 seconds.
+  path: Assets/Models/Free_Pillars
+  artifactKey: Guid(4789a7a6544985d4da70765e29b6ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free_Pillars using Guid(4789a7a6544985d4da70765e29b6ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c516c9b94b4e5d350c550094365f5e3') in 0.006671 seconds
+  Import took 0.017800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019142 seconds.
+  path: Assets/Models/Free_Pillars
+  artifactKey: Guid(4789a7a6544985d4da70765e29b6ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free_Pillars using Guid(4789a7a6544985d4da70765e29b6ec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c516c9b94b4e5d350c550094365f5e3') in 0.002312 seconds
+  Import took 0.011310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.315543 seconds.
+  path: Assets/Models/Free_Pillars/fbxPilars.fbx
+  artifactKey: Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free_Pillars/fbxPilars.fbx using Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0347a3ce49365c46b098813e722044') in 0.062589 seconds
+  Import took 0.072849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.122621 seconds.
+  path: Assets/Models/Free_Pillars/fbxPilars.fbx
+  artifactKey: Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free_Pillars/fbxPilars.fbx using Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427167832e97d8810a1074bd47fe63fa') in 0.064368 seconds
+  Import took 0.077371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.492365 seconds.
+  path: Assets/Models/Free_Pillars/fbxPilars.fbx
+  artifactKey: Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free_Pillars/fbxPilars.fbx using Guid(52dbe532d3fdbc5419de02e5790fd1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2013182ca9b1f9f0e9a73c71c2e24c25') in 0.063349 seconds
+  Import took 0.076935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.422 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.4 MB.
+System memory in use after: 286.7 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5547.
+Total: 6.216400 ms (FindLiveObjects: 0.632900 ms CreateObjectMapping: 0.413600 ms MarkObjects: 4.523400 ms  DeleteObjects: 0.645200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12400.240143 seconds.
+  path: Assets/Models/Tree and Stones/Normal_Tree.png
+  artifactKey: Guid(cc389b787fff330439829f8701d629e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree and Stones/Normal_Tree.png using Guid(cc389b787fff330439829f8701d629e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1d8c2ce15baba5d22acf2ade28e760') in 0.090787 seconds
+  Import took 0.108110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.242463 seconds.
+  path: Assets/Models/Tree and Stones/Normal_Tree.png
+  artifactKey: Guid(cc389b787fff330439829f8701d629e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree and Stones/Normal_Tree.png using Guid(cc389b787fff330439829f8701d629e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cab07dad5d9576926069e38bf4fc17e') in 0.020899 seconds
+  Import took 0.029568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674981 seconds.
+  path: Assets/Models/Tree and Stones/Normal_Rock_2.png
+  artifactKey: Guid(825013e2b86bb8344b490c01e6b8b1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree and Stones/Normal_Rock_2.png using Guid(825013e2b86bb8344b490c01e6b8b1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af69c71c33e11ad8239a308d6f90796') in 0.021798 seconds
+  Import took 0.030864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339898 seconds.
+  path: Assets/Models/Tree and Stones/Normal_Ground.png
+  artifactKey: Guid(4ef8a935370c8ad41a6f3f16728e948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree and Stones/Normal_Ground.png using Guid(4ef8a935370c8ad41a6f3f16728e948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d53367ab9d595267fa1a8f14a0c9b1a') in 0.017652 seconds
+  Import took 0.026836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.360785 seconds.
+  path: Assets/Models/Tree and Stones/Normal_Ground.png
+  artifactKey: Guid(4ef8a935370c8ad41a6f3f16728e948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree and Stones/Normal_Ground.png using Guid(4ef8a935370c8ad41a6f3f16728e948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b0f3fdb82989b7266d3ff45f16087') in 0.017770 seconds
+  Import took 0.027104 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
