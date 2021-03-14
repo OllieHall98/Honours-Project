@@ -18,7 +18,7 @@ MonoBehaviour:
     changeColor: 1
     changeSpeed: 1
     changeDensity: 1
-    density: 1.84
+    density: 1.06
     speed: 0.25
     color: {r: 1, g: 1, b: 1, a: 1}
   highClouds:
@@ -34,13 +34,13 @@ MonoBehaviour:
     thickness: 800
   sky:
     enabled: 1
-    top: {r: 0.6933962, g: 0.9256035, b: 1, a: 1}
-    middle: {r: 0.3820755, g: 0.7111004, b: 1, a: 1}
+    top: {r: 0.46293166, g: 0.833496, b: 0.9528302, a: 1}
+    middle: {r: 0.8349056, g: 0.92308104, b: 1, a: 1}
   sun:
     enabled: 1
     changeIntensity: 1
     changeColor: 1
-    intensity: 25000
+    intensity: 11000
     color: {r: 1, g: 0.9529192, b: 0.7971698, a: 0}
   rain:
     enabled: 1

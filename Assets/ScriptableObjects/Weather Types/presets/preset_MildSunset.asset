@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151fd06998fdc5243a3e669023bf6a47, type: 3}
+  m_Name: preset_MildSunset
+  m_EditorClassIdentifier: 
+  weatherName: Sunset
+  lowClouds:
+    enabled: 1
+    changeColor: 1
+    changeSpeed: 1
+    changeDensity: 1
+    density: 1.5
+    speed: -0.25
+    color: {r: 1, g: 0.8461303, b: 0.6666667, a: 1}
+  highClouds:
+    enabled: 1
+    changeColor: 1
+    changeSpeed: 1
+    changeDensity: 1
+    density: 1
+    speed: -0.25
+    color: {r: 0.88983625, g: 0.76862746, b: 1, a: 1}
+  fog:
+    enabled: 1
+    thickness: 500
+  sky:
+    enabled: 1
+    top: {r: 0.90566874, g: 0.7335796, b: 0.990566, a: 1}
+    middle: {r: 1, g: 0.67002255, b: 0.3915094, a: 1}
+  sun:
+    enabled: 1
+    changeIntensity: 1
+    changeColor: 1
+    intensity: 12000
+    color: {r: 0.9528302, g: 0.5622846, b: 0.36405307, a: 0}
+  rain:
+    enabled: 1
+    changeIntensity: 1
+    changeColor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    intensity: 0

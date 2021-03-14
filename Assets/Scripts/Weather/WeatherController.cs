@@ -11,6 +11,8 @@ namespace Weather
 {
     public class WeatherController : MonoBehaviour
     {
+        public static WeatherController Instance;
+        
         public float transitionDuration = 5f;
         public WeatherTypeData startWeather;
         public Volume vol;
@@ -97,6 +99,8 @@ namespace Weather
         
         private void Awake()
         {
+            Instance = this;
+            
             _weatherAudio = GetComponent<WeatherAudio>();
 
             rain.ConfigureRainSystem();
