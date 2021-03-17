@@ -34,7 +34,7 @@ public class FireRaycast : MonoBehaviour
     {
         if (Input.GetButtonDown($"Interact"))
         {
-
+            MirrorPuzzle.Instance.Initiate();
 
             Debug.Log("Yeet");
         }
