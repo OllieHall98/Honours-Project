@@ -90,7 +90,7 @@ public class MirrorPuzzle : MonoBehaviour
         
         var modifiedTargetPosition = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
 
-        var startColor = new Color(0, 0, 0, 0);
+        var startColor = new Color(2, 2, 2, 1);
         var endColor = new Color(1, 1, 1, 1);
         
         SetRenderTexture(startColor);
@@ -127,10 +127,20 @@ public class MirrorPuzzle : MonoBehaviour
             yield return null;
         
         // EXIT PUZZLE
+        ExitMirror();
     }
 
     private bool CheckPlayerEmotion(string desiredEmotion)
     {
         return affectiveManager.GetCurrentEmotion() == desiredEmotion;
+    }
+
+    private void ExitMirror()
+    {
+        _cameraController.enabled = true;
+        _firstPersonController.enabled = true;
+        _inputHandler.enabled = true;
+        
+        mirrorMat.color = new Color(0, 0, 0, 0);
     }
 }

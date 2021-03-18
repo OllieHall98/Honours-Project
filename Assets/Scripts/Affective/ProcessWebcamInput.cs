@@ -148,7 +148,7 @@ namespace Affective
             
             _facialDetection.FindFaces();
             
-            yield return new WaitForSecondsRealtime(10);
+            yield return new WaitForSecondsRealtime(2);
             
             _findFaceStarted = false;
         }
@@ -159,7 +159,7 @@ namespace Affective
             
             affectiveManager.SetCurrentEmotion(_facialDetection.DetectFacialLandmarks(PreprocessedImage()));
 
-            yield return new WaitForSecondsRealtime(0.05f);
+            yield return new WaitForSecondsRealtime(0.1f);
 
             _checkFaceStarted = false;
         }
@@ -250,6 +250,7 @@ namespace Affective
         {
             // find all faces in the image
             _faces = _frontalFaceDetector.Operator(_cimg);
+            
         }
         
          public string DetectFacialLandmarks(Mat image)
