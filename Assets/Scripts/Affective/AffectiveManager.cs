@@ -85,6 +85,11 @@ public class AffectiveManager : MonoBehaviour
         }
     }
 
+    public string GetCurrentEmotion()
+    {
+        return _currentEmotion;
+    }
+
     // private void InitialiseEmotions()
     // {
     //     _joy = new EmotionType("Joy", joyValue);
@@ -138,11 +143,10 @@ public class AffectiveManager : MonoBehaviour
         emotionText.text = "Current Emotion: " + char.ToUpper(strongestEmotion[0]) + strongestEmotion.Substring(1);
             
         //NotificationText.Instance.DisplayMessage("Current Emotion: " + char.ToUpper(strongestEmotion[0]) + strongestEmotion.Substring(1), 1f);
-            
-            
+        
         _currentEmotion = strongestEmotion;
 
-        switch (strongestEmotion)
+        switch (_currentEmotion)
         {
             case "neutral":
                 RaiseEvent(_neutralEvent);

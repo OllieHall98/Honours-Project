@@ -140,7 +140,7 @@ namespace Weather
         
         public void ChangeWeather(WeatherTypeData weather)
         {
-            NotificationText.Instance.DisplayMessage("Changing weather to " + weather.weatherName, 2f);
+            //NotificationText.Instance.DisplayMessage("Changing weather to " + weather.weatherName, 2f);
 
             Debug.Log("Changing weather to " + weather.name);
 

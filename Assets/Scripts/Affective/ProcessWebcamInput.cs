@@ -24,14 +24,11 @@ namespace Affective
         private FacialDetection _facialDetection;
         private GameObject _webcamNotFoundImage = null;
 
-        private WebCamTexture _webcamTex;
+        public WebCamTexture _webcamTex;
         
-        public bool wearingGlasses;
-
         [Header("Haar Cascade files")]
         public TextAsset faces;
         public TextAsset eyes;
-        public TextAsset eyesGlasses;
         public TextAsset shapes;
 
         private FaceProcessorLive<WebCamTexture> _processor;
@@ -41,7 +38,6 @@ namespace Affective
         private WebCamDevice[] _webcams;
         public TMP_Dropdown webcamDropdown;
         public Toggle showFaceToggle;
-        public Toggle glassesToggle;
 
         public AspectRatioFitter imageFitter;
         
@@ -55,6 +51,8 @@ namespace Affective
             _facialDetection.Init();
             
             _imageOutput = GetComponent<RawImage>();
+            
+            
         
             InitializeProcessor();
         }
@@ -62,7 +60,7 @@ namespace Affective
         private void InitializeProcessor()
         {
             _processor = new FaceProcessorLive<WebCamTexture>();
-            _processor.Initialize(faces.text, wearingGlasses ? eyesGlasses.text : eyes.text, shapes.bytes);
+            _processor.Initialize(faces.text, eyes.text, shapes.bytes);
 
             // data stabilizer - affects face rects, face landmarks etc.
             _processor.DataStabilizer.Enabled = true;        // enable stabilizer
@@ -79,7 +77,6 @@ namespace Affective
             SearchForWebcam();
             
             showFaceToggle.onValueChanged.AddListener(delegate {SetWebcamVisibility();});
-            glassesToggle.onValueChanged.AddListener(delegate {SetGlasses();});
             webcamDropdown.onValueChanged.AddListener(delegate { PickWebcamFromDropdown(); });
         }
 
@@ -213,11 +210,7 @@ namespace Affective
         {
             _imageOutput.enabled = showFaceToggle.isOn;
         }
-
-        private void SetGlasses()
-        {
-            _processor.Initialize(faces.text, glassesToggle.isOn ? eyesGlasses.text : eyes.text, shapes.bytes);
-        }
+        
     }
     
     

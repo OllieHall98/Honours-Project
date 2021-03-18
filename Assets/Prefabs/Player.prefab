@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 836781898}
   - component: {fileID: 836781900}
   - component: {fileID: 836781899}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RainGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4873,7 +4873,7 @@ GameObject:
   - component: {fileID: 1611805407}
   - component: {fileID: 1611805409}
   - component: {fileID: 1611805408}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rain 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5727,7 +5727,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1450
+      scalar: 0
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -9675,7 +9675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1872656822}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9709,7 +9709,7 @@ GameObject:
   - component: {fileID: 8574888609925649856}
   - component: {fileID: 144478407875056975}
   - component: {fileID: 4941208423855323366}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rain 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10564,7 +10564,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1450
+      scalar: 0
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -14513,7 +14513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3843716869363435366}
   - component: {fileID: 3843716869363435367}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Camera_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14575,7 +14575,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     zoomTransitionDuration: 0.25
-    runFOV: 70
+    runFOV: 85
     runCurve:
       serializedVersion: 2
       m_Curve:
@@ -14643,7 +14643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3843716869417167136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Camera_Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14680,7 +14680,7 @@ GameObject:
   - component: {fileID: 547791449}
   - component: {fileID: 757107086}
   - component: {fileID: 757107087}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -14725,7 +14725,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 5000
   field of view: 80
   orthographic: 0
   orthographic size: 5
@@ -14741,7 +14741,7 @@ Camera:
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 1
-  m_OcclusionCulling: 0
+  m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!114 &3843716870190975470
@@ -14826,7 +14826,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 1
   stopNaNs: 0
@@ -15036,7 +15036,8 @@ GameObject:
   - component: {fileID: 3843716870331872629}
   - component: {fileID: 3843716870331872628}
   - component: {fileID: 3843716870331872632}
-  m_Layer: 0
+  - component: {fileID: 382221966}
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -15243,3 +15244,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraInputData: {fileID: 11400000, guid: 91ebd8974cbf1964f86a0e8b5e93ed5c, type: 2}
   movementInputData: {fileID: 11400000, guid: abad080c0665fdc4cb00444da1f990a9, type: 2}
+--- !u!114 &382221966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3843716870331872631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c13b5e7c238ee6499188e9780d632f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastDistance: 5
