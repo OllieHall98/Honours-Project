@@ -22,22 +22,20 @@ public class FireRaycast : MonoBehaviour
     {
         if (!Physics.Raycast(_cam.transform.position, _cam.transform.forward, out var hit, raycastDistance)) return;
         
+        HandleRaycastHit(hit);
+    }
+
+    void HandleRaycastHit(RaycastHit hit)
+    {
         switch (hit.transform.name)
         {
             case "Mirror":
-                Mirror();
+                if (Input.GetButtonDown($"Interact")) MirrorPuzzle.Instance.Initiate();
+                    break;
+            case "ConveyanceCube":
+                if (Input.GetButtonDown($"Interact")) ConveyanceCubeScript.Instance.Pickup();
                 break;
         }
     }
 
-    void Mirror()
-    {
-        if (Input.GetButtonDown($"Interact"))
-        {
-            MirrorPuzzle.Instance.Initiate();
-
-            Debug.Log("Yeet");
-        }
-    }
-    
 }
