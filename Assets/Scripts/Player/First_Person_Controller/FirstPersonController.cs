@@ -9,6 +9,9 @@ namespace VHS
     public class FirstPersonController : MonoBehaviour
     {
         #region Variables
+
+        public bool active;
+        
             #region Private Serialized     
                 #region Data
                     [Space, Header("Data")]
@@ -154,6 +157,8 @@ namespace VHS
                 if(m_yawTransform != null)
                     RotateTowardsCamera();
 
+                if (!active) return;
+                
                 if(m_characterController)
                 {
                     // Check if Grounded,Wall etc

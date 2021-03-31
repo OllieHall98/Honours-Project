@@ -7,7 +7,10 @@ public class MoodReceptorScript : MonoBehaviour
     private Material _receptorMaterial;
     private ParticleSystem _particleSystem;
     private ParticleSystemRenderer _particleSystemRenderer;
+    private ParticleSystem.ShapeModule _particleSystemShape;
+    private ParticleSystem.VelocityOverLifetimeModule _particleSystemVelocity;
     [SerializeField] private AnimationCurve emissionCurve = AnimationCurve.EaseInOut(0f,0f,1f,0f);
+    [SerializeField] private AnimationCurve particleRadiusCurve;
     [SerializeField] private Gradient colorGradient;
 
     private Light _light;
@@ -28,6 +31,8 @@ public class MoodReceptorScript : MonoBehaviour
         
         _particleSystem = GetComponentInChildren<ParticleSystem>();
         _particleSystemRenderer = _particleSystem.GetComponent<ParticleSystemRenderer>();
+        _particleSystemShape = _particleSystem.shape;
+        _particleSystemVelocity = _particleSystem.velocityOverLifetime;
         
         _receptorMaterial = GetComponent<Renderer>().material;
         
@@ -60,7 +65,10 @@ public class MoodReceptorScript : MonoBehaviour
     {
         _color = colorGradient.Evaluate(value / 100);
         _emissionIntensity = emissionCurve.Evaluate(value) * 10;
-
+        
+        _particleSystemShape.radius = 0.5f + particleRadiusCurve.Evaluate(value / 100);
+        _particleSystemVelocity.speedModifier = 2 + particleRadiusCurve.Evaluate(value / 50);
+        
         _particleSystemRenderer.material.SetColor(MaterialColor, _color * _emissionIntensity);
         _receptorMaterial.SetColor(MaterialColor, _color * _emissionIntensity);
         _light.color = colorGradient.Evaluate(value / 100);

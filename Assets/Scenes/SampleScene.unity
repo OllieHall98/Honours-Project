@@ -11821,6 +11821,11 @@ PrefabInstance:
       propertyPath: m_OcclusionCulling
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3843716870331872628, guid: b2a0df894ff4e104094394ec3de0a9b2,
+        type: 3}
+      propertyPath: active
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3843716870331872631, guid: b2a0df894ff4e104094394ec3de0a9b2,
         type: 3}
       propertyPath: m_Name
@@ -21122,6 +21127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42f35864193112c44915a652700b9c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraController: {fileID: 0}
+  firstPersonController: {fileID: 0}
+  inputHandler: {fileID: 0}
 --- !u!1 &2018717470
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,10 +18,6 @@ public class MirrorPuzzle : MonoBehaviour
 
     public Affective.ProcessWebcamInput webcamScript;
     public Material mirrorMat;
-    
-    private CameraController _cameraController;
-    private FirstPersonController _firstPersonController;
-    private InputHandler _inputHandler;
 
     [SerializeField] private AffectiveManager affectiveManager;
     
@@ -29,34 +25,12 @@ public class MirrorPuzzle : MonoBehaviour
     
     public float lerpDuration = 0.5f;
     
-    
-
     private void Awake()
     {
         Instance = this;
         _player = GameObject.FindWithTag("Player");
-
-        GetPlayerComponents();
-    }
-
-    private void GetPlayerComponents()
-    {
-        _cameraController = _player.GetComponentInChildren<CameraController>();
-        _firstPersonController = _player.GetComponent<FirstPersonController>();
-        _inputHandler = _player.GetComponent<InputHandler>();
     }
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void SetRenderTexture(Color startColor)
     {
@@ -68,11 +42,8 @@ public class MirrorPuzzle : MonoBehaviour
     public void Initiate()
     {
         // Move player in front of mirror
+        PlayerStateScript.Instance.SetMovementActive(false, false);
 
-        _cameraController.enabled = false;
-        _firstPersonController.enabled = false;
-        _inputHandler.enabled = false;
-        
         if (!_coroutineExecuting) StartCoroutine(MoveToMirror());
     }
 
@@ -137,9 +108,7 @@ public class MirrorPuzzle : MonoBehaviour
 
     private void ExitMirror()
     {
-        _cameraController.enabled = true;
-        _firstPersonController.enabled = true;
-        _inputHandler.enabled = true;
+        PlayerStateScript.Instance.SetMovementActive(true, true);
         
         mirrorMat.color = new Color(0, 0, 0, 0);
     }

@@ -59,8 +59,6 @@ public class ConveyanceCubeScript : MonoBehaviour
         [SerializeField] private Vector3 raycastOffset = new Vector3(0,2.5f, 0);
         
     #endregion
-
-    
     
     private void Awake()
     {
@@ -78,6 +76,8 @@ public class ConveyanceCubeScript : MonoBehaviour
     {
         InitialiseLineRenderer();
         SetBeamActive(false);
+        
+        SetPositiveVisuals();
     }
 
     private void GetComponents()
@@ -158,10 +158,13 @@ public class ConveyanceCubeScript : MonoBehaviour
 
     public void Pickup()
     {
+        PlayerStateScript.Instance.SetMovementActive(false, true);
+        
         _boxCollider.enabled = false;
 
         if (_coroutineExecuting) return;
         
+        transform.parent = _player.transform;
         StartCoroutine(MoveToPlayer());
     }
 
@@ -171,13 +174,10 @@ public class ConveyanceCubeScript : MonoBehaviour
         
         var cubeTransform = transform;
         var startPosition = cubeTransform.position;
-
-        cubeTransform.parent = _player.transform;
-
-        cubeTransform.localRotation = Quaternion.identity;
-
-
         float elapsedTime = 0;
+        
+        
+        cubeTransform.localRotation = Quaternion.identity;
 
         while (elapsedTime < lerpDuration)
         {
@@ -185,15 +185,8 @@ public class ConveyanceCubeScript : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        
-        // for (_ft = 0f; _ft <= 1; _ft += Time.deltaTime / lerpDuration)
-        // {
-        //     transform.position = Vector3.Lerp(startPosition, objectHolder.position, _ft);
-        //     yield return null;
-        // }
-        
+ 
         isHeld = true;
-        
         _coroutineExecuting = false;
     }
 
@@ -203,26 +196,31 @@ public class ConveyanceCubeScript : MonoBehaviour
             return;
         
         if (state == CubeState.Positive)
-        {
-            line.material = positivePreset.coreMaterial;
-            _hitParticles.trailMaterial = positivePreset.coreMaterial;
-            _hitLight.color = positivePreset.color;
-
-            StopParticleEffects(_negativeEffect);
-            StartParticleEffects(_positiveEffect);
-            
-        }
+            SetPositiveVisuals();
         else
-        {
-            line.material = negativePreset.coreMaterial;
-            _hitParticles.trailMaterial = negativePreset.coreMaterial;
-            _hitLight.color = negativePreset.color;
-            
-            StopParticleEffects(_positiveEffect);
-            StartParticleEffects(_negativeEffect);
-        }
+            SetNegativeVisuals();
 
         _currentState = state;
+    }
+
+    private void SetNegativeVisuals()
+    {
+        line.material = negativePreset.coreMaterial;
+        _hitParticles.trailMaterial = negativePreset.coreMaterial;
+        _hitLight.color = negativePreset.color;
+
+        StopParticleEffects(_positiveEffect);
+        StartParticleEffects(_negativeEffect);
+    }
+
+    private void SetPositiveVisuals()
+    {
+        line.material = positivePreset.coreMaterial;
+        _hitParticles.trailMaterial = positivePreset.coreMaterial;
+        _hitLight.color = positivePreset.color;
+
+        StopParticleEffects(_negativeEffect);
+        StartParticleEffects(_positiveEffect);
     }
 
     private void StopParticleEffects(GameObject particleGroup)
