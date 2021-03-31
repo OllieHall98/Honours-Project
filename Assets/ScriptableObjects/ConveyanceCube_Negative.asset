@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf9e8c2cb00ab594c948ade0d7240e45, type: 3}
+  m_Name: ConveyanceCube_Negative
+  m_EditorClassIdentifier: 
+  color: {r: 0.4745098, g: 0, b: 1, a: 1}
+  primaryMaterial: {fileID: 2100000, guid: 2cb18f753a254364f8412b7a5bc80914, type: 2}
+  secondaryMaterial: {fileID: 2100000, guid: 898177f30e3ec014b89d009dd402893f, type: 2}
+  coreMaterial: {fileID: 2100000, guid: bf274215d801202468479cec4db0e406, type: 2}

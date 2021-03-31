@@ -8,32 +8,47 @@ public class FireRaycast : MonoBehaviour
     private Camera _cam;
     public float raycastDistance;
 
+    private PlayerStateScript _playerStateScript;
+
     private void Awake()
     {
         _cam = GetComponentInChildren<Camera>();
     }
 
-    void Update()
+    private void Start()
+    {
+        _playerStateScript = PlayerStateScript.Instance;
+    }
+
+    private void Update()
     {
         FireRay();
     }
-    
-    void FireRay()
+
+    private void FireRay()
     {
+        if (_playerStateScript.GetRaycastState() == RaycastState.Disabled) return;
+        
         if (!Physics.Raycast(_cam.transform.position, _cam.transform.forward, out var hit, raycastDistance)) return;
         
         HandleRaycastHit(hit);
     }
 
-    void HandleRaycastHit(RaycastHit hit)
+    private void HandleRaycastHit(RaycastHit hit)
     {
         switch (hit.transform.name)
         {
             case "Mirror":
-                if (Input.GetButtonDown($"Interact")) MirrorPuzzle.Instance.Initiate();
-                    break;
+                if (!Input.GetButtonDown($"Interact")) return;
+                
+                _playerStateScript.SetRaycastState(RaycastState.Disabled);
+                MirrorPuzzle.Instance.Initiate();
+                break;
             case "ConveyanceCube":
-                if (Input.GetButtonDown($"Interact")) ConveyanceCubeScript.Instance.Pickup();
+                if (!Input.GetButtonDown($"Interact")) return;
+                
+                _playerStateScript.SetRaycastState(RaycastState.Disabled);
+                ConveyanceCubeScript.Instance.Pickup();
                 break;
         }
     }
