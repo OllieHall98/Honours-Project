@@ -781,3 +781,463 @@ Received Import Request.
 Start importing Assets/Terrain/Path.terrainlayer using Guid(6bcb20265a6c93b4f8f8156caad1f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7788a1fea0fb77be521399261ad9aa5') in 0.014980 seconds
   Import took 0.023251 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 628.041177 seconds.
+  path: Assets/3rd Party/Rock/Rock_5.fbx
+  artifactKey: Guid(7cdfe02e09571d24fbba3d44fb10ec99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rock/Rock_5.fbx using Guid(7cdfe02e09571d24fbba3d44fb10ec99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1549aa576300fc0fbe5a0ca9e6fc235a') in 0.781821 seconds
+  Import took 0.791665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.321600 seconds.
+  path: Assets/3rd Party/Castle Tower
+  artifactKey: Guid(5df97e8d6fe8aa4499db5be390075077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower using Guid(5df97e8d6fe8aa4499db5be390075077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123beae0a1f7d4380270cca0fa784a70') in 0.006359 seconds
+  Import took 0.015907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018126 seconds.
+  path: Assets/3rd Party/Castle Tower
+  artifactKey: Guid(5df97e8d6fe8aa4499db5be390075077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower using Guid(5df97e8d6fe8aa4499db5be390075077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123beae0a1f7d4380270cca0fa784a70') in 0.002201 seconds
+  Import took 0.010004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.384318 seconds.
+  path: Assets/3rd Party/Castle Tower/Castle_Tower.stl
+  artifactKey: Guid(bb4802b68d069b241bb845f65960cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Castle_Tower.stl using Guid(bb4802b68d069b241bb845f65960cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd670c154deff23ba222ef580171ed01c') in 0.013697 seconds
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020394 seconds.
+  path: Assets/3rd Party/Castle Tower/Castle_Tower.stl
+  artifactKey: Guid(bb4802b68d069b241bb845f65960cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Castle_Tower.stl using Guid(bb4802b68d069b241bb845f65960cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd670c154deff23ba222ef580171ed01c') in 0.002810 seconds
+  Import took 0.011112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.956159 seconds.
+  path: Assets/3rd Party/Castle Tower/Castle_Tower.obj
+  artifactKey: Guid(f8394ea1ae8031d4ba964d0e22b10ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Castle_Tower.obj using Guid(f8394ea1ae8031d4ba964d0e22b10ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fc02fd30153ebc5c0c77c22553403e') in 0.086557 seconds
+  Import took 0.095315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.333509 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_1.prefab
+  artifactKey: Guid(26101adf6c1764145866c1583f0d1fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_1.prefab using Guid(26101adf6c1764145866c1583f0d1fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf81343801a8a6819b9194b2d0fa8ab') in 0.129359 seconds
+  Import took 0.142146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_1.FBX
+  artifactKey: Guid(81b4d769610a9af488023a4988c49794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_1.FBX using Guid(81b4d769610a9af488023a4988c49794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4997bcbb97d6086deff0174f3e7ffad3') in 0.040601 seconds
+  Import took 0.049934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_2.prefab
+  artifactKey: Guid(117b5c0d21e9e1e4ca25ebe32db7fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_2.prefab using Guid(117b5c0d21e9e1e4ca25ebe32db7fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fb61d74883f10a70ce2b1c2bef283c') in 0.069484 seconds
+  Import took 0.082282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_5.prefab
+  artifactKey: Guid(fbafb9372cc37bb4586c53a6bc5beebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_5.prefab using Guid(fbafb9372cc37bb4586c53a6bc5beebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd7c9a021f571db9abb96199278e69') in 0.077084 seconds
+  Import took 0.089043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_3.prefab
+  artifactKey: Guid(a7f60ba32f22e5c4bb886037a6f4c922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_3.prefab using Guid(a7f60ba32f22e5c4bb886037a6f4c922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e119bc8c845c17980c8236f1e6d27f25') in 0.069123 seconds
+  Import took 0.081828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_3.FBX
+  artifactKey: Guid(76e75fbba62009f49946661bb4d66a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_3.FBX using Guid(76e75fbba62009f49946661bb4d66a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1305346c80e93440288e8f8d9abd78d0') in 0.037996 seconds
+  Import took 0.047159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_4.prefab
+  artifactKey: Guid(309368fb7e816124fadb3932fc6326a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Rubble_4.prefab using Guid(309368fb7e816124fadb3932fc6326a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a82df9f99bf3355eba49a626da365a8') in 0.073504 seconds
+  Import took 0.084886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_2.FBX
+  artifactKey: Guid(ce8adab6ad56f304397114543b661d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_2.FBX using Guid(ce8adab6ad56f304397114543b661d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab969bd254cc5f616a1987e139b3c33') in 0.030871 seconds
+  Import took 0.040338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_4.FBX
+  artifactKey: Guid(c30a51a112d2bab4091716b4a9cef59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Art/Meshes/Rubble_4.FBX using Guid(c30a51a112d2bab4091716b4a9cef59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeacb19a02eb1c1d3a9a02c137a45697') in 0.034222 seconds
+  Import took 0.042775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379564 seconds.
+  path: Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Brick.prefab
+  artifactKey: Guid(b03af8b82d988814cb2167a63fda2071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Altar_Ruins_FREE/Prefabs/Separated/Brick.prefab using Guid(b03af8b82d988814cb2167a63fda2071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898d9621e4c695bd8406fc9ab4db8d4') in 0.116059 seconds
+  Import took 0.129290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 424.605402 seconds.
+  path: Assets/3rd Party/Castle Tower/textures
+  artifactKey: Guid(8c658067dc32e7f4983d3fb49aee226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/textures using Guid(8c658067dc32e7f4983d3fb49aee226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa58d0e4bb88070ed97e1f2bec6f09') in 0.006958 seconds
+  Import took 0.017193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019800 seconds.
+  path: Assets/3rd Party/Castle Tower/textures
+  artifactKey: Guid(8c658067dc32e7f4983d3fb49aee226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/textures using Guid(8c658067dc32e7f4983d3fb49aee226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa58d0e4bb88070ed97e1f2bec6f09') in 0.002672 seconds
+  Import took 0.011192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376831 seconds.
+  path: Assets/3rd Party/Castle Tower/textures/BrickOldMixedSize0040_1_S (2)_COLOR.png
+  artifactKey: Guid(70b4daa0e1e98ef4a80abecee5ef2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/textures/BrickOldMixedSize0040_1_S (2)_COLOR.png using Guid(70b4daa0e1e98ef4a80abecee5ef2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f48b9c41f0d0ad102a868ff4bc86b6') in 0.028063 seconds
+  Import took 0.036537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011856 seconds.
+  path: Assets/3rd Party/Castle Tower/textures/BrickOldMixedSize0040_1_S (2)_COLOR.png
+  artifactKey: Guid(70b4daa0e1e98ef4a80abecee5ef2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/textures/BrickOldMixedSize0040_1_S (2)_COLOR.png using Guid(70b4daa0e1e98ef4a80abecee5ef2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f48b9c41f0d0ad102a868ff4bc86b6') in 0.012699 seconds
+  Import took 0.021238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887405 seconds.
+  path: Assets/3rd Party/Castle Tower/Materials
+  artifactKey: Guid(804028b62d2a5914f804e0ecc2d9be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Materials using Guid(804028b62d2a5914f804e0ecc2d9be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b17fabe617a26b77e0d5fa08eb515') in 0.006323 seconds
+  Import took 0.015012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001229 seconds.
+  path: Assets/3rd Party/Castle Tower/Materials
+  artifactKey: Guid(804028b62d2a5914f804e0ecc2d9be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Materials using Guid(804028b62d2a5914f804e0ecc2d9be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b17fabe617a26b77e0d5fa08eb515') in 0.002609 seconds
+  Import took 0.011154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.857918 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/1Originais
+  artifactKey: Guid(d34ef88ad65480c4195569842ba090c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/1Originais using Guid(d34ef88ad65480c4195569842ba090c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1c79ad31e5263cfdb511e90b1fa09') in 0.006639 seconds
+  Import took 0.015143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019044 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/1Originais
+  artifactKey: Guid(d34ef88ad65480c4195569842ba090c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/1Originais using Guid(d34ef88ad65480c4195569842ba090c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1c79ad31e5263cfdb511e90b1fa09') in 0.002654 seconds
+  Import took 0.010899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.918621 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Chao
+  artifactKey: Guid(960c9747b75ec284b8df96c8124a5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Chao using Guid(960c9747b75ec284b8df96c8124a5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca965065270e128ed16aba0acad5460') in 0.007604 seconds
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017179 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Chao
+  artifactKey: Guid(960c9747b75ec284b8df96c8124a5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Chao using Guid(960c9747b75ec284b8df96c8124a5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca965065270e128ed16aba0acad5460') in 0.002432 seconds
+  Import took 0.010621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.076362 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Muro
+  artifactKey: Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Muro using Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42e62c541b01e0a3792345b9a938124') in 0.006454 seconds
+  Import took 0.015273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003589 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Muro
+  artifactKey: Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Muro using Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42e62c541b01e0a3792345b9a938124') in 0.002485 seconds
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.711842 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Wall
+  artifactKey: Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Wall using Guid(7ab5223dd96707e429be5047b16ff9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9600da4383f82f1d58f30849a12bff') in 0.006955 seconds
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.361191 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Parede
+  artifactKey: Guid(d329a644538d22049b662a94d21a620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Parede using Guid(d329a644538d22049b662a94d21a620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a845a7bf1e15051483d8b53cf4b15879') in 0.006636 seconds
+  Import took 0.015133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017788 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Parede
+  artifactKey: Guid(d329a644538d22049b662a94d21a620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Parede using Guid(d329a644538d22049b662a94d21a620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a845a7bf1e15051483d8b53cf4b15879') in 0.002530 seconds
+  Import took 0.010528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.625761 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_DISP.png
+  artifactKey: Guid(ef32eb56b4c6e544fae0a270a6de4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_DISP.png using Guid(ef32eb56b4c6e544fae0a270a6de4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b234d746f8779a8f51d22007eb5015') in 0.017979 seconds
+  Import took 0.028143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017403 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_DISP.png
+  artifactKey: Guid(ef32eb56b4c6e544fae0a270a6de4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_DISP.png using Guid(ef32eb56b4c6e544fae0a270a6de4760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b234d746f8779a8f51d22007eb5015') in 0.007370 seconds
+  Import took 0.015344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379520 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png
+  artifactKey: Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png using Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d6037bbf98b366cc58b50c97eec8d0') in 0.016454 seconds
+  Import took 0.025156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018515 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png
+  artifactKey: Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png using Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d6037bbf98b366cc58b50c97eec8d0') in 0.012469 seconds
+  Import took 0.021183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.220489 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png
+  artifactKey: Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Porta/DoorsMedieval0494_1_L_NRM.png using Guid(f46c4f69a5f72dd4abb9147f9b1a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b5b047845fcffb884112339536381e') in 0.014917 seconds
+  Import took 0.023886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.883771 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png
+  artifactKey: Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png using Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee2f7c495a17f200770dd1db1d5b770') in 0.016353 seconds
+  Import took 0.026245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003955 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png
+  artifactKey: Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png using Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee2f7c495a17f200770dd1db1d5b770') in 0.012774 seconds
+  Import took 0.021330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.873032 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png
+  artifactKey: Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Chao/BrickOldMixedSize0046_1_S_NRM.png using Guid(a6e090608fd14a74f90e5376ffd492c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0bc6d0a793d02e1485079ce03cbe33') in 0.012658 seconds
+  Import took 0.020936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 540.852862 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png
+  artifactKey: Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png using Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e651cd652b714253bc11d357462b4cac') in 0.017915 seconds
+  Import took 0.027526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023803 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png
+  artifactKey: Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png using Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e651cd652b714253bc11d357462b4cac') in 0.011730 seconds
+  Import took 0.019707 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.723 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 2.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4727 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 365.3 MB.
+System memory in use after: 365.6 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5787.
+Total: 6.557000 ms (FindLiveObjects: 0.724000 ms CreateObjectMapping: 0.654200 ms MarkObjects: 4.705200 ms  DeleteObjects: 0.472200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.615201 seconds.
+  path: Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png
+  artifactKey: Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Castle Tower/Texturas/Rock/RockMountain0060_1_L_NRM.png using Guid(73ff992f0f94be244ad844efa0673d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c346715eb3fce12707dd9a47d9f030c5') in 0.149670 seconds
+  Import took 0.158923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.210478 seconds.
+  path: Assets/3rd Party/Lighthouse
+  artifactKey: Guid(d079669291e992040aef5289f447a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Lighthouse using Guid(d079669291e992040aef5289f447a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1953533670df3831851a41708fe86d') in 0.007129 seconds
+  Import took 0.017304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 480.644189 seconds.
+  path: Assets/3rd Party/PBR Material Bundle Vol1
+  artifactKey: Guid(3d29f926394429146a141cbbf7b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/PBR Material Bundle Vol1 using Guid(3d29f926394429146a141cbbf7b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00444e8e820c2a7b4304f640e3d9d6f3') in 0.006975 seconds
+  Import took 0.017101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022100 seconds.
+  path: Assets/3rd Party/PBR Material Bundle Vol1
+  artifactKey: Guid(3d29f926394429146a141cbbf7b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/PBR Material Bundle Vol1 using Guid(3d29f926394429146a141cbbf7b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00444e8e820c2a7b4304f640e3d9d6f3') in 0.002698 seconds
+  Import took 0.011438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.413157 seconds.
+  path: Assets/3rd Party/Portal/Ancient_portal.fbx
+  artifactKey: Guid(5d03e0de27caa4141bdf9829fd395ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Portal/Ancient_portal.fbx using Guid(5d03e0de27caa4141bdf9829fd395ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dffc64160d87d03a90ea9cac9c3c5bf') in 0.942279 seconds
+  Import took 0.951871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.219501 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(39f538b3b0434924bb68f27f9e5ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(39f538b3b0434924bb68f27f9e5ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79ee008da79fcaddc178d501c93e400') in 0.042352 seconds
+  Import took 0.051041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024625 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(39f538b3b0434924bb68f27f9e5ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(39f538b3b0434924bb68f27f9e5ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79ee008da79fcaddc178d501c93e400') in 0.031283 seconds
+  Import took 0.040033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.620830 seconds.
+  path: Assets/3rd Party/Portal
+  artifactKey: Guid(73558fbb2bfffb841b4f3a7ad2e3c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Portal using Guid(73558fbb2bfffb841b4f3a7ad2e3c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b69f5e00ee7b461b58af6b2787b76') in 0.002535 seconds
+  Import took 0.012202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.329750 seconds.
+  path: Assets/3rd Party/Portal/Ancient portal textures/Rock020_4K-JPG
+  artifactKey: Guid(5e14a193193b10e40a17c421d08cdee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Portal/Ancient portal textures/Rock020_4K-JPG using Guid(5e14a193193b10e40a17c421d08cdee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd962ebbbc0fc75ca59eaf15078a0ac6a') in 0.007451 seconds
+  Import took 0.015957 seconds .
+
