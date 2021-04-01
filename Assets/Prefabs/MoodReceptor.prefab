@@ -382,24 +382,6 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 136
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.45
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 136
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.5
       value: 0.15
       inSlope: 0
       outSlope: 0
@@ -408,7 +390,16 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.55
+      time: 0.45
+      value: 0.1
+      inSlope: -0.30612245
+      outSlope: -0.30612245
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49
       value: 0
       inSlope: 0
       outSlope: 0
@@ -417,8 +408,26 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1
+      time: 0.51
       value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.55
+      value: 0.1
+      inSlope: 0.30612245
+      outSlope: 0.30612245
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.15
       inSlope: 0
       outSlope: 0
       tangentMode: 136
@@ -430,18 +439,18 @@ MonoBehaviour:
     m_RotationOrder: 4
   colorGradient:
     serializedVersion: 2
-    key0: {r: 0.24705882, g: 0, b: 1, a: 1}
+    key0: {r: 0.2638991, g: 0, b: 0.4433962, a: 1}
     key1: {r: 0.36471695, g: 0.13336614, b: 0.8437353, a: 1}
     key2: {r: 1, g: 1, b: 1, a: 0}
     key3: {r: 0.9601384, g: 0.80827963, b: 0.052941203, a: 0}
-    key4: {r: 1, g: 0.853463, b: 0, a: 0}
+    key4: {r: 1, g: 0.40945286, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 26214
+    ctime1: 21974
     ctime2: 32768
-    ctime3: 39321
+    ctime3: 42405
     ctime4: 65535
     ctime5: 0
     ctime6: 0

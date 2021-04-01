@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: HDRPDefaultSettings - Copy
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7686318427622180703}
+  - {fileID: 1661232833461184774}
   - {fileID: -1016694868962581565}
   - {fileID: 7502528774814404555}
   - {fileID: 7542669330009093999}
@@ -327,6 +327,55 @@ MonoBehaviour:
   m_HighQualityFiltering:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &1661232833461184774
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
+  m_Name: HDShadowSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  maxShadowDistance:
+    m_OverrideState: 1
+    m_Value: 75
+    min: 0
+  directionalTransmissionMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  cascadeShadowSplitCount:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 1
+    max: 4
+  cascadeShadowSplit0:
+    m_OverrideState: 1
+    m_Value: 0.03135198
+  cascadeShadowSplit1:
+    m_OverrideState: 1
+    m_Value: 0.09871794
+  cascadeShadowSplit2:
+    m_OverrideState: 0
+    m_Value: 0.3
+  cascadeShadowBorder0:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder1:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder2:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder3:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &1932259527246508038
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -656,52 +705,3 @@ MonoBehaviour:
     m_Value: 1
     min: 0
     max: 1
---- !u!114 &7686318427622180703
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
-  m_Name: HDShadowSettings
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  maxShadowDistance:
-    m_OverrideState: 1
-    m_Value: 50
-    min: 0
-  directionalTransmissionMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-    max: 1
-  cascadeShadowSplitCount:
-    m_OverrideState: 1
-    m_Value: 3
-    min: 1
-    max: 4
-  cascadeShadowSplit0:
-    m_OverrideState: 0
-    m_Value: 0.05
-  cascadeShadowSplit1:
-    m_OverrideState: 0
-    m_Value: 0.15
-  cascadeShadowSplit2:
-    m_OverrideState: 0
-    m_Value: 0.3
-  cascadeShadowBorder0:
-    m_OverrideState: 1
-    m_Value: 0.13333334
-  cascadeShadowBorder1:
-    m_OverrideState: 0
-    m_Value: 0.06666666
-  cascadeShadowBorder2:
-    m_OverrideState: 0
-    m_Value: 0
-  cascadeShadowBorder3:
-    m_OverrideState: 0
-    m_Value: 0
