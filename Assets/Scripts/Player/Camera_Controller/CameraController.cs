@@ -76,6 +76,11 @@ namespace Player.Camera_Controller
                 cameraSway.Init(m_cam.transform);
             }
 
+            public void SetDesiredPitch(float value)
+            {
+                m_pitch = value;
+            }
+            
             void CalculateRotation()
             {
                 m_desiredYaw += camInputData.InputVector.x * sensitivity.x * Time.deltaTime;

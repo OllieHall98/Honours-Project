@@ -6,8 +6,6 @@ using UnityEngine;
         public static UIVisibilityScript Instance;
 
         private CanvasGroup _uiGroup;
-        
-        public float speed = 1f;
 
 
         private void Awake()
@@ -16,13 +14,13 @@ using UnityEngine;
             Instance = this;
         }
 
-        public void ShowUI()
+        public void ShowUI(float speed)
         {
             var tweenOpacity = LeanTween.value(gameObject, 0,1, speed);
             tweenOpacity.setOnUpdate((float opacity) => { _uiGroup.alpha = opacity; });
         }
 
-        public void HideUI()
+        public void HideUI(float speed)
         {
             var tweenOpacity = LeanTween.value(gameObject, 1,0, speed);
             tweenOpacity.setOnUpdate((float opacity) => { _uiGroup.alpha = opacity; });

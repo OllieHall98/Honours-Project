@@ -20,6 +20,8 @@ public class OpenChest : MonoBehaviour
     
     private GameObject _player, _cameraPivot;
     private Camera _playerCamera;
+
+    public GameObject blackBars;
     
     private float _ft;
     public float lerpDuration = 0.5f;
@@ -42,46 +44,46 @@ public class OpenChest : MonoBehaviour
 
         OpenChestAudio.Post(gameObject);
         
-        conveyanceCube.SetActive(true);
+        
         
         //mindPuzzleAnimator.SetTrigger(Chest);
         StartCoroutine(TimeAnimation());
-        
-        
     }
     
     IEnumerator TimeAnimation()
     {
+        blackBars.SetActive(true);
+        
+        UIVisibilityScript.Instance.HideUI(0.25f);
+        
         mindPuzzleAnimator.SetTrigger(Chest);
+        
+        ReticleManager.Instance.HideReticle();
 
         yield return new WaitForSecondsRealtime(1.0f);
         
         _receptorManager.StartReceptorAudio();
         
-        yield return new WaitForSecondsRealtime(6.0f);
+        yield return new WaitForSecondsRealtime(3.0f);
+        
+        conveyanceCube.SetActive(true);
+        
+        yield return new WaitForSecondsRealtime(2.75f);
         
         EndCutscene();
     }
-    
-    public void StartCutscene()
-    {
-        UIVisibilityScript.Instance.HideUI();
-    }
 
-    public void EnableCube()
+    private void EndCutscene()
     {
-        conveyanceCube.SetActive(true);
-    }
-    
-    public void EndCutscene()
-    {
+        blackBars.SetActive(false);
+        
         _receptorManager.AddReceptorsToDictionary();
         
         ConveyanceCubeScript.Instance.Pickup();
         
-        UIVisibilityScript.Instance.ShowUI();
-        
-        
+        UIVisibilityScript.Instance.ShowUI(0.5f);
+
+        //PlayerStateScript.Instance.cameraController.SetDesiredPitch(0);
     }
 
     private bool _coroutineExecuting;
@@ -89,8 +91,7 @@ public class OpenChest : MonoBehaviour
     private IEnumerator MovePlayerToPosition()
     {
         _coroutineExecuting = true;
-
-        //PlayerStateScript.Instance.SetInput(false);
+        
         PlayerStateScript.Instance.SetMovementActive(false, true);
 
         
@@ -108,8 +109,6 @@ public class OpenChest : MonoBehaviour
         {
             _player.transform.position = Vector3.Lerp(startPosition, modifiedTargetPosition, timer / lerpDuration);
             _cameraPivot.transform.localEulerAngles = Vector3.Lerp(startForward, targetForward, timer / lerpDuration);
-            
-            //_playerCamera.transform.forward = Vector3.MoveTowards(startForward, -targetTransform.forward, timer / lerpDuration);
             timer += Time.deltaTime;
             
             yield return null;
@@ -117,13 +116,7 @@ public class OpenChest : MonoBehaviour
 
         _player.transform.position = modifiedTargetPosition;
         _cameraPivot.transform.localEulerAngles = targetForward;
-        //_playerCamera.transform.forward = -targetTransform.forward;
 
-        //PlayerStateScript.Instance.SetInput(true);
-        
-        
-        //PlayerStateScript.Instance.SetMovementActive(true, true);
-        
         _coroutineExecuting = false;
     }
     

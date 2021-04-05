@@ -74,9 +74,7 @@ public class ConveyanceCubeScript : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        
-        gameObject.SetActive(false);
-        
+
         _positiveEffect = transform.Find("Positive").gameObject;
         _negativeEffect = transform.Find("Negative").gameObject;
         _player = GameObject.Find("Player");
