@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d9bd86c2ecffcb43be2a739e96c240df
     GuidInternal: 
-    m_lastTime: -8585883671737380414
+    m_lastTime: -8585839661054293894
     List:
     - name: Default
       guid: 1eced2f1efc9b846b3ca73a567b39d78
@@ -68,8 +68,56 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2cf7823a53e5be47a47e243015e32196
     GuidInternal: 
-    m_lastTime: -8585883672169064975
+    m_lastTime: -8585839661054197795
     List:
+    - name: FireConveyanceBeam_Start
+      guid: fc567229ebab3249a688c6fad2ce4bbe
+      id: 1332520360
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FireConveyanceBeam_Start
+        ObjectType: 3
+      Path: Default Work Unit\FireConveyanceBeam_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FireConveyanceBeam_Stop
+      guid: f5e79f5876a5e645bbfffb9f03b7eb29
+      id: 2598825076
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FireConveyanceBeam_Stop
+        ObjectType: 3
+      Path: Default Work Unit\FireConveyanceBeam_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: OpenChest
+      guid: 1f1095eb43c822429863fbc1e9a9703c
+      id: 4187372360
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OpenChest
+        ObjectType: 3
+      Path: Default Work Unit\OpenChest
+      maxAttenuation: 0
+      maxDuration: 10.716848
+      minDuration: 10.716848
+    - name: StartMoodReceptorHum
+      guid: cc0171deade5c244a01f22a9d2a6ce3c
+      id: 2597147220
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StartMoodReceptorHum
+        ObjectType: 3
+      Path: Default Work Unit\StartMoodReceptorHum
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
     - name: StartRain
       guid: 309ac66121a5bf4d9f69fd084230c63a
       id: 2407527377
@@ -90,8 +138,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 815ea4e6cc1e664d8adf5412fcab8e36
     GuidInternal: 
-    m_lastTime: -8585883683693791677
+    m_lastTime: -8585842399203406122
     List:
+    - name: MoodReceptorValue
+      guid: 439092d15a872145b9ba22b88e408a94
+      id: 467945479
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MoodReceptorValue
+        ObjectType: 13
+      Path: Default Work Unit\MoodReceptorValue
     - name: RainIntensity
       guid: ffe9691d9abdd5419398bca91c164177
       id: 1866329414
@@ -133,5 +190,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Honours Level_WwiseProject
+  - /Honours Level_WwiseProject/Events
+  - /Honours Level_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

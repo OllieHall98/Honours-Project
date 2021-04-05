@@ -24,19 +24,18 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HDRP-FreeWater 1
   m_Shader: {fileID: 4800000, guid: 13ac76e5d4eb0094d89a054ea444d02a, type: 3}
-  m_ShaderKeywords: _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT
-    _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
-    RenderType: Transparent
   disabledShaderPasses:
   - TransparentBackface
   - TransparentDepthPostpass
   - RayTracingPrepass
+  - TransparentDepthPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -325,14 +324,14 @@ Material:
     - Vector1_4159F3F: 0.04
     - Vector1_4AC4A68B: 0.06
     - Vector1_4E6C1A96: 0.783
-    - Vector1_4FE3D16D: 4.42
+    - Vector1_4FE3D16D: 6
     - Vector1_717AF822: 0
     - Vector1_75458A12: 4.8
     - Vector1_895CAB23: 5.34
     - Vector1_8DAAF4DB: 1.39
     - Vector1_9BC3A5CD: 0
     - Vector1_A8100DE7: 0.39
-    - Vector1_D7555F9C: 0.641
+    - Vector1_D7555F9C: 0.3
     - Vector1_D958705D: 3.4
     - Vector1_DFD3567: 0.02
     - Vector1_E5C822F8: 1
@@ -350,7 +349,7 @@ Material:
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
-    - _AlphaDstBlend: 10
+    - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
@@ -393,7 +392,7 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
     - _Drag: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EdgeBlendAmount: 0
     - _EdgeBlendDepth: 1.88
     - _EdgeBlendFalloff: 1.88
@@ -511,7 +510,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _ReflectionAmount: 1
     - _RefractionModel: 0
-    - _RenderQueueType: 4
+    - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _ShadowDepth: 1
     - _ShallowColorBlend: 0.905
@@ -540,10 +539,10 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 0
+    - _StencilRefDepth: 8
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 2
-    - _StencilRefMV: 32
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
@@ -557,7 +556,7 @@ Material:
     - _SupportDecals: 0
     - _SurfaceColorBlend: 0.31
     - _SurfaceOpacity: 0.97
-    - _SurfaceType: 1
+    - _SurfaceType: 0
     - _TessValue: 16
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactor: 4
@@ -607,17 +606,17 @@ Material:
     - _WaterSpecular: 1
     - _WavesAmount: 8.87
     - _WavesAmplitude: 0.1
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - Color_8DF95E1F: {r: 0.07636168, g: 0.30515486, b: 0.4150943, a: 1}
-    - Color_A0995202: {r: 0.095007114, g: 0.25094274, b: 0.3301887, a: 1}
+    - Color_8DF95E1F: {r: 0.122641504, g: 0.29486147, b: 0.49056602, a: 1}
+    - Color_A0995202: {r: 0.36320752, g: 0.78773606, b: 1, a: 1}
     - Color_DD167ECF: {r: 0.9433962, g: 0, b: 0, a: 1}
-    - Color_F4D2E00B: {r: 0.14195444, g: 0.5134238, b: 0.5471698, a: 1}
-    - Vector2_6E1E59F4: {r: 250, g: 250, b: 0, a: 0}
+    - Color_F4D2E00B: {r: 0.39711642, g: 0.6824546, b: 0.8679245, a: 1}
+    - Vector2_6E1E59F4: {r: 850, g: 850, b: 0, a: 0}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor2: {r: 1, g: 1, b: 1, a: 1}

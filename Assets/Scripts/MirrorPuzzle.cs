@@ -82,17 +82,17 @@ public class MirrorPuzzle : MonoBehaviour
 
     private IEnumerator MirrorPromptSequence()
     {
-        NotificationText.Instance.DisplayMessage("Show us a smile!", 3f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float, "Show us a smile!", 3f);
 
         while (!CheckPlayerEmotion("joy"))
             yield return null;
 
-        NotificationText.Instance.DisplayMessage("You've just seen something shocking!", 3f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,"You've just seen something shocking!", 3f);
         
         while (!CheckPlayerEmotion("surprise"))
             yield return null;
         
-        NotificationText.Instance.DisplayMessage("Congratulations! You've contracted depression! Give us a sad face", 3f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,"Congratulations! You've contracted depression! Give us a sad face", 3f);
         
         while (!CheckPlayerEmotion("sadness"))
             yield return null;

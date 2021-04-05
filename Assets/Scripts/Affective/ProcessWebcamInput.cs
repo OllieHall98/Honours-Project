@@ -159,7 +159,7 @@ namespace Affective
             
             affectiveManager.SetCurrentEmotion(_facialDetection.DetectFacialLandmarks(PreprocessedImage()));
 
-            yield return new WaitForSecondsRealtime(0.1f);
+            yield return new WaitForSecondsRealtime(0.05f);
 
             _checkFaceStarted = false;
         }
@@ -172,14 +172,14 @@ namespace Affective
             int width = _processor.Image.Width;
             int height = _processor.Image.Height;
 
-            var crop = new Rect(width / 4, height / 4, width / 2, height / 2);
+            var crop = new Rect(width / 5, height / 5, width / 2, height / 2);
             var croppedImage = _processor.Image[crop];
             
             // Shrink the image for easier processing
-            Cv2.Resize(croppedImage, _processor.Image, new Size(_webcamTex.width / 3f, _webcamTex.height / 3f), interpolation: InterpolationFlags.Linear);
+            Cv2.Resize(croppedImage, _processor.Image, new Size(_webcamTex.width / 2f, _webcamTex.height / 2f), interpolation: InterpolationFlags.Linear);
             
             // Apply a gaussian blur to remove distractions/unnecessary details
-            Cv2.GaussianBlur(_processor.Image, _processor.Image, new Size(5, 5), 0);
+            Cv2.GaussianBlur(_processor.Image, _processor.Image, new Size(3, 3), 0);
             
             ConvertToGrayscale(_processor.Image);
 

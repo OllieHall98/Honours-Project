@@ -182,6 +182,536 @@
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Mood Receptor" ID="{60CB3108-D213-4AED-AD66-4B40A3386808}" ShortID="115428551">
+					<ChildrenList>
+						<BlendContainer Name="MoodReceptorHum" ID="{154BB929-DE88-45F8-B890-39038C0A1A16}" ShortID="585157543">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="MoodRecepter" ID="{7CA4B298-C6F9-432D-BDD4-2775418FF091}" WorkUnitID="{7DADA13A-F3E6-4F42-A41A-683BFE5448E8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Distorted Hum" ID="{A03F2EB4-CE4B-4D8F-8C1F-DCF22B956232}" ShortID="1044141834">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Distorted Hum" ID="{428F8555-4684-4B4E-9CD6-9B9642924E12}">
+											<Language>SFX</Language>
+											<AudioFile>Mood Receptor\Distorted Hum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="425260009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Distorted Hum" ID="{428F8555-4684-4B4E-9CD6-9B9642924E12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sparkle Hum" ID="{506B4805-BAB3-4A35-B9D3-994AEF0124CC}" ShortID="41363335">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sparkle Hum" ID="{A9592CF8-1C1F-4D20-B0B9-58EB751E70BE}">
+											<Language>SFX</Language>
+											<AudioFile>Mood Receptor\Sparkle Hum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="890530718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sparkle Hum" ID="{A9592CF8-1C1F-4D20-B0B9-58EB751E70BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Clear Hum" ID="{E3F84D9F-7B90-494A-97E4-6C48BBF5A6C5}" ShortID="338113357">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Clear Hum" ID="{898F1F4E-648D-428F-A2B9-01E6AB6F5AD2}">
+											<Language>SFX</Language>
+											<AudioFile>Mood Receptor\Clear Hum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="761277468"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Clear Hum" ID="{898F1F4E-648D-428F-A2B9-01E6AB6F5AD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Distorted hum" ID="{A8C0EE01-662D-43DB-9A5D-6ACFAE1097CE}" ShortID="650153816">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{17C93548-C4DA-4E66-B351-7EECE98254B6}" ShortID="753860369">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B741981C-FF0E-4075-B91C-74A684A109DC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>35</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>45</XPos>
+																<YPos>300</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>55</XPos>
+																<YPos>300</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>65</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{77E88FF9-7A2F-410A-89B1-56CE25B5B429}" ShortID="175267133">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6EDCBABF-5E50-4615-9F40-54D8E6714861}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>-25</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Distorted Hum" ID="{A03F2EB4-CE4B-4D8F-8C1F-DCF22B956232}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Sparkle" ID="{A4432F8A-C8FC-4C72-9003-3E874BF78381}" ShortID="702782643">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{2CA9056E-2F9F-4B25-B37F-DA2DF95D728F}" ShortID="621594917">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DC308B80-1099-4DCC-A3E5-1329684D42BD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{41CF1588-DB43-4299-9133-4420282223C7}" ShortID="385397904">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4785D3D5-9E3E-4B84-A71F-402053A7623F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>-30</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>49.89324</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>-30</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Sparkle Hum" ID="{506B4805-BAB3-4A35-B9D3-994AEF0124CC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>40</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Clear Hum" ID="{F504B296-6F9B-4565-A4BA-4A803FE8FDF6}" ShortID="925619882">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{E9C90F11-14F9-45B2-973E-EE397EA5BA1E}" ShortID="165937050">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{291392ED-CF45-4837-819D-EE76304C051C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>47</XPos>
+																<YPos>20</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>100</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>53</XPos>
+																<YPos>20</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5B7543CD-6684-49EC-B484-33A2DA2CCB1B}" ShortID="633254406">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4CE84FEF-0F38-44AA-912B-73DA9AEC0C36}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>45</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>2</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>55</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>60</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Clear Hum" ID="{E3F84D9F-7B90-494A-97E4-6C48BBF5A6C5}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>40</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Conveyance Cube" ID="{55B47B15-630B-4DAB-B9B3-5968E42C423C}" ShortID="853841730">
+					<ChildrenList>
+						<Sound Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" ShortID="897913754">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{89D5BE9F-7F77-4368-9BF9-C892E02931FE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beam Laser" ID="{2D29E7BF-E0A2-4DCB-868E-E77A09620E37}">
+									<Language>SFX</Language>
+									<AudioFile>Conveyance Cube\Beam Laser.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="947005409"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beam Laser" ID="{2D29E7BF-E0A2-4DCB-868E-E77A09620E37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="ChestOpenSound" ID="{2BF14B47-B4DF-4C66-8341-B30B6342B10A}" ShortID="863163779">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ChestOpenSound" ID="{C7D971CA-128D-4383-A091-CD3DFC91CF5E}">
+							<Language>SFX</Language>
+							<AudioFile>ChestOpenSound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="755188457"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ChestOpenSound" ID="{C7D971CA-128D-4383-A091-CD3DFC91CF5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

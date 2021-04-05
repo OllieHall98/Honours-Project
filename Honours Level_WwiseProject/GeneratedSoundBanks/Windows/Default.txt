@@ -1,10 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1332520360	FireConveyanceBeam_Start			\Default Work Unit\FireConveyanceBeam_Start	
 	2407527377	StartRain			\Default Work Unit\StartRain	
+	2597147220	StartMoodReceptorHum			\Default Work Unit\StartMoodReceptorHum	
+	2598825076	FireConveyanceBeam_Stop			\Default Work Unit\FireConveyanceBeam_Stop	
+	4187372360	OpenChest			\Default Work Unit\OpenChest	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	467945479	MoodReceptorValue			\Default Work Unit\MoodReceptorValue	
 	1866329414	RainIntensity			\Default Work Unit\RainIntensity	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	345965029	Heavy Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Heavy Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Heavy Rain		10379772
+	425260009	Distorted Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Distorted Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Distorted Hum		1691516
 	733600970	Light Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Light Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Light Rain		5636116
+	755188457	ChestOpenSound	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ChestOpenSound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChestOpenSound		1890516
+	761277468	Clear Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Clear Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Clear Hum		2099348
+	890530718	Sparkle Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Sparkle Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Sparkle Hum		2590456
+	947005409	Beam Laser	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Conveyance Cube\Beam Laser_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Conveyance Cube\Beam Laser		322830
 

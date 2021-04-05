@@ -14,6 +14,92 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StartMoodReceptorHum" ID="{DE7101CC-E5AD-44C2-A01F-22A9D2A6CE3C}">
+					<ChildrenList>
+						<Action Name="" ID="{892A755A-FE1C-498C-9943-FBE1135D4823}" ShortID="956910538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MoodReceptorHum" ID="{154BB929-DE88-45F8-B890-39038C0A1A16}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FireConveyanceBeam_Start" ID="{297256FC-ABEB-4932-A688-C6FAD2CE4BBE}">
+					<ChildrenList>
+						<Action Name="" ID="{E4E9B7BF-742C-4376-8C1D-A41EC3158BC2}" ShortID="90075116">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Pitch" Type="int32" Value="-500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{998AE469-C2DF-4D6C-85D4-2C73346DCCFC}" ShortID="155257594">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2C342DD-6E19-4E75-8303-4552613D741A}" ShortID="553689632">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FireConveyanceBeam_Stop" ID="{589FE7F5-A576-45E6-BBFF-FB9F03B7EB29}">
+					<ChildrenList>
+						<Action Name="" ID="{6AB35C97-95B3-49D4-A3C4-B11282C5C621}" ShortID="231073900">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.6"/>
+								<Property Name="Pitch" Type="int32" Value="-500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB4201E4-E441-479C-B953-695E5E1BB48C}" ShortID="701920593">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beam Laser" ID="{B351A15E-EEA6-4B63-AF7D-CDE576EE5AEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OpenChest" ID="{EB95101F-C843-4222-9863-FBC1E9A9703C}">
+					<ChildrenList>
+						<Action Name="" ID="{79F0C7CD-E217-47BB-8792-E2D7005265DD}" ShortID="978062542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChestOpenSound" ID="{2BF14B47-B4DF-4C66-8341-B30B6342B10A}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

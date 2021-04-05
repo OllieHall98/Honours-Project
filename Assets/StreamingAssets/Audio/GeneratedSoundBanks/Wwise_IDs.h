@@ -13,11 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FIRECONVEYANCEBEAM_START = 1332520360U;
+        static const AkUniqueID FIRECONVEYANCEBEAM_STOP = 2598825076U;
+        static const AkUniqueID OPENCHEST = 4187372360U;
+        static const AkUniqueID STARTMOODRECEPTORHUM = 2597147220U;
         static const AkUniqueID STARTRAIN = 2407527377U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID MOODRECEPTORVALUE = 467945479U;
         static const AkUniqueID RAININTENSITY = 1866329414U;
     } // namespace GAME_PARAMETERS
 

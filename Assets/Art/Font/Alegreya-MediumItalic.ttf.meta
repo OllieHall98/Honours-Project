@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: f6264a2fb1e36b94e8374a0c667a4111
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Alegreya
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c4376f8d329e0b245bd7962ac1292c31, type: 3}
+  - {fileID: 12800000, guid: d5946d6e8642b8544b32fb9d6c72418c, type: 3}
+  - {fileID: 12800000, guid: c44282d21d7272241909bfab6bc8beb3, type: 3}
+  - {fileID: 12800000, guid: f52661b135a740b499c9ee57ab84d091, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

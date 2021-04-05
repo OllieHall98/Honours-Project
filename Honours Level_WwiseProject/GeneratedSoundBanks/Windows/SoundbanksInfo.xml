@@ -11,11 +11,44 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3281354013">
+		<SoundBank Id="782826392" Language="SFX" Hash="2765557703">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1332520360" Name="FireConveyanceBeam_Start" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="947005409" Language="SFX">
+							<ShortName>Conveyance Cube\Beam Laser.wav</ShortName>
+							<Path>SFX\Conveyance Cube\Beam Laser_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2598825076" Name="FireConveyanceBeam_Stop" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4187372360" Name="OpenChest" ObjectPath="\Events\Default Work Unit\OpenChest" DurationType="OneShot" DurationMin="10.716848" DurationMax="10.716848">
+					<IncludedMemoryFiles>
+						<File Id="755188457" Language="SFX">
+							<ShortName>ChestOpenSound.wav</ShortName>
+							<Path>SFX\ChestOpenSound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2597147220" Name="StartMoodReceptorHum" ObjectPath="\Events\Default Work Unit\StartMoodReceptorHum" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="425260009" Language="SFX">
+							<ShortName>Mood Receptor\Distorted Hum.wav</ShortName>
+							<Path>SFX\Mood Receptor\Distorted Hum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="761277468" Language="SFX">
+							<ShortName>Mood Receptor\Clear Hum.wav</ShortName>
+							<Path>SFX\Mood Receptor\Clear Hum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="890530718" Language="SFX">
+							<ShortName>Mood Receptor\Sparkle Hum.wav</ShortName>
+							<Path>SFX\Mood Receptor\Sparkle Hum_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2407527377" Name="StartRain" ObjectPath="\Events\Default Work Unit\StartRain" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="345965029" Language="SFX">
@@ -30,10 +63,11 @@
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="467945479" Name="MoodReceptorValue" ObjectPath="\Game Parameters\Default Work Unit\MoodReceptorValue"/>
 				<GameParameter Id="1866329414" Name="RainIntensity" ObjectPath="\Game Parameters\Default Work Unit\RainIntensity"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1078264884">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3609226010">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

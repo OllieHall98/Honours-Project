@@ -28,7 +28,7 @@ namespace VHS
         #endregion
 
         #region Custom Methods
-
+        
         void GetCameraInput()
             {
                 if (Input.GetJoystickNames().Length > 0)

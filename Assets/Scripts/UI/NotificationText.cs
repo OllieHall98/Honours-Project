@@ -5,6 +5,12 @@ using UnityEngine;
 
 namespace UI
 {
+    public enum TransitionType
+    {
+        Fade,
+        Float
+    }
+    
     public class NotificationText : MonoBehaviour
     {
         private static NotificationText instance;
@@ -22,7 +28,7 @@ namespace UI
 
         private Coroutine _currentCoroutine = null;
 
-        void Start()
+        private void Start()
         {
             if(instance != null && instance != this)
             {
@@ -47,7 +53,7 @@ namespace UI
 
         }
 
-        public void DisplayMessage(string message, float duration)
+        public void DisplayMessage(TransitionType type, string message, float duration)
         {
             if(_currentCoroutine != null)
             {
@@ -58,14 +64,21 @@ namespace UI
 
             _textTMP.text = message;
 
-            _currentCoroutine = StartCoroutine(DisplayText(duration));
+            _currentCoroutine = StartCoroutine(DisplayText(type, duration));
         }
 
-        private IEnumerator DisplayText(float duration)
+        private IEnumerator DisplayText(TransitionType type, float duration)
         {
-            // Tween the text position
-            var tweenPosition = LeanTween.value(text, _textTransform.anchoredPosition, _textTransform.anchoredPosition + offset, speed);
-            tweenPosition.setOnUpdate((Vector2 val) => { _textTransform.anchoredPosition = val; });
+            LTDescr tweenPosition;
+
+            if (type == TransitionType.Float)
+            {
+                // Tween the text position
+                var anchoredPosition = _textTransform.anchoredPosition;
+                tweenPosition = LeanTween.value(text, anchoredPosition,
+                    anchoredPosition + offset, speed);
+                tweenPosition.setOnUpdate((Vector2 val) => { _textTransform.anchoredPosition = val; });
+            }
 
             // Tween the text opacity
             var tweenOpacity = LeanTween.value(gameObject, Color.clear, Color.white, speed);
@@ -73,13 +86,39 @@ namespace UI
 
             yield return new WaitForSecondsRealtime(duration);
 
-            // Tween the text position
-            tweenPosition = LeanTween.value(text, _textTransform.anchoredPosition, _textTransform.anchoredPosition - offset, speed);
-            tweenPosition.setOnUpdate((Vector2 val) => { _textTransform.anchoredPosition = val; });
+            if (duration == 0) yield break;
+
+            if (type == TransitionType.Float)
+            {
+                // Tween the text position
+                var anchoredPosition = _textTransform.anchoredPosition;
+                tweenPosition = LeanTween.value(text, anchoredPosition,
+                    anchoredPosition - offset, speed);
+                tweenPosition.setOnUpdate((Vector2 val) => { _textTransform.anchoredPosition = val; });
+            }
 
             // Tween the text opacity
             tweenOpacity = LeanTween.value(gameObject, Color.white, Color.clear, speed);
             tweenOpacity.setOnUpdate((Color opacity) => { _textTMP.faceColor = opacity; });
         }
+        
+        public void StopDisplayingText(TransitionType type)
+        {
+            if (type == TransitionType.Float)
+            {
+                // Tween the text position
+                var anchoredPosition = _textTransform.anchoredPosition;
+                var tweenPosition = LeanTween.value(text, anchoredPosition,
+                    anchoredPosition - offset, speed);
+                tweenPosition.setOnUpdate((Vector2 val) => { _textTransform.anchoredPosition = val; });
+            }
+
+            // Tween the text opacity
+            var tweenOpacity = LeanTween.value(gameObject, Color.white, Color.clear, speed);
+            tweenOpacity.setOnUpdate((Color opacity) => { _textTMP.faceColor = opacity; });
+        }
+        
     }
+    
+   
 }
