@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 495199302255225335}
   - component: {fileID: 1307814351605570412}
   m_Layer: 0
-  m_Name: Tree 1
+  m_Name: Tree 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,19 +137,19 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.30907798, y: 5.969118, z: 0.035443783}
   m_Size: 11.9831505
-  m_FadeMode: 2
+  m_FadeMode: 1
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
   - screenRelativeHeight: 0.6
-    fadeTransitionWidth: 0
+    fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 507455827969355293}
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
+  - screenRelativeHeight: 0.34026453
+    fadeTransitionWidth: 0.1
     renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
+  - screenRelativeHeight: 0.01858864
+    fadeTransitionWidth: 0.1
     renderers: []
   m_Enabled: 1
 --- !u!1 &4808255909634282956
