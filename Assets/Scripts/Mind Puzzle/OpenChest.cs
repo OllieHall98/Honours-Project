@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using UI;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class OpenChest : MonoBehaviour
@@ -11,10 +12,19 @@ public class OpenChest : MonoBehaviour
 
     [SerializeField] private Animator mindPuzzleAnimator;
     private static readonly int Chest = Animator.StringToHash("OpenChest");
-
+    private static readonly int Complete = Animator.StringToHash("Complete");
     [SerializeField] private Transform targetTransform;
 
-    public AK.Wwise.Event OpenChestAudio;
+    
+    
+    [SerializeField] private GameObject mindBeacon;
+
+    public AK.Wwise.Event openChestAudio;
+    [SerializeField] private AK.Wwise.Event startMusic;
+    [SerializeField] private AK.Wwise.Event teleportSound;
+    [SerializeField] private AK.Wwise.Event RelicGet;
+    
+    public Image fader;
     
     public GameObject conveyanceCube;
     
@@ -42,20 +52,20 @@ public class OpenChest : MonoBehaviour
     {
         if(!_coroutineExecuting) StartCoroutine(MovePlayerToPosition());
 
-        OpenChestAudio.Post(gameObject);
+        openChestAudio.Post(gameObject);
         
         
         
         //mindPuzzleAnimator.SetTrigger(Chest);
-        StartCoroutine(TimeAnimation());
+        StartCoroutine(StartPuzzleCutscene());
     }
     
-    IEnumerator TimeAnimation()
+    IEnumerator StartPuzzleCutscene()
     {
-        blackBars.SetActive(true);
-        
+        BlackBarTransitioner.Instance.Show(0.4f);
+
         UIVisibilityScript.Instance.HideUI(0.25f);
-        
+
         mindPuzzleAnimator.SetTrigger(Chest);
         
         ReticleManager.Instance.HideReticle();
@@ -67,26 +77,66 @@ public class OpenChest : MonoBehaviour
         yield return new WaitForSecondsRealtime(3.0f);
         
         conveyanceCube.SetActive(true);
-        
+        _receptorManager.SetConveyanceCube();
         yield return new WaitForSecondsRealtime(2.75f);
         
         EndCutscene();
     }
 
+    public IEnumerator EndPuzzleCutscene()
+    {
+        PlayerStateScript.Instance.SetMovementActive(false, false);
+        BlackBarTransitioner.Instance.Show(1f);
+        UIVisibilityScript.Instance.HideUI(1.0f);
+        RelicGet.Post(gameObject);
+        yield return new WaitForSecondsRealtime(2f);
+        ConveyanceCubeScript.Instance.StopUsingCube();
+        mindPuzzleAnimator.SetTrigger(Complete);
+        yield return new WaitForSecondsRealtime(2.5f);
+        var tweenOpacity = LeanTween.value(fader.gameObject, 0, 1, 3f);
+        tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
+        yield return new WaitForSecondsRealtime(2.5f);
+        _receptorManager.StopReceptorAudio();
+        StartCoroutine(EndPuzzleCutscene2());
+    }
+
+    private IEnumerator EndPuzzleCutscene2()
+    {
+        yield return new WaitForSecondsRealtime(1.0f);
+        teleportSound.Post(gameObject);
+        var tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 0.5f);
+        tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
+        yield return new WaitForSecondsRealtime(2.5f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float, "<color=#40E0D0>Mind Relic</color> obtained.", 4.0f);
+        yield return new WaitForSecondsRealtime(5.0f);
+        var tweenOpacity1 = LeanTween.value(fader.gameObject, 0, 1, 1f);
+        tweenOpacity1.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
+        yield return new WaitForSecondsRealtime(2f);
+        tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 0.5f);
+        tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
+        mindBeacon.SetActive(false);
+        _player.transform.position = PlayerStateScript.Instance.playerStartTransform.position;
+        PlayerStateScript.Instance.SetMovementActive(true, true);
+        yield return new WaitForSecondsRealtime(1f);
+        BlackBarTransitioner.Instance.Hide(2f);
+        UIVisibilityScript.Instance.ShowUI(2.0f);
+    }
+
     private void EndCutscene()
     {
-        blackBars.SetActive(false);
-        
-        _receptorManager.AddReceptorsToDictionary();
+        BlackBarTransitioner.Instance.Hide(1f);
         
         ConveyanceCubeScript.Instance.Pickup();
         
+        _receptorManager.AddReceptorsToDictionary();
+        
         UIVisibilityScript.Instance.ShowUI(0.5f);
 
-        //PlayerStateScript.Instance.cameraController.SetDesiredPitch(0);
+        startMusic.Post(gameObject);
     }
 
     private bool _coroutineExecuting;
+    
 
     private IEnumerator MovePlayerToPosition()
     {

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class BeaconBillboard : MonoBehaviour
 {
-    private GameObject _player;
+    public GameObject _player;
     private Vector3 _lookPos;
 
     private void Start()
     {
-        _player = GameObject.Find("Player");
+        if(_player == null)
+            _player = GameObject.Find("Player");
     }
 
     private void Update()

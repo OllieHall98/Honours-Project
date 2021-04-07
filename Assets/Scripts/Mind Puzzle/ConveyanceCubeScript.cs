@@ -28,9 +28,11 @@ public class ConveyanceCubeScript : MonoBehaviour
     public Dictionary<Transform, MoodReceptorScript> MoodReceptorDictionary;
 
     [SerializeField] private string cubePickupSentence;
+    [SerializeField] private string cubePickupSentence2;
 
     [SerializeField] private AK.Wwise.Event startFireBeam;
     [SerializeField] private AK.Wwise.Event stopFireBeam;
+
     
     private bool _firstFire;
 
@@ -117,7 +119,10 @@ public class ConveyanceCubeScript : MonoBehaviour
     {
         if (!isHeld) return;
         
-        ChangeState(DetermineCurrentEmotiveState());
+        //ChangeState(DetermineCurrentEmotiveState());
+        
+        if(Input.GetKeyDown(KeyCode.Alpha1)) ChangeState(CubeState.Negative);
+        if(Input.GetKeyDown(KeyCode.Alpha2)) ChangeState(CubeState.Positive);
     }
 
     private static CubeState DetermineCurrentEmotiveState()
@@ -160,11 +165,26 @@ public class ConveyanceCubeScript : MonoBehaviour
         hitEffect.SetActive(value);
     }
 
+    IEnumerator ShowTutorialText()
+    {
+        NotificationText.Instance.StopDisplayingText(TransitionType.Fade);
+        
+        yield return new WaitForSecondsRealtime(2.5f);
+        
+        NotificationText.Instance.DisplayMessage(TransitionType.Fade, cubePickupSentence2, 10.0f);
+    }
+
+    public void StopUsingCube()
+    {
+        stopFireBeam.Post(gameObject);
+        gameObject.SetActive(false);
+    }
+
     private void FireBeam()
     {
         if (!_firstFire)
         {
-            NotificationText.Instance.StopDisplayingText(TransitionType.Fade);
+            StartCoroutine(ShowTutorialText());
             _firstFire = true;
         }
 

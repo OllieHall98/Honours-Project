@@ -25,4 +25,9 @@ using UnityEngine;
             var tweenOpacity = LeanTween.value(gameObject, 1,0, speed);
             tweenOpacity.setOnUpdate((float opacity) => { _uiGroup.alpha = opacity; });
         }
+        
+        public void HideUIInstant()
+        {
+            _uiGroup.alpha = 0;
+        }
     }

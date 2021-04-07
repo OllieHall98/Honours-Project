@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7213618203100288504
 Transform:
@@ -46,11 +46,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.7510415
     fadeTransitionWidth: 0.01
     renderers:
     - renderer: {fileID: 2806230387766018658}
-  - screenRelativeHeight: 0.3
+  - screenRelativeHeight: 0.25000703
     fadeTransitionWidth: 0.01
     renderers:
     - renderer: {fileID: 8418675722125259588}
@@ -126,16 +126,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b725cacc7387b1f4e991c4bdfcd832c8, type: 2}
+    - target: {fileID: -1791127057855535748, guid: ff5edd20ff57770469ec22e520299d91,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
+    - target: {fileID: -1087022759693198582, guid: ff5edd20ff57770469ec22e520299d91,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff5edd20ff57770469ec22e520299d91,
         type: 3}
       propertyPath: m_Name
       value: Tree 4 LODS
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff5edd20ff57770469ec22e520299d91,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
       objectReference: {fileID: 0}
     - target: {fileID: 3954345229456618365, guid: ff5edd20ff57770469ec22e520299d91,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b725cacc7387b1f4e991c4bdfcd832c8, type: 2}
+    - target: {fileID: 4378851445012469786, guid: ff5edd20ff57770469ec22e520299d91,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
     - target: {fileID: 7260989339416248923, guid: ff5edd20ff57770469ec22e520299d91,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

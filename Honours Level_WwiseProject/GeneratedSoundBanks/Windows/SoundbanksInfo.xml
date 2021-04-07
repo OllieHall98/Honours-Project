@@ -11,11 +11,27 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="2765557703">
+		<SoundBank Id="782826392" Language="SFX" Hash="1204987782">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3594869627" Name="BridgeForestEntry" ObjectPath="\Events\Default Work Unit\BridgeForestEntry" DurationType="OneShot" DurationMin="63.526848" DurationMax="63.526848">
+					<IncludedMemoryFiles>
+						<File Id="988523118" Language="SFX">
+							<ShortName>BridgeForest Intro Music.wav</ShortName>
+							<Path>SFX\BridgeForest Intro Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1826863455" Name="ConveyanceCube_Music" ObjectPath="\Events\Default Work Unit\ConveyanceCube_Music" DurationType="OneShot" DurationMin="28.413469" DurationMax="28.413469">
+					<IncludedMemoryFiles>
+						<File Id="964361258" Language="SFX">
+							<ShortName>ConveyanceCubeMusic.wav</ShortName>
+							<Path>SFX\ConveyanceCubeMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1332520360" Name="FireConveyanceBeam_Start" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="947005409" Language="SFX">
@@ -25,11 +41,43 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2598825076" Name="FireConveyanceBeam_Stop" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3241912412" Name="ForestAudio" ObjectPath="\Events\Default Work Unit\ForestAudio" MaxAttenuation="200.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="816237619" Language="SFX">
+							<ShortName>Forest ambience.wav</ShortName>
+							<Path>SFX\Forest ambience_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4082919014" Name="ForestEntry" ObjectPath="\Events\Default Work Unit\ForestEntry" DurationType="OneShot" DurationMin="23.268753" DurationMax="23.268753">
+					<IncludedMemoryFiles>
+						<File Id="462847827" Language="SFX">
+							<ShortName>Forest Intro Music.wav</ShortName>
+							<Path>SFX\Forest Intro Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2100819074" Name="MindRelicGet" ObjectPath="\Events\Default Work Unit\MindRelicGet" DurationType="OneShot" DurationMin="11.833469" DurationMax="11.833469">
+					<IncludedMemoryFiles>
+						<File Id="528281650" Language="SFX">
+							<ShortName>MindRelicGet.wav</ShortName>
+							<Path>SFX\MindRelicGet_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4187372360" Name="OpenChest" ObjectPath="\Events\Default Work Unit\OpenChest" DurationType="OneShot" DurationMin="10.716848" DurationMax="10.716848">
 					<IncludedMemoryFiles>
 						<File Id="755188457" Language="SFX">
 							<ShortName>ChestOpenSound.wav</ShortName>
 							<Path>SFX\ChestOpenSound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3875903466" Name="OpeningCinematic" ObjectPath="\Events\Default Work Unit\OpeningCinematic" DurationType="OneShot" DurationMin="52.393402" DurationMax="52.393402">
+					<IncludedMemoryFiles>
+						<File Id="345908968" Language="SFX">
+							<ShortName>CinematicIntroAudio.wav</ShortName>
+							<Path>SFX\CinematicIntroAudio_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -58,6 +106,15 @@
 						<File Id="733600970" Language="SFX">
 							<ShortName>Light Rain.wav</ShortName>
 							<Path>SFX\Light Rain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502713118" Name="StopMoodReceptorHum" ObjectPath="\Events\Default Work Unit\StopMoodReceptorHum" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="530129416" Name="Teleport" ObjectPath="\Events\Default Work Unit\Teleport" DurationType="OneShot" DurationMin="12.201201" DurationMax="12.201201">
+					<IncludedMemoryFiles>
+						<File Id="515257183" Language="SFX">
+							<ShortName>Teleport.wav</ShortName>
+							<Path>SFX\Teleport_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

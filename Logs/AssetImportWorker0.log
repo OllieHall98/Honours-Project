@@ -15,11 +15,11 @@ C:/Users/ollie/Documents/Unity Projects/Honours Level
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51693
+59590
 Successfully changed project path to: C:/Users/ollie/Documents/Unity Projects/Honours Level
 C:/Users/ollie/Documents/Unity Projects/Honours Level
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 225.22 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 282.50 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,19 +35,1889 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001704 seconds.
+Registered in 0.003062 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 161.60 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 195.65 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
+- Completed reload, in  1.296 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.273352 seconds.
+Registered in 0.036592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 220.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.13 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.918 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 378.7 MB.
+System memory in use after: 379.0 MB.
+
+Unloading 335 unused Assets to reduce memory usage. Loaded Objects now: 5393.
+Total: 5.552400 ms (FindLiveObjects: 0.820900 ms CreateObjectMapping: 0.485000 ms MarkObjects: 3.792200 ms  DeleteObjects: 0.452000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686f88fe7582f7f0a9bd5cf697f3fe63') in 0.862774 seconds
+  Import took 0.876747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328560 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce89716e991deed9d3c5d2e920b1a39f') in 0.031688 seconds
+  Import took 0.040675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.794093 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99623ec4ee6cde20b2f8805c0ae6b3a') in 0.027480 seconds
+  Import took 0.036452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.022112 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f777e44bf3282bb79bd4558926c340b') in 0.028740 seconds
+  Import took 0.037606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.686559 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab
+  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7be0530bd539e0f65cc44d5f2e92a7') in 0.031467 seconds
+  Import took 0.040667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.004204 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab
+  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec51d9252e8b9cdddcee7dd84dcb983e') in 0.024230 seconds
+  Import took 0.033026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.029961 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 4 LODS.fbx
+  artifactKey: Guid(ff5edd20ff57770469ec22e520299d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 4 LODS.fbx using Guid(ff5edd20ff57770469ec22e520299d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab5349c1b64ddc027840cdb32d54dc') in 0.143710 seconds
+  Import took 0.152380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001582 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 4 LODS.fbx
+  artifactKey: Guid(ff5edd20ff57770469ec22e520299d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 4 LODS.fbx using Guid(ff5edd20ff57770469ec22e520299d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab5349c1b64ddc027840cdb32d54dc') in 0.088458 seconds
+  Import took 0.098730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.192661 seconds.
+  path: Assets/3rd Party/Fantasy Forest Environment Free Sample
+  artifactKey: Guid(53dcfd457e339ae4eaa1ff6c68732c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Fantasy Forest Environment Free Sample using Guid(53dcfd457e339ae4eaa1ff6c68732c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830038739782c865910da251b8e5eed9') in 0.009794 seconds
+  Import took 0.019381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.492523 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35514e23c23f6a90a2c8cf42df36a9') in 0.039017 seconds
+  Import took 0.049769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.822099 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f42cfd305987d4014172348dbd4aa4') in 0.029122 seconds
+  Import took 0.038015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.971564 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2038025985c9e865f74f970b8490ba6d') in 0.027481 seconds
+  Import took 0.036567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.594822 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6b9f3e25d19566d7ce20d48fb58d2') in 0.028167 seconds
+  Import took 0.036869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.927133 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b3962d3896ef00bc27b5777c9aeac4') in 0.029071 seconds
+  Import took 0.037807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.692184 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab
+  artifactKey: Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab using Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4c3d4d205b211b6ac9ebcbcae94f66') in 0.034024 seconds
+  Import took 0.042738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.397232 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab
+  artifactKey: Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab using Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2467a837ca43f66ba2fcb5a7e09b6acb') in 0.028492 seconds
+  Import took 0.037078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.705410 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab
+  artifactKey: Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab using Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af9ce1737152d96733747686b8d01f2') in 0.034814 seconds
+  Import took 0.044336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.575902 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b16eca9232bb6a09326ec6a1eda876') in 0.036364 seconds
+  Import took 0.045875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.254648 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab
+  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829958a97fed360046bb7d19c06f4388') in 0.037692 seconds
+  Import took 0.047641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.071816 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab
+  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a54af7e3b22714e73b5639f35de37b9') in 0.027917 seconds
+  Import took 0.036583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.332524 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab
+  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a75f700b22cb2da26be82c0a762629c') in 0.032962 seconds
+  Import took 0.041750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.514828 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab
+  artifactKey: Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab using Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75a2e55acdf6c833cf3c4fdce620e8e') in 0.039923 seconds
+  Import took 0.049720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.785066 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab
+  artifactKey: Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab using Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7573ec4bd1f3be1eeae92dfd96088df6') in 0.026947 seconds
+  Import took 0.035629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420875 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab
+  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3db99bfd398379dcf3db05d62682be7') in 0.038176 seconds
+  Import took 0.046860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.599679 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab
+  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1458138764283f1ada3f9a3c2cd0897') in 0.028403 seconds
+  Import took 0.037375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.556266 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab
+  artifactKey: Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab using Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9daf23815cbaad4e27c09ccca927043') in 0.038128 seconds
+  Import took 0.047718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.790953 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab
+  artifactKey: Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab using Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59be6aa112b6d11d06616700c29d82f4') in 0.026943 seconds
+  Import took 0.035907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.602456 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab
+  artifactKey: Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab using Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6ab9fe3ececd8fda6f2dd0e92671ac') in 0.038384 seconds
+  Import took 0.049082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.761377 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab
+  artifactKey: Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab using Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9253b532ce138e082437f5cacaad8c') in 0.026294 seconds
+  Import took 0.035255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.115333 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9ee982865177b557567c2bdc53a5b8') in 0.029440 seconds
+  Import took 0.038839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896227 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab
+  artifactKey: Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab using Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b462a756166f607a9b6b1d2565105d0') in 0.040366 seconds
+  Import took 0.050837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.296120 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab
+  artifactKey: Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab using Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb046bc681add61d1bf947d928e6b6c') in 0.026549 seconds
+  Import took 0.035542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277467 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab
+  artifactKey: Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab using Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7229f9fad66830908b27200745ebdc7a') in 0.042233 seconds
+  Import took 0.052499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.597895 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab
+  artifactKey: Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab using Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcc40401cdb4d6c53a5e2831c2a727') in 0.026811 seconds
+  Import took 0.035562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.540092 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab
+  artifactKey: Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab using Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cddc38275edb02bef4fb662f94a434') in 0.025699 seconds
+  Import took 0.034983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.079865 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3c52c13c8211771e75b8d17a2c37d1') in 0.066830 seconds
+  Import took 0.077226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab
+  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f24144d22d39efd3f7b33b9593b4c6') in 0.032294 seconds
+  Import took 0.042380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9eaf1582b040880ac10690c3d11f9') in 0.049816 seconds
+  Import took 0.064106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.020093 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c3ff107d7dd7bd68b54aa1c410b119') in 0.043807 seconds
+  Import took 0.053725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.331392 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237ed9d0aa08566e377c3d86428dfabd') in 0.036767 seconds
+  Import took 0.046517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.909198 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1268e37cd9168ad2043d984c586d6') in 0.036389 seconds
+  Import took 0.046125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.276035 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1268e37cd9168ad2043d984c586d6') in 0.038865 seconds
+  Import took 0.049749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395283 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35bbd5cb663b3ce7cc61d0db25026dd') in 0.045211 seconds
+  Import took 0.056119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.839178 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81fc768e91b2a7fb623f34c8e10351') in 0.035780 seconds
+  Import took 0.045725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.651313 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4440726947d75de9b1933033ae1fe3c') in 0.036462 seconds
+  Import took 0.047571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.227650 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a0e97c39d625f45f7e6c5be9dfab1') in 0.035109 seconds
+  Import took 0.044824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.782405 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup1.prefab
+  artifactKey: Guid(76075d4f24491b84eb0b4ac914362e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup1.prefab using Guid(76075d4f24491b84eb0b4ac914362e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24250fbf9c2e521d7277334258851f21') in 0.051024 seconds
+  Import took 0.061056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.434818 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d84eb99278acad4cbcd7286e3ba5937') in 0.035738 seconds
+  Import took 0.045595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.701532 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab
+  artifactKey: Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab using Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cce0400d2ccb0964106b6a5de61abb') in 0.048165 seconds
+  Import took 0.059392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.330528 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b4d642100ee980c767d4386549916d') in 0.034648 seconds
+  Import took 0.044645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.065872 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d07c95e35d710c422cfa63292785609') in 0.039175 seconds
+  Import took 0.049457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.118586 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c94d5d698fd901f04b4225e18a68bc') in 0.036923 seconds
+  Import took 0.046486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.811769 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab
+  artifactKey: Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab using Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab1bc9f68b63fa8c774efed95f0ec04') in 0.042598 seconds
+  Import took 0.052926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.872899 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab
+  artifactKey: Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab using Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4217666cdf5a47a8539a5f07d5a7c9') in 0.040689 seconds
+  Import took 0.051648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.636603 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2669ea3e5c0ed45749f6ac796e89500') in 0.043299 seconds
+  Import took 0.052862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.004917 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a703923b0291b3e16e30241cdb1c0') in 0.038909 seconds
+  Import took 0.048568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.661380 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e3e53cfc7ea66f676507e9507f01d') in 0.037341 seconds
+  Import took 0.047380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.259045 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ce975a5813cc7f7b568000a6739050') in 0.030421 seconds
+  Import took 0.040194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.730139 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4524221ddb5a7bfb2c2a989d8ca6a4c1') in 0.036460 seconds
+  Import took 0.046715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.379175 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d945ce179b1e87d1e7b1717126d8ac7') in 0.038638 seconds
+  Import took 0.050239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.168306 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock4A.prefab
+  artifactKey: Guid(5f36b57d675b1444cb2203b7a6cac6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock4A.prefab using Guid(5f36b57d675b1444cb2203b7a6cac6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c607dadf36405adbd18b585c2e8964') in 0.047976 seconds
+  Import took 0.061478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376326 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock5A.prefab
+  artifactKey: Guid(27bfdb9a40efac94b969eaf77cea92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock5A.prefab using Guid(27bfdb9a40efac94b969eaf77cea92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd413e40dcd321281181a45b92e1db8e') in 0.047084 seconds
+  Import took 0.056918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.993823 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock4B.prefab
+  artifactKey: Guid(55f94b3dfaaba26458dbf470efc8cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock4B.prefab using Guid(55f94b3dfaaba26458dbf470efc8cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0d379d64e6f323773301db9cc185c9') in 0.046803 seconds
+  Import took 0.057530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778738 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab
+  artifactKey: Guid(977e7278d3486f1489724a6d226b9ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab using Guid(977e7278d3486f1489724a6d226b9ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5bba900eb79310d9ef29a338db1d2f') in 0.042966 seconds
+  Import took 0.053114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104424 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6A.prefab
+  artifactKey: Guid(ad1f5855a33f0694886cbd301d99cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6A.prefab using Guid(ad1f5855a33f0694886cbd301d99cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a525a7ce6f39da422ce242f142e7f2') in 0.045561 seconds
+  Import took 0.055820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099838 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6B.prefab
+  artifactKey: Guid(fb5464049dae54247bf24c0e536cd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6B.prefab using Guid(fb5464049dae54247bf24c0e536cd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821d31be1dce0cd8b756d9e3283c1130') in 0.042324 seconds
+  Import took 0.052802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113858 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6C.prefab
+  artifactKey: Guid(d9c3d22cdfbbcfd4f8d8019ff97a0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock6C.prefab using Guid(d9c3d22cdfbbcfd4f8d8019ff97a0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5392215bb3ffd1bdb7425e51d9025a79') in 0.047103 seconds
+  Import took 0.058478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.104487 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6650e8fbb56b9a89bcb630938d92bed8') in 0.043335 seconds
+  Import took 0.054358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.119895 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab
+  artifactKey: Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab using Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb66202b1e1165c4d3590322c05535f4') in 0.049233 seconds
+  Import took 0.061156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.834128 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1A LOD.fbx
+  artifactKey: Guid(0d232e28ed9545d4aa8da4c07315c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1A LOD.fbx using Guid(0d232e28ed9545d4aa8da4c07315c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595e6641bc4e926fd84a4617cdfc1e5') in 0.116786 seconds
+  Import took 0.129524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.582681 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab
+  artifactKey: Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab using Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bbee153f3f9af78877ea3d7ea867d6') in 0.046662 seconds
+  Import took 0.058346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.302072 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1B LOD.fbx
+  artifactKey: Guid(133cc468c716b5543b5253ea0ecb00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1B LOD.fbx using Guid(133cc468c716b5543b5253ea0ecb00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc44fd0bb89c8325c61a5d4e5bae812') in 0.103945 seconds
+  Import took 0.114873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.318982 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab
+  artifactKey: Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab using Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b552f40f6316e72e895b3f13d0be2848') in 0.047728 seconds
+  Import took 0.057811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.968362 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1C LOD.fbx
+  artifactKey: Guid(47a438f25fc2a0c4096d66c5d18c2963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1C LOD.fbx using Guid(47a438f25fc2a0c4096d66c5d18c2963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62bb4bd7e709cbe25dbfc8f26346223') in 0.097360 seconds
+  Import took 0.107017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.231498 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab
+  artifactKey: Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab using Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc308fbb09b5d6e41d333a544b8f978e') in 0.050818 seconds
+  Import took 0.062757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.265286 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1D LOD.fbx
+  artifactKey: Guid(f1cecdff7dcbd1f479fbd4750d9adffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1D LOD.fbx using Guid(f1cecdff7dcbd1f479fbd4750d9adffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39d6d35af662e5ac6ec2c7074d7fdf8') in 0.094494 seconds
+  Import took 0.104556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.978345 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
+  artifactKey: Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab using Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ece036dc39d6fb11a4752919f4bbb6') in 0.046959 seconds
+  Import took 0.057303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.831688 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1E LOD.fbx
+  artifactKey: Guid(bdd8a413ab9fc20499b605b65c95a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1E LOD.fbx using Guid(bdd8a413ab9fc20499b605b65c95a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c32e8ba3dc0f4defff28621846e4e') in 0.092944 seconds
+  Import took 0.103202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003563 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1E LOD.fbx
+  artifactKey: Guid(bdd8a413ab9fc20499b605b65c95a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Source/Models/Rock1E LOD.fbx using Guid(bdd8a413ab9fc20499b605b65c95a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c32e8ba3dc0f4defff28621846e4e') in 0.075456 seconds
+  Import took 0.085081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.528196 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1E.prefab
+  artifactKey: Guid(d2db22038a6f9804598cd46453cc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1E.prefab using Guid(d2db22038a6f9804598cd46453cc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61961b8982b1663fb73c8f87c533d447') in 0.051334 seconds
+  Import took 0.062715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.470397 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
+  artifactKey: Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab using Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ead60be97612e3e0d4629edc616e8') in 0.046604 seconds
+  Import took 0.058455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.839516 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
+  artifactKey: Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab using Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f201e79bf218ef9911f49914e0b248') in 0.035859 seconds
+  Import took 0.046249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.144148 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a5477c3d3a0299308b7df14e1378e1') in 0.051106 seconds
+  Import took 0.063350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.990386 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844d8bb4d35932e947b0d11d7af042c6') in 0.048639 seconds
+  Import took 0.060835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.733862 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909b40f8e618bcefccae4cb26ee4ef7a') in 0.055150 seconds
+  Import took 0.067585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.243288 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d741e2a191ee216b29689a9d5a1870') in 0.045202 seconds
+  Import took 0.057214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.600051 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe57b291448f2a529f2b4034c4d8adc9') in 0.037538 seconds
+  Import took 0.047755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.746655 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec21b2f89f2b023f80435cf2607fd73f') in 0.039952 seconds
+  Import took 0.050386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.150591 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6e2e1d2cbd47e73500e1aeda308070') in 0.052214 seconds
+  Import took 0.063112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.868022 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755778e49e2def0508dd2d22b8bf0aaf') in 0.040768 seconds
+  Import took 0.051607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.241666 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63fde6d8071a845c7b08fdcfd9fa0c9') in 0.039837 seconds
+  Import took 0.050097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.441359 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43777d846b976e6095d3f8ed2422027') in 0.037902 seconds
+  Import took 0.047848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533445 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c12e7e94d66ed4faf92eb54c9e89732') in 0.037048 seconds
+  Import took 0.047449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.531799 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d26c9399310c3d692a2be4ed646954') in 0.037526 seconds
+  Import took 0.048285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.574264 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44411633a35a4d640d0359d6d9ec189') in 0.065625 seconds
+  Import took 0.077710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.912716 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca999152384194f5ecde8003a62e5f9') in 0.047798 seconds
+  Import took 0.058581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.748111 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eed168e28a8ecec519ab6a74978aa8') in 0.046528 seconds
+  Import took 0.058263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dad100e4caab1ca649cdaf140f0bb71') in 0.036935 seconds
+  Import took 0.048224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.886961 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 1 LODS.fbx
+  artifactKey: Guid(885766ac45b3f7946a1006f71e2f753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Meshes/Tree 1 LODS.fbx using Guid(885766ac45b3f7946a1006f71e2f753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35f9ae4c77e388f5451d1c65b4b23b5') in 0.128833 seconds
+  Import took 0.139423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.329106 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4145549d3b71fbb338f73882310216a2') in 0.041217 seconds
+  Import took 0.052403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.602120 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161de296f39525544125cc97c7aee41') in 0.029162 seconds
+  Import took 0.038434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.746234 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b168162ebdb7ede1418ee62c443f7b2') in 0.026040 seconds
+  Import took 0.034991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.691425 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9d1e82a0e9eefc7efc89d90a7afccf') in 0.028568 seconds
+  Import took 0.038293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.295378 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab2f1bc34eb898d1bcfa32bf332ff09') in 0.045209 seconds
+  Import took 0.057759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.426310 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a250b5cba58314008b734c8e705683') in 0.037229 seconds
+  Import took 0.047842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.939632 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963227e719d590a4edf61847162168d6') in 0.036882 seconds
+  Import took 0.047579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800336 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce9187e45f562c32119a3dbd9ecbc57') in 0.051143 seconds
+  Import took 0.063569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.403144 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c482cf4b9985f2ccd4daa4f068181ffe') in 0.039027 seconds
+  Import took 0.049324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.720894 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2745f9e75ec76e77b19930e29ee3ba') in 0.036613 seconds
+  Import took 0.047011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.932803 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2135651d523fedb9e461d70f72651d') in 0.039686 seconds
+  Import took 0.050207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.746341 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd6655bab064f6ad499ae24b88581f') in 0.038408 seconds
+  Import took 0.048913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.267922 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4d0e808f103b47051005cb295b3be') in 0.039145 seconds
+  Import took 0.050086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.469765 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710491b4ab03eec7529ea27a058638c6') in 0.037322 seconds
+  Import took 0.048170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053485 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd34b04185332acac7c4316c155f55e') in 0.037012 seconds
+  Import took 0.047474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.368940 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bca3004dd184913cabed54aedad9461') in 0.037418 seconds
+  Import took 0.049073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324346 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd08a898476d7299a2df390f19f37ec') in 0.039437 seconds
+  Import took 0.050057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.232066 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c00d9afa01558cfdad4fd326c02c414') in 0.039157 seconds
+  Import took 0.050664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.196908 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105750e6e34b6d5b936902bcb8715387') in 0.038247 seconds
+  Import took 0.048698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.799190 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43790b72286c346c792f5e6a0c148785') in 0.038387 seconds
+  Import took 0.049859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.294446 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccf834c7c0b275d253b39cc155c4479') in 0.037500 seconds
+  Import took 0.047978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.036494 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805ebc02cd09da6b729aa7c74f90fc76') in 0.036737 seconds
+  Import took 0.047212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.340877 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77aaad9dfd012ecc695747a6e53ad1b') in 0.037885 seconds
+  Import took 0.048111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.634494 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e687234aa2825f39193cb42e7cc33e') in 0.042187 seconds
+  Import took 0.053259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.467527 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101a02bf44628d6e135a46c3782452bc') in 0.037636 seconds
+  Import took 0.048302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.098485 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc06b9e6849dbe20beab3072b16bd1c5') in 0.036041 seconds
+  Import took 0.046138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231954 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f0ba2848f81eaa43164b2d78549b28') in 0.036006 seconds
+  Import took 0.048319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.071975 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ed1c06407a1754c009f4998ba16fd') in 0.029375 seconds
+  Import took 0.038538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.853752 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2198c83a7d25895e31a217c35aca595') in 0.036393 seconds
+  Import took 0.047180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.140627 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14299ba695d083ca2338744ae8555e') in 0.036476 seconds
+  Import took 0.047745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.449803 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9237a67190298f535e930cf32ef42') in 0.037321 seconds
+  Import took 0.047934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.610221 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75e28b39eba99c81f42fb2b440270b5') in 0.036332 seconds
+  Import took 0.046898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.194571 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1519efaaf56856835fee2bd9557dd') in 0.042421 seconds
+  Import took 0.052559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.686110 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae376252b14fbc551ac9c8b1920fee') in 0.037000 seconds
+  Import took 0.047916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.495215 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35040530a06aaffc0460bd40fa9c69d') in 0.038780 seconds
+  Import took 0.048930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree a LODS.fbx
+  artifactKey: Guid(11e634de0fe360d4fa7993a584ef75b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree a LODS.fbx using Guid(11e634de0fe360d4fa7993a584ef75b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0adbf899d9d22000df1b583fea931ba') in 0.103929 seconds
+  Import took 0.113963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.948164 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0779c5445474702f535e39251e04970a') in 0.028053 seconds
+  Import took 0.038040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754628 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5af5c0dafb96b442c51b1c7d26191ca') in 0.028357 seconds
+  Import took 0.037991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.732554 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab
+  artifactKey: Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_a.prefab using Guid(17cb05b9f8bd51347a369b124d73be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469d2746abf72e68d64f87cc8bb4a468') in 0.038715 seconds
+  Import took 0.050095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.411349 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f4783dc2f8b472af0aa90cec0101f3') in 0.036694 seconds
+  Import took 0.046278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371237 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af77536515b7f23d13e790c019b81b56') in 0.033691 seconds
+  Import took 0.042346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.799000 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caea997812c8ad91827e8435a0643115') in 0.042742 seconds
+  Import took 0.054343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.586081 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab
+  artifactKey: Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab using Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1c90c15f9f44f37f5736bf4a912dd7') in 0.043595 seconds
+  Import took 0.055159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.883472 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree b LODS.fbx
+  artifactKey: Guid(ef75d7af08421354cab5605967b88e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree b LODS.fbx using Guid(ef75d7af08421354cab5605967b88e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13b9f788ddd5606f404cabe4fe92176') in 0.113475 seconds
+  Import took 0.125582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.100091 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab
+  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb87c6fab490d45ce048305e0a3ca35e') in 0.043664 seconds
+  Import took 0.053658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.569542 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree c LODS.fbx
+  artifactKey: Guid(145b231e090b4584f8bc9c0fedb5dcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree c LODS.fbx using Guid(145b231e090b4584f8bc9c0fedb5dcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0265160f21f191b5295be7119d5b441a') in 0.116012 seconds
+  Import took 0.126317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.033733 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab
+  artifactKey: Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab using Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10540444c2ee8cdd5888e3966fd09b7') in 0.035232 seconds
+  Import took 0.046273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264051 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab
+  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef774c12d5004289e4c4b1ba63e77b7e') in 0.034647 seconds
+  Import took 0.045160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.788849 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree d LODS.fbx
+  artifactKey: Guid(190363b5af9c4f343b1c2fad46576f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree d LODS.fbx using Guid(190363b5af9c4f343b1c2fad46576f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3877b6bffd534f094f68bc3b09c392e6') in 0.115001 seconds
+  Import took 0.127738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.220062 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab
+  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd2914fd5921bb8399afde275ccf7bd') in 0.040328 seconds
+  Import took 0.051221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.643288 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree e LODS.fbx
+  artifactKey: Guid(8961a421e95ca1e4c8ef83eb2f22ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree e LODS.fbx using Guid(8961a421e95ca1e4c8ef83eb2f22ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e210c4f53d919f1344ff9adf4d246') in 0.111104 seconds
+  Import took 0.120414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.869839 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab
+  artifactKey: Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab using Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bfc684371bd57dee7db50af414fa27') in 0.042526 seconds
+  Import took 0.052057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.905960 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree f LODS.fbx
+  artifactKey: Guid(950c2ec31bed05446bd3d031505dcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree f LODS.fbx using Guid(950c2ec31bed05446bd3d031505dcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd9075f187be9f5ffdeff7243a57e53') in 0.152729 seconds
+  Import took 0.167924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.841676 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab
+  artifactKey: Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab using Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7825e4a1505791a3899d5df21229b7') in 0.039537 seconds
+  Import took 0.049915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.705956 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree g LODS.fbx
+  artifactKey: Guid(baaba9a3eb7befe4f93f2e46a750a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree g LODS.fbx using Guid(baaba9a3eb7befe4f93f2e46a750a241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbb6e801ded2a56770baef267d33557') in 0.109073 seconds
+  Import took 0.119322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.182214 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree h LODS.fbx
+  artifactKey: Guid(3474a4e76841e28469191d013fe4d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree h LODS.fbx using Guid(3474a4e76841e28469191d013fe4d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f86902c50e985cb7ca9a08a8819a43d') in 0.106064 seconds
+  Import took 0.117178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.356924 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab
+  artifactKey: Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab using Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22209853aaf160b1c3a966a7b0b7f4ad') in 0.039822 seconds
+  Import took 0.051341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.434499 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree i LODS.fbx
+  artifactKey: Guid(4e91cdadb1718c040b43fdd2b4192f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree i LODS.fbx using Guid(4e91cdadb1718c040b43fdd2b4192f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00db98d94f67bbe52b75227d64ef984b') in 0.114671 seconds
+  Import took 0.124583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.327963 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab
+  artifactKey: Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab using Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3b241ac85d9dcde76330c057d7c6ec') in 0.041171 seconds
+  Import took 0.051068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.177101 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree j LODS.fbx
+  artifactKey: Guid(fa3b6ac2f89dbaf4ba0d52f84ab28dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree j LODS.fbx using Guid(fa3b6ac2f89dbaf4ba0d52f84ab28dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4031cf72340557b2fcc93872a7dbfbcc') in 0.105575 seconds
+  Import took 0.116269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.692335 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab
+  artifactKey: Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab using Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ec60f877911fbd6334ba23d820a9f6') in 0.036100 seconds
+  Import took 0.045588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.513947 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree k LODS.fbx
+  artifactKey: Guid(8f734ed337ae0a74594a828c3ddf1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/Tree k LODS.fbx using Guid(8f734ed337ae0a74594a828c3ddf1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36bbdd38ccb7b31d0cefc7c469d4ab4') in 0.111020 seconds
+  Import took 0.121641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.460430 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab
+  artifactKey: Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_b.prefab using Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cfd6be0f10e61237586e7625768fa0') in 0.036793 seconds
+  Import took 0.047980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab
+  artifactKey: Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_d.prefab using Guid(234f6fb2a7141ac4babed013ec52d294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b98aae394a102c7f6c2a57fe026256') in 0.037129 seconds
+  Import took 0.048078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab
+  artifactKey: Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_g.prefab using Guid(f8244925291293049a4f9db693e9e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ca56a8bbe7d6f02a8e033b970293d6') in 0.029434 seconds
+  Import took 0.039083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab
+  artifactKey: Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_i.prefab using Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5bf4f487d43268b9f4a8cbd67d9792') in 0.031552 seconds
+  Import took 0.045484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab
+  artifactKey: Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_j.prefab using Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeccb40a35b9bc25421b6f73acd5103') in 0.040109 seconds
+  Import took 0.051213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab
+  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a509f619dfe206c07d4f4bacd6ba8c06') in 0.031844 seconds
+  Import took 0.044689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5150d1e71ff67d605c0c9181e9a8f782') in 0.045654 seconds
+  Import took 0.055221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab
+  artifactKey: Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_f.prefab using Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab3ec30426daa7d16b825693d496c1c') in 0.038046 seconds
+  Import took 0.048917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab
+  artifactKey: Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_k.prefab using Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a230ee49b3dcedf93f2406b4250c26') in 0.032170 seconds
+  Import took 0.046012 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.12 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.553 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 4.42 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4745 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.8 MB.
+System memory in use after: 373.1 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5563.
+Total: 9.965200 ms (FindLiveObjects: 1.212400 ms CreateObjectMapping: 0.596800 ms MarkObjects: 7.675500 ms  DeleteObjects: 0.479000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.879705 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec928b1c67697350af86dc7b8330d8df') in 0.668003 seconds
+  Import took 0.677779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.560396 seconds.
+  path: Assets/3rd Party/Nicrom/PolyPacks/Wind/Assets/Models/Grass.prefab
+  artifactKey: Guid(dea44aaff16a13e4291c5a44c9065982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Nicrom/PolyPacks/Wind/Assets/Models/Grass.prefab using Guid(dea44aaff16a13e4291c5a44c9065982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7bb53917af85b19ecae31752ec0a6') in 0.010880 seconds
+  Import took 0.020916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.386239 seconds.
+  path: Assets/3rd Party/Nicrom/PolyPacks/Wind/Assets/Models/Grass.prefab
+  artifactKey: Guid(dea44aaff16a13e4291c5a44c9065982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Nicrom/PolyPacks/Wind/Assets/Models/Grass.prefab using Guid(dea44aaff16a13e4291c5a44c9065982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1a9b55ae64572e58b60e074c4d77ba') in 0.035382 seconds
+  Import took 0.050263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.460024 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2642ad78d7be92118978bd9ec8affaee') in 0.033825 seconds
+  Import took 0.044332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.332164 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f825ff9b213476b9c175c454fec7de') in 0.039830 seconds
+  Import took 0.050203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.240987 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ecd9e4c63fee397c058a9ac50dc1f2') in 0.037107 seconds
+  Import took 0.046842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.659343 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332b2a2d2b3c4756b403b8b76b71cf23') in 0.036806 seconds
+  Import took 0.047850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.460300 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4329159797ff939eb7105af2dd2550c') in 0.040096 seconds
+  Import took 0.050541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.099339 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f441063b491e71c7abb87768ebf4bb92') in 0.037582 seconds
+  Import took 0.047677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016624 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3e396cbc209d496b93a93ec0994c2') in 0.037319 seconds
+  Import took 0.047793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.015443 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c9bb47ebce470f5a0be77c0638e8fd') in 0.038811 seconds
+  Import took 0.048980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025575 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a29a930a5b295bb534e6346a2601f3') in 0.036021 seconds
+  Import took 0.046505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.243167 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608ffd2907dd494e375057d85655760e') in 0.036763 seconds
+  Import took 0.046758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.282516 seconds.
+  path: Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset
+  artifactKey: Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset using Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d0798936ecd164159a64bf8af1c40') in 0.008764 seconds
+  Import took 0.018049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020544 seconds.
+  path: Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset
+  artifactKey: Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset using Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d0798936ecd164159a64bf8af1c40') in 0.003821 seconds
+  Import took 0.014485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.765164 seconds.
+  path: Assets/Scenes/samplescene/HDRPDefaultSettings - Copy.asset
+  artifactKey: Guid(4d45a75f9d6f80c42af9f64ae0c9ec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/HDRPDefaultSettings - Copy.asset using Guid(4d45a75f9d6f80c42af9f64ae0c9ec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a31da55b9070270bb2aabdfef77a6') in 0.007515 seconds
+  Import took 0.015560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011324 seconds.
+  path: Assets/Scenes/samplescene/HDRPDefaultSettings - Copy.asset
+  artifactKey: Guid(4d45a75f9d6f80c42af9f64ae0c9ec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/HDRPDefaultSettings - Copy.asset using Guid(4d45a75f9d6f80c42af9f64ae0c9ec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a31da55b9070270bb2aabdfef77a6') in 0.003422 seconds
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.075933 seconds.
+  path: Assets/Scenes/samplescene/OcclusionCullingData.asset
+  artifactKey: Guid(b93e4845a3184f14f80f595f1657151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/OcclusionCullingData.asset using Guid(b93e4845a3184f14f80f595f1657151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2046e2846d6cd6d793e8c6cdfb8ab97') in 0.011239 seconds
+  Import took 0.020682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022170 seconds.
+  path: Assets/Scenes/samplescene/OcclusionCullingData.asset
+  artifactKey: Guid(b93e4845a3184f14f80f595f1657151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/OcclusionCullingData.asset using Guid(b93e4845a3184f14f80f595f1657151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2046e2846d6cd6d793e8c6cdfb8ab97') in 0.006566 seconds
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.058808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 4.89 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.376 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4735 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.6 MB.
+System memory in use after: 372.9 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5667.
+Total: 8.337900 ms (FindLiveObjects: 0.926200 ms CreateObjectMapping: 0.619400 ms MarkObjects: 6.241400 ms  DeleteObjects: 0.549000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 5.41 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.105 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.10 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4735 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.7 MB.
+System memory in use after: 373.0 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 9.805500 ms (FindLiveObjects: 3.108300 ms CreateObjectMapping: 0.571500 ms MarkObjects: 5.619000 ms  DeleteObjects: 0.504500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.37 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.819 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4735 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.8 MB.
+System memory in use after: 373.0 MB.
+
+Unloading 320 unused Assets to reduce memory usage. Loaded Objects now: 5671.
+Total: 7.073800 ms (FindLiveObjects: 0.723000 ms CreateObjectMapping: 0.451000 ms MarkObjects: 5.365800 ms  DeleteObjects: 0.532000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 743.897082 seconds.
+  path: Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset
+  artifactKey: Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset using Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e5fc4fc42fa53eb602eaa7e41f36bd') in 0.021496 seconds
+  Import took 0.030362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016298 seconds.
+  path: Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset
+  artifactKey: Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset using Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e5fc4fc42fa53eb602eaa7e41f36bd') in 0.003337 seconds
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.059508 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34ff0ad8dd36a94d8e1489fb6ebde37') in 0.713799 seconds
+  Import took 0.725041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.257959 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34381a48d3c33fae7486ac6411c4916b') in 0.028491 seconds
+  Import took 0.036930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.728266 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab
+  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817c4e5acd4a2962b4d90e2839fbdf96') in 0.033838 seconds
+  Import took 0.043646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.167059 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 5.prefab
+  artifactKey: Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 5.prefab using Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a34ceea85714bd251dc4218a3911ee') in 0.042664 seconds
+  Import took 0.052800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 3.prefab
+  artifactKey: Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 3.prefab using Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0843a710756217739d51f1c0fb73c5c5') in 0.039233 seconds
+  Import took 0.051024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 2.prefab
+  artifactKey: Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 2.prefab using Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6467097e6a3ed4927c0b3187a021a3bd') in 0.038745 seconds
+  Import took 0.049815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.033037 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
+  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2193cf371ad42b4e9532458b09ae1c') in 0.047941 seconds
+  Import took 0.058011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.702673 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e219138d9440914f43b8eb5e65ba9d9') in 0.048112 seconds
+  Import took 0.061227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd2b197e52ce3c43404ce22104bdb3e') in 0.050571 seconds
+  Import took 0.062863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.031120 seconds.
+  path: Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab
+  artifactKey: Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party/Stylized Nature Environment/Prefabs/tree_h.prefab using Guid(cc73d15ad10bfb04bb62d40a852cec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6694a7d3d0761e91b359b664e065e818') in 0.039595 seconds
+  Import took 0.049401 seconds .
+

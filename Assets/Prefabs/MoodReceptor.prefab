@@ -522,6 +522,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e9e8f15286d29c64d8c19b62f1afd3cf,
       type: 2}
+  humStopAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 77fe14d933ebdf34fbe41cb1d44f08ac,
+      type: 2}
   humAudioValue:
     idInternal: 0
     valueGuidInternal: 

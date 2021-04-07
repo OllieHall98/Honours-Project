@@ -15204,6 +15204,18 @@ MonoBehaviour:
   positivePreset: {fileID: 11400000, guid: 0583a0b622f5d8d44b68f3876424e30d, type: 2}
   negativePreset: {fileID: 11400000, guid: d90eb610c50c4024e9e8cb0c6249a577, type: 2}
   cubePickupSentence: (LMB) Convey Positive/Negative energy
+  cubePickupSentence2: Generate energy by exhibiting <color=yellow>Happiness/Positivity</color>
+    or <color=purple>Sadness/Negativity</color>
+  startFireBeam:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8b69b3b2f5dc9cc4b921ff9273257d63,
+      type: 2}
+  stopFireBeam:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f653b22dab46aee47be7fc4689491811,
+      type: 2}
   hitEffect: {fileID: 1369446509}
   line: {fileID: 320152799}
   objectHolder: {fileID: 0}

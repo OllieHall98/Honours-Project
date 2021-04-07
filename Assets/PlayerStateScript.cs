@@ -23,6 +23,8 @@ public class PlayerStateScript : MonoBehaviour
     private PlayerState _playerState;
     private RaycastState _raycastState;
 
+    public Transform playerStartTransform;
+
     public GameObject cameraPivot;
     
     public Camera playerCamera;

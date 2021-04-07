@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using NaughtyAttributes;
 using TMPro;
@@ -28,29 +29,14 @@ namespace UI
 
         private Coroutine _currentCoroutine = null;
 
-        private void Start()
+        private void Awake()
         {
-            if(instance != null && instance != this)
-            {
-                Destroy(this.gameObject);
-            }
-            else
-            {
-                instance = this;
-            }
-
-            if(text == null)
-            {
-                Debug.LogError("Notification text not assigned");
-                return;
-            }
-
+            instance = this;
+            
             _textTransform =    text.GetComponent<RectTransform>();
+            _textStartingPosition = _textTransform.anchoredPosition;
             _textTMP =         text.GetComponent<TextMeshProUGUI>();
             _textTMP.faceColor = Color.clear;
-
-            _textStartingPosition = _textTransform.anchoredPosition;
-
         }
 
         public void DisplayMessage(TransitionType type, string message, float duration)
@@ -81,8 +67,8 @@ namespace UI
             }
 
             // Tween the text opacity
-            var tweenOpacity = LeanTween.value(gameObject, Color.clear, Color.white, speed);
-            tweenOpacity.setOnUpdate((Color opacity) => { _textTMP.faceColor = opacity; });
+            var tweenOpacity = LeanTween.value(gameObject, 0f, 1f, speed);
+            tweenOpacity.setOnUpdate((float opacity) => { _textTMP.faceColor = new Color(1, 1, 1, opacity); });
 
             yield return new WaitForSecondsRealtime(duration);
 
@@ -98,8 +84,8 @@ namespace UI
             }
 
             // Tween the text opacity
-            tweenOpacity = LeanTween.value(gameObject, Color.white, Color.clear, speed);
-            tweenOpacity.setOnUpdate((Color opacity) => { _textTMP.faceColor = opacity; });
+            tweenOpacity = LeanTween.value(gameObject, 1f, 0f, speed);
+            tweenOpacity.setOnUpdate((float opacity) => {  _textTMP.faceColor = new Color(1,1,1 ,opacity); });
         }
         
         public void StopDisplayingText(TransitionType type)
@@ -114,8 +100,8 @@ namespace UI
             }
 
             // Tween the text opacity
-            var tweenOpacity = LeanTween.value(gameObject, Color.white, Color.clear, speed);
-            tweenOpacity.setOnUpdate((Color opacity) => { _textTMP.faceColor = opacity; });
+            var tweenOpacity = LeanTween.value(gameObject, 1f, 0f, speed);
+            tweenOpacity.setOnUpdate((float opacity) => {  _textTMP.faceColor = new Color(1,1,1 ,opacity); });
         }
         
     }

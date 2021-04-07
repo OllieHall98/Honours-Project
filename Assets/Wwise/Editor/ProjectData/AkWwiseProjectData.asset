@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d9bd86c2ecffcb43be2a739e96c240df
     GuidInternal: 
-    m_lastTime: -8585839661054293894
+    m_lastTime: -8585838504505142325
     List:
     - name: Default
       guid: 1eced2f1efc9b846b3ca73a567b39d78
@@ -68,8 +68,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2cf7823a53e5be47a47e243015e32196
     GuidInternal: 
-    m_lastTime: -8585839661054197795
+    m_lastTime: -8585838504537832989
     List:
+    - name: BridgeForestEntry
+      guid: 7ae08d3d5fac0c42ace332799b3bad93
+      id: 3594869627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BridgeForestEntry
+        ObjectType: 3
+      Path: Default Work Unit\BridgeForestEntry
+      maxAttenuation: 0
+      maxDuration: 63.526848
+      minDuration: 63.526848
+    - name: ConveyanceCube_Music
+      guid: 706737c49088184eb146dc2e4a239236
+      id: 1826863455
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ConveyanceCube_Music
+        ObjectType: 3
+      Path: Default Work Unit\ConveyanceCube_Music
+      maxAttenuation: 0
+      maxDuration: 28.41347
+      minDuration: 28.41347
     - name: FireConveyanceBeam_Start
       guid: fc567229ebab3249a688c6fad2ce4bbe
       id: 1332520360
@@ -94,6 +118,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: ForestAudio
+      guid: ef8c0dff03c92541b7060fd72a74ea36
+      id: 3241912412
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ForestAudio
+        ObjectType: 3
+      Path: Default Work Unit\ForestAudio
+      maxAttenuation: 200
+      maxDuration: -1
+      minDuration: -1
+    - name: ForestEntry
+      guid: c52e6ea9cf1e744cb829a686cb3c4050
+      id: 4082919014
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ForestEntry
+        ObjectType: 3
+      Path: Default Work Unit\ForestEntry
+      maxAttenuation: 0
+      maxDuration: 23.268753
+      minDuration: 23.268753
+    - name: MindRelicGet
+      guid: 112dcedda12da54496e330a808413513
+      id: 2100819074
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MindRelicGet
+        ObjectType: 3
+      Path: Default Work Unit\MindRelicGet
+      maxAttenuation: 0
+      maxDuration: 11.833469
+      minDuration: 11.833469
     - name: OpenChest
       guid: 1f1095eb43c822429863fbc1e9a9703c
       id: 4187372360
@@ -106,6 +166,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 10.716848
       minDuration: 10.716848
+    - name: OpeningCinematic
+      guid: 06ee0bfd5303b8419e7f08aae29b7b5b
+      id: 3875903466
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OpeningCinematic
+        ObjectType: 3
+      Path: Default Work Unit\OpeningCinematic
+      maxAttenuation: 0
+      maxDuration: 52.393402
+      minDuration: 52.393402
     - name: StartMoodReceptorHum
       guid: cc0171deade5c244a01f22a9d2a6ce3c
       id: 2597147220
@@ -130,6 +202,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: StopMoodReceptorHum
+      guid: 6d74f6269b5e9145b0505290cea21ae3
+      id: 2502713118
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopMoodReceptorHum
+        ObjectType: 3
+      Path: Default Work Unit\StopMoodReceptorHum
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Teleport
+      guid: 5378791a249b4e4ba8b776dc34522d4e
+      id: 530129416
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Teleport
+        ObjectType: 3
+      Path: Default Work Unit\Teleport
+      maxAttenuation: 0
+      maxDuration: 12.201201
+      minDuration: 12.201201
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

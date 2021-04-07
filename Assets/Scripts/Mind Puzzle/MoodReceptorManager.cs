@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class MoodReceptorManager : MonoBehaviour
 {
-    [SerializeField] private GameObject cube;
     private MoodReceptorScript[] _moodReceptors;
 
     private bool _coroutineExecuting = false;
@@ -20,6 +19,11 @@ public class MoodReceptorManager : MonoBehaviour
         _conveyanceCubeScript = ConveyanceCubeScript.Instance;
 
         _moodReceptors = GetComponentsInChildren<MoodReceptorScript>();
+    }
+
+    public void SetConveyanceCube()
+    {
+        _conveyanceCubeScript = ConveyanceCubeScript.Instance;
     }
     
     private void Update()
@@ -36,6 +40,14 @@ public class MoodReceptorManager : MonoBehaviour
         foreach (var moodReceptor in _moodReceptors)
         {
             moodReceptor.StartAudio();
+        }
+    }
+    
+    public void StopReceptorAudio()
+    {
+        foreach (var moodReceptor in _moodReceptors)
+        {
+            moodReceptor.StopAudio();
         }
     }
 
@@ -56,13 +68,19 @@ public class MoodReceptorManager : MonoBehaviour
         foreach (var moodReceptor in _moodReceptors)
         {
             float value = moodReceptor.value;
-            if (value > 55 || value < 45)
+            if (value > 57 || value < 43)
                 allReceptorsCorrect = false;
         }
 
         if (allReceptorsCorrect)
         {
-            cube.SetActive(false);
+            StartCoroutine(OpenChest.Instance.EndPuzzleCutscene());
+            
+            foreach (var moodReceptor in _moodReceptors)
+            {
+                moodReceptor.active = false;
+            }
+            
             _puzzleCompleted = true;
         }
        

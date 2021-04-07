@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1679541278481896416
 Transform:
@@ -121,6 +121,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7037044870052819418, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
     - target: {fileID: -3475092589181223713, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -145,6 +150,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree 2 LODS
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052641752100709365, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2281660412431482873, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
       objectReference: {fileID: 0}
     - target: {fileID: 7650604513412214975, guid: 07a8a8fbf2efa5a4090a8edb08c91b23,
         type: 3}

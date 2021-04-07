@@ -16,8 +16,11 @@ public class MoodReceptorScript : MonoBehaviour
     [SerializeField] private Gradient colorGradient;
 
     [SerializeField] private AK.Wwise.Event humAudioEvent;
+    [SerializeField] private AK.Wwise.Event humStopAudioEvent;
     [SerializeField] private AK.Wwise.RTPC humAudioValue;
 
+    public bool active;
+    
     //private Light _light;
     
 #region equilibrium values
@@ -32,6 +35,8 @@ public class MoodReceptorScript : MonoBehaviour
     
     private void Start()
     {
+        active = true;
+        
         _particleSystem = GetComponentInChildren<ParticleSystem>();
         _particleSystemRenderer = _particleSystem.GetComponent<ParticleSystemRenderer>();
         _particleSystemShape = _particleSystem.shape;
@@ -54,6 +59,11 @@ public class MoodReceptorScript : MonoBehaviour
     {
         humAudioEvent.Post(gameObject);
     }
+    
+    public void StopAudio()
+    {
+        humStopAudioEvent.Post(gameObject);
+    }
 
     public void AddToDictionary()
     {
@@ -64,6 +74,8 @@ public class MoodReceptorScript : MonoBehaviour
 
     public void DetermineValueChange(CubeState state)
     {
+        if (!active) return;
+        
         float amount = state switch
         {
             CubeState.Positive when value < _maxValue => 8,

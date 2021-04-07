@@ -18,13 +18,9 @@ public class MenuManager : MonoBehaviour
         if (!Input.GetButtonDown("Cancel")) return;
         
         if (!_paused)
-        {
             OpenPauseMenu();
-        }
         else
-        {
             ClosePauseMenu();
-        }
     }
 
     private static void ChangeCursorState(CursorLockMode lockMode)

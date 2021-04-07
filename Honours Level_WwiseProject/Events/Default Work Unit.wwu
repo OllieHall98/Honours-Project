@@ -100,6 +100,98 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OpeningCinematic" ID="{FD0BEE06-0353-41B8-9E7F-08AAE29B7B5B}">
+					<ChildrenList>
+						<Action Name="" ID="{F9EE432B-7970-4EF6-B23F-51C643FC0593}" ShortID="683889474">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CinematicIntroAudio" ID="{D72ACECC-EA72-4310-B93C-37DE1A5BB84E}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ConveyanceCube_Music" ID="{C4376770-8890-4E18-B146-DC2E4A239236}">
+					<ChildrenList>
+						<Action Name="" ID="{1D126EA5-76DA-4238-A8E1-8F8A7D1D6615}" ShortID="158134090">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ConveyanceCubeMusic" ID="{EC0F0392-6712-4255-95CF-A6AC2B575B05}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMoodReceptorHum" ID="{26F6746D-5E9B-4591-B050-5290CEA21AE3}">
+					<ChildrenList>
+						<Action Name="" ID="{C76349FB-6045-47C7-8C89-2F9235871710}" ShortID="659339452">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MoodReceptorHum" ID="{154BB929-DE88-45F8-B890-39038C0A1A16}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ForestAudio" ID="{FF0D8CEF-C903-4125-B706-0FD72A74EA36}">
+					<ChildrenList>
+						<Action Name="" ID="{A39B7E48-72F1-4D7C-9A33-052FE42A8815}" ShortID="984347578">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest ambience" ID="{06642A9C-5594-4B2A-A2A5-821B662E9EF4}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ForestEntry" ID="{A96E2EC5-1ECF-4C74-B829-A686CB3C4050}">
+					<ChildrenList>
+						<Action Name="" ID="{6A3687A1-32DE-4F2D-BB17-DBC23BF49CC9}" ShortID="882456032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Intro Music" ID="{3ABADE3F-CBCD-40C0-A338-4D2E3DA3E676}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Teleport" ID="{1A797853-9B24-4B4E-A8B7-76DC34522D4E}">
+					<ChildrenList>
+						<Action Name="" ID="{199EAC04-D5E1-4E80-86F0-FFFE09C5A213}" ShortID="197123825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teleport" ID="{CDAE770A-FE05-444A-A3D5-5A09ACDC6DEF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BridgeForestEntry" ID="{3D8DE07A-AC5F-420C-ACE3-32799B3BAD93}">
+					<ChildrenList>
+						<Action Name="" ID="{3EBD68D7-13EF-437B-B1FC-5C778732DE28}" ShortID="404723990">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BridgeForest Intro Music" ID="{33055BB3-1563-46C9-8743-6559B5F89ADF}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MindRelicGet" ID="{DDCE2D11-2DA1-44A5-96E3-30A808413513}">
+					<ChildrenList>
+						<Action Name="" ID="{EE42CADC-69D9-450F-8764-75F68E9D296F}" ShortID="190173911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MindRelicGet" ID="{F4B27668-5D92-4298-849C-E4CD3E986EF3}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4710095859576006
 Transform:
@@ -40,20 +40,24 @@ LODGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275040304669678}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.8274431, y: 4.526618, z: -0.7353642}
-  m_Size: 9.060543
+  m_LocalReferencePoint: {x: 0.8274431, y: 4.525917, z: -0.7353643}
+  m_Size: 9.061945
   m_FadeMode: 1
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.44977742
-    fadeTransitionWidth: 0.1
+  - screenRelativeHeight: 0.35610843
+    fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 7181531379733143433}
-  - screenRelativeHeight: 0.011902748
-    fadeTransitionWidth: 0.1
+  - screenRelativeHeight: 0.12727064
+    fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 6738672890071776691}
+  - screenRelativeHeight: 0.011805238
+    fadeTransitionWidth: 0.05
+    renderers:
+    - renderer: {fileID: 2726107908515143074}
   m_Enabled: 1
 --- !u!1001 &2406774616239109804
 PrefabInstance:
@@ -62,6 +66,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4710095859576006}
     m_Modifications:
+    - target: {fileID: -8884616421259711730, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e82f7625bc35e45bc5d380532fa087, type: 2}
+    - target: {fileID: -8884616421259711730, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
     - target: {fileID: -8679921383154817045, guid: 3474a4e76841e28469191d013fe4d1cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -117,6 +131,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7538106493819195879, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
+    - target: {fileID: -7451541751722209101, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
     - target: {fileID: -4409173025077106395, guid: 3474a4e76841e28469191d013fe4d1cb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -131,6 +155,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree h LODS
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
+      objectReference: {fileID: 0}
+    - target: {fileID: 7563272203953055506, guid: 3474a4e76841e28469191d013fe4d1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967277
       objectReference: {fileID: 0}
     - target: {fileID: 8998763291926039327, guid: 3474a4e76841e28469191d013fe4d1cb,
         type: 3}
@@ -159,6 +193,12 @@ MeshRenderer:
 --- !u!23 &6738672890071776691 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8998763291926039327, guid: 3474a4e76841e28469191d013fe4d1cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2406774616239109804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2726107908515143074 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8884616421259711730, guid: 3474a4e76841e28469191d013fe4d1cb,
     type: 3}
   m_PrefabInstance: {fileID: 2406774616239109804}
   m_PrefabAsset: {fileID: 0}
