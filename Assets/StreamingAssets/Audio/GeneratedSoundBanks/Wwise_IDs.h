@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID FIRECONVEYANCEBEAM_STOP = 2598825076U;
         static const AkUniqueID FORESTAUDIO = 3241912412U;
         static const AkUniqueID FORESTENTRY = 4082919014U;
+        static const AkUniqueID GAMEPLAYSTARTMUSIC = 3807001816U;
         static const AkUniqueID MINDRELICGET = 2100819074U;
         static const AkUniqueID OPENCHEST = 4187372360U;
         static const AkUniqueID OPENINGCINEMATIC = 3875903466U;

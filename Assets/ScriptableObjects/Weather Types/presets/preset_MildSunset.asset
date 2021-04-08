@@ -46,5 +46,5 @@ MonoBehaviour:
     enabled: 1
     changeIntensity: 1
     changeColor: 1
-    color: {r: 1, g: 1, b: 1, a: 1}
+    color: {r: 1, g: 1, b: 1, a: 0}
     intensity: 0

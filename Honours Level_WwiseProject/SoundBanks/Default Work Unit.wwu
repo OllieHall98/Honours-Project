@@ -13,6 +13,7 @@
 						<ObjectRef Name="StartMoodReceptorHum" ID="{DE7101CC-E5AD-44C2-A01F-22A9D2A6CE3C}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopMoodReceptorHum" ID="{26F6746D-5E9B-4591-B050-5290CEA21AE3}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FireConveyanceBeam_Stop" ID="{589FE7F5-A576-45E6-BBFF-FB9F03B7EB29}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameplayStartMusic" ID="{C10DE053-630A-4883-962E-7CE0E7F411C4}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FireConveyanceBeam_Start" ID="{297256FC-ABEB-4932-A688-C6FAD2CE4BBE}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Teleport" ID="{1A797853-9B24-4B4E-A8B7-76DC34522D4E}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ForestEntry" ID="{A96E2EC5-1ECF-4C74-B829-A686CB3C4050}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>

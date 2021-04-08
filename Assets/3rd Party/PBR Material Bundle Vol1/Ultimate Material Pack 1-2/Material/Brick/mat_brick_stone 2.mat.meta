@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 18e286e13d553df46bad775085a0ac01
+labels:
+- Brick
+- Floor
+- Material
+- Pbr
+- Wall
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

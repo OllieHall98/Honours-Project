@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2598825076	FireConveyanceBeam_Stop			\Default Work Unit\FireConveyanceBeam_Stop	
 	3241912412	ForestAudio			\Default Work Unit\ForestAudio	
 	3594869627	BridgeForestEntry			\Default Work Unit\BridgeForestEntry	
+	3807001816	GameplayStartMusic			\Default Work Unit\GameplayStartMusic	
 	3875903466	OpeningCinematic			\Default Work Unit\OpeningCinematic	
 	4082919014	ForestEntry			\Default Work Unit\ForestEntry	
 	4187372360	OpenChest			\Default Work Unit\OpenChest	
@@ -21,9 +22,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	345908968	CinematicIntroAudio	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\CinematicIntroAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CinematicIntroAudio		9242260
 	345965029	Heavy Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Heavy Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Heavy Rain		10379772
 	425260009	Distorted Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Distorted Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Distorted Hum		1691516
-	462847827	Forest Intro Music	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Forest Intro Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest Intro Music		4104736
+	462847827	Forest Intro Music	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Forest Intro Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest Intro Music		22093168
 	515257183	Teleport	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport		2152356
 	528281650	MindRelicGet	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\MindRelicGet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MindRelicGet		2087488
+	570604354	GameplayStartMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\GameplayStartMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameplayStartMusic		17287264
 	733600970	Light Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Light Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Light Rain		5636116
 	755188457	ChestOpenSound	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ChestOpenSound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChestOpenSound		1890516
 	761277468	Clear Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Clear Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Clear Hum		2099348

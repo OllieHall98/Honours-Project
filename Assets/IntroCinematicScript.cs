@@ -11,6 +11,7 @@ public class IntroCinematicScript : MonoBehaviour
     public string gameTitle;
 
     public AK.Wwise.Event music;
+    public AK.Wwise.Event gameplayStartmusic;
     
     public GameObject blackBars;
     public Image fader;
@@ -34,6 +35,7 @@ public class IntroCinematicScript : MonoBehaviour
             
             NotificationText.Instance.DisplayMessage(TransitionType.Float, "Introduce the player to the game", 6.0f);
             UIVisibilityScript.Instance.ShowUI(2f);
+            
             return;
         }
 
@@ -45,6 +47,8 @@ public class IntroCinematicScript : MonoBehaviour
 
     private IEnumerator Cutscene()
     {
+        PlayerStateScript.Instance.playerCamera.enabled = false;
+        
         cutsceneAnimator.SetTrigger(StartAnim);
         UIVisibilityScript.Instance.HideUIInstant();
         PlayerStateScript.Instance.SetMovementActive(false, false);
@@ -77,7 +81,7 @@ public class IntroCinematicScript : MonoBehaviour
 
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
-
+        PlayerStateScript.Instance.playerCamera.enabled = true;
         GetComponent<Camera>().enabled = false;
         PortalScript.Instance.Disable();
         
@@ -89,5 +93,9 @@ public class IntroCinematicScript : MonoBehaviour
         PlayerStateScript.Instance.SetMovementActive(true, true);
         
         NotificationText.Instance.DisplayMessage(TransitionType.Float, "Introduce the player to the game", 6.0f);
+
+        yield return new WaitForSecondsRealtime(8f);
+        
+        gameplayStartmusic.Post(gameObject);
     }
 }

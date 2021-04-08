@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="1204987782">
+		<SoundBank Id="782826392" Language="SFX" Hash="1470290925">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -41,7 +41,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2598825076" Name="FireConveyanceBeam_Stop" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3241912412" Name="ForestAudio" ObjectPath="\Events\Default Work Unit\ForestAudio" MaxAttenuation="200.000000" DurationType="Infinite">
+				<Event Id="3241912412" Name="ForestAudio" ObjectPath="\Events\Default Work Unit\ForestAudio" MaxAttenuation="40.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="816237619" Language="SFX">
 							<ShortName>Forest ambience.wav</ShortName>
@@ -49,11 +49,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4082919014" Name="ForestEntry" ObjectPath="\Events\Default Work Unit\ForestEntry" DurationType="OneShot" DurationMin="23.268753" DurationMax="23.268753">
+				<Event Id="4082919014" Name="ForestEntry" ObjectPath="\Events\Default Work Unit\ForestEntry" DurationType="OneShot" DurationMin="115.068253" DurationMax="115.068253">
 					<IncludedMemoryFiles>
 						<File Id="462847827" Language="SFX">
 							<ShortName>Forest Intro Music.wav</ShortName>
 							<Path>SFX\Forest Intro Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3807001816" Name="GameplayStartMusic" ObjectPath="\Events\Default Work Unit\GameplayStartMusic" DurationType="OneShot" DurationMin="98.000000" DurationMax="98.000000">
+					<IncludedMemoryFiles>
+						<File Id="570604354" Language="SFX">
+							<ShortName>GameplayStartMusic.wav</ShortName>
+							<Path>SFX\GameplayStartMusic_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

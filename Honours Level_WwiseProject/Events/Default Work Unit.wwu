@@ -192,6 +192,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="GameplayStartMusic" ID="{C10DE053-630A-4883-962E-7CE0E7F411C4}">
+					<ChildrenList>
+						<Action Name="" ID="{FAF77922-165F-45BC-8C52-CE7B50A251D7}" ShortID="82553324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayStartMusic" ID="{12CD414A-E0E1-473F-9BB1-C1314F17DD44}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

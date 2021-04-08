@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d9bd86c2ecffcb43be2a739e96c240df
     GuidInternal: 
-    m_lastTime: -8585838504505142325
+    m_lastTime: -8585837920338277466
     List:
     - name: Default
       guid: 1eced2f1efc9b846b3ca73a567b39d78
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2cf7823a53e5be47a47e243015e32196
     GuidInternal: 
-    m_lastTime: -8585838504537832989
+    m_lastTime: -8585837891935712536
     List:
     - name: BridgeForestEntry
       guid: 7ae08d3d5fac0c42ace332799b3bad93
@@ -127,7 +127,7 @@ MonoBehaviour:
       - ElementName: ForestAudio
         ObjectType: 3
       Path: Default Work Unit\ForestAudio
-      maxAttenuation: 200
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: ForestEntry
@@ -140,8 +140,20 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\ForestEntry
       maxAttenuation: 0
-      maxDuration: 23.268753
-      minDuration: 23.268753
+      maxDuration: 115.06825
+      minDuration: 115.06825
+    - name: GameplayStartMusic
+      guid: 53e00dc10a638348962e7ce0e7f411c4
+      id: 3807001816
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GameplayStartMusic
+        ObjectType: 3
+      Path: Default Work Unit\GameplayStartMusic
+      maxAttenuation: 0
+      maxDuration: 98
+      minDuration: 98
     - name: MindRelicGet
       guid: 112dcedda12da54496e330a808413513
       id: 2100819074

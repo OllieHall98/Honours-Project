@@ -52,7 +52,7 @@
 				</Attenuation>
 				<Attenuation Name="Forest" ID="{35A37F07-64AA-4DE9-A25F-C42E4DA1799B}" ShortID="600603212">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="200"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -69,13 +69,13 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>145.76803</XPos>
+											<XPos>29.153606</XPos>
 											<YPos>-2.10723</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>200</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

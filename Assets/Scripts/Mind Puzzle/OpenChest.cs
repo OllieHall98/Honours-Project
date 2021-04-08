@@ -50,11 +50,7 @@ public class OpenChest : MonoBehaviour
 
     public void Open()
     {
-        if(!_coroutineExecuting) StartCoroutine(MovePlayerToPosition());
-
-        openChestAudio.Post(gameObject);
-        
-        
+        //if(!_coroutineExecuting) StartCoroutine(MovePlayerToPosition());
         
         //mindPuzzleAnimator.SetTrigger(Chest);
         StartCoroutine(StartPuzzleCutscene());
@@ -63,9 +59,14 @@ public class OpenChest : MonoBehaviour
     IEnumerator StartPuzzleCutscene()
     {
         BlackBarTransitioner.Instance.Show(0.4f);
-
         UIVisibilityScript.Instance.HideUI(0.25f);
-
+        
+        yield return new WaitForSecondsRealtime(1.0f);
+        
+        AkSoundEngine.StopAll();
+        MovePlayerToPosition();
+        
+        openChestAudio.Post(gameObject);
         mindPuzzleAnimator.SetTrigger(Chest);
         
         ReticleManager.Instance.HideReticle();
@@ -115,8 +116,11 @@ public class OpenChest : MonoBehaviour
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 0.5f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
         mindBeacon.SetActive(false);
+        RelicHolderScript.Instance.EnableRelic(RelicHolderScript.Instance.mindRelic);
+        RelicUIManager.Instance.EnableRelicUI(RelicUIManager.Instance.mindRelic);
         _player.transform.position = PlayerStateScript.Instance.playerStartTransform.position;
         PlayerStateScript.Instance.SetMovementActive(true, true);
+        PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
         yield return new WaitForSecondsRealtime(1f);
         BlackBarTransitioner.Instance.Hide(2f);
         UIVisibilityScript.Instance.ShowUI(2.0f);
@@ -135,39 +139,53 @@ public class OpenChest : MonoBehaviour
         startMusic.Post(gameObject);
     }
 
-    private bool _coroutineExecuting;
+    //private bool _coroutineExecuting;
     
 
-    private IEnumerator MovePlayerToPosition()
-    {
-        _coroutineExecuting = true;
-        
-        PlayerStateScript.Instance.SetMovementActive(false, true);
+    // private IEnumerator MovePlayerToPosition()
+    // {
+    //     _coroutineExecuting = true;
+    //     
+    //     PlayerStateScript.Instance.SetMovementActive(false, true);
+    //
+    //     
+    //     float timer = 0;
+    //     
+    //     var targetPosition = targetTransform.position;
+    //     var startPosition = _player.transform.position;
+    //     var startForward = _cameraPivot.transform.localEulerAngles;
+    //
+    //     var modifiedTargetPosition = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
+    //
+    //     Vector3 targetForward = new Vector3(0, 0, 0);
+    //     
+    //     while(timer < lerpDuration)
+    //     {
+    //         _player.transform.position = Vector3.Lerp(startPosition, modifiedTargetPosition, timer / lerpDuration);
+    //         _cameraPivot.transform.localEulerAngles = Vector3.Lerp(startForward, targetForward, timer / lerpDuration);
+    //         timer += Time.deltaTime;
+    //         
+    //         yield return null;
+    //     }
+    //
+    //     _player.transform.position = modifiedTargetPosition;
+    //     _cameraPivot.transform.localEulerAngles = targetForward;
+    //
+    //     _coroutineExecuting = false;
+    // }
 
-        
-        float timer = 0;
+    void MovePlayerToPosition()
+    {
+        PlayerStateScript.Instance.SetMovementActive(false, true);
         
         var targetPosition = targetTransform.position;
         var startPosition = _player.transform.position;
-        var startForward = _cameraPivot.transform.localEulerAngles;
-
+        
         var modifiedTargetPosition = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
-
         Vector3 targetForward = new Vector3(0, 0, 0);
         
-        while(timer < lerpDuration)
-        {
-            _player.transform.position = Vector3.Lerp(startPosition, modifiedTargetPosition, timer / lerpDuration);
-            _cameraPivot.transform.localEulerAngles = Vector3.Lerp(startForward, targetForward, timer / lerpDuration);
-            timer += Time.deltaTime;
-            
-            yield return null;
-        }
-
         _player.transform.position = modifiedTargetPosition;
         _cameraPivot.transform.localEulerAngles = targetForward;
-
-        _coroutineExecuting = false;
     }
     
     

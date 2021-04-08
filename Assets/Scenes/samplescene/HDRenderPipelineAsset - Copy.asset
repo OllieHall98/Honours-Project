@@ -151,15 +151,14 @@ MonoBehaviour:
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: 582adbd84082fdb4faf7cd4beb1ccd14,
-    type: 2}
+  m_DefaultVolumeProfile: {fileID: 0}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
   m_DefaultLookDevProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140666621394781
-      data2: 4539628425463136280
+      data1: 72198262773251917
+      data2: 13763000468760363032
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -172,8 +171,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
-      data1: 139742655312669
-      data2: 4539628424389459992
+      data1: 135310754214733
+      data2: 4539628428684427288
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -186,8 +185,8 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
-      data1: 139991494955789
-      data2: 4539628424389459992
+      data1: 139923391782733
+      data2: 13763000465807638544
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -204,7 +203,7 @@ MonoBehaviour:
     supportSSRTransparent: 0
     supportSSAO: 1
     supportSSGI: 0
-    supportSubsurfaceScattering: 0
+    supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
       m_SchemaId:
@@ -243,7 +242,7 @@ MonoBehaviour:
     decalLayerName7: Decal Layer 7
     msaaSampleCount: 1
     supportMotionVectors: 1
-    supportRuntimeDebugDisplay: 1
+    supportRuntimeDebugDisplay: 0
     supportRuntimeAOVAPI: 0
     supportDitheringCrossFade: 1
     supportTerrainHole: 0
@@ -254,11 +253,11 @@ MonoBehaviour:
       atlasResolution: 128
       atlasOctahedralDepthResolution: 2048
     lightLoopSettings:
-      cookieAtlasSize: 512
+      cookieAtlasSize: 2048
       cookieFormat: 74
       cookieAtlasLastValidMip: 0
-      cookieTexArraySize: 16
-      planarReflectionAtlasSize: 4096
+      cookieTexArraySize: 1
+      planarReflectionAtlasSize: 1024
       reflectionProbeCacheSize: 64
       reflectionCubemapSize: 256
       reflectionCacheCompressed: 0
@@ -276,16 +275,16 @@ MonoBehaviour:
       maxPlanarReflectionOnScreen: 16
       maxLightsPerClusterCell: 8
     hdShadowInitParams:
-      maxShadowRequests: 64
-      directionalShadowsDepthBits: 16
+      maxShadowRequests: 128
+      directionalShadowsDepthBits: 32
       shadowFilteringQuality: 1
       punctualLightShadowAtlas:
-        shadowAtlasResolution: 2048
-        shadowAtlasDepthBits: 16
+        shadowAtlasResolution: 4096
+        shadowAtlasDepthBits: 32
         useDynamicViewportRescale: 1
       areaLightShadowAtlas:
-        shadowAtlasResolution: 2048
-        shadowAtlasDepthBits: 16
+        shadowAtlasResolution: 4096
+        shadowAtlasDepthBits: 32
         useDynamicViewportRescale: 1
       cachedPunctualLightShadowAtlas: 2048
       cachedAreaLightShadowAtlas: 1024
@@ -301,7 +300,7 @@ MonoBehaviour:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
           m_Id: With4Levels
-      maxDirectionalShadowMapResolution: 512
+      maxDirectionalShadowMapResolution: 2048
       maxPunctualShadowMapResolution: 2048
       maxAreaShadowMapResolution: 2048
       supportScreenSpaceShadows: 0
@@ -353,9 +352,9 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000101
+        m_Values: 000001
         m_SchemaId:
-          m_Id: 
+          m_Id: With3Levels
     maximumLODLevel:
       m_Values: 000000000000000000000000
       m_SchemaId:
@@ -441,9 +440,7 @@ MonoBehaviour:
   availableMaterialQualityLevels: -1
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
-  diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 26bdddf49760c61438938733f07fa2a2, type: 2}
-  - {fileID: 11400000, guid: 78322c7f82657514ebe48203160e3f39, type: 2}
+  diffusionProfileSettingsList: []
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
