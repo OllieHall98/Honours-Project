@@ -31,7 +31,7 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
   fog:
     enabled: 1
-    thickness: 15
+    thickness: 50
   sky:
     enabled: 1
     top: {r: 0.50534, g: 0.5850963, b: 0.6415094, a: 1}

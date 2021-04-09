@@ -43,6 +43,8 @@ namespace Affective
         
         private bool _checkFaceStarted;
         private bool _findFaceStarted;
+
+        public bool affectiveOn;
         
 
         private void Awake()
@@ -74,7 +76,7 @@ namespace Affective
 
         private void Start()
         {
-            SearchForWebcam();
+            if (affectiveOn) SearchForWebcam();
             
             showFaceToggle.onValueChanged.AddListener(delegate {SetWebcamVisibility();});
             webcamDropdown.onValueChanged.AddListener(delegate { PickWebcamFromDropdown(); });
@@ -129,6 +131,19 @@ namespace Affective
 
         private void Update()
         {
+            if (!affectiveOn)
+            {
+                if(Input.GetKey(KeyCode.Alpha1)) affectiveManager.SetCurrentEmotion("neutral");
+                if(Input.GetKey(KeyCode.Alpha2)) affectiveManager.SetCurrentEmotion("joy");
+                if(Input.GetKey(KeyCode.Alpha3)) affectiveManager.SetCurrentEmotion("anger");
+                if(Input.GetKey(KeyCode.Alpha4)) affectiveManager.SetCurrentEmotion("sadness");
+                if(Input.GetKey(KeyCode.Alpha5)) affectiveManager.SetCurrentEmotion("surprise");
+                if(Input.GetKey(KeyCode.Alpha6)) affectiveManager.SetCurrentEmotion("disgust");
+                if(Input.GetKey(KeyCode.Alpha7)) affectiveManager.SetCurrentEmotion("fear");
+                return;
+            }
+            
+            
             OutputProcessedImage();
 
             if (!_findFaceStarted)
