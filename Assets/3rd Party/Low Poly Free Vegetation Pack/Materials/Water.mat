@@ -249,7 +249,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
-    - _Smoothness: 1
+    - _Smoothness: 0.59
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
@@ -294,9 +294,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.35942507, g: 0.37474054, b: 0.38679245, a: 0.75686276}
+    - _BaseColor: {r: 0.087575644, g: 0.29629242, b: 0.4528302, a: 0.75686276}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.35942504, g: 0.3747405, b: 0.38679242, a: 0.75686276}
+    - _Color: {r: 0.08757562, g: 0.2962924, b: 0.45283014, a: 0.75686276}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

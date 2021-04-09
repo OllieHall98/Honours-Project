@@ -148,7 +148,7 @@ LODGroup:
   - screenRelativeHeight: 0.34026453
     fadeTransitionWidth: 0.1
     renderers: []
-  - screenRelativeHeight: 0.01858864
+  - screenRelativeHeight: 0.09626366
     fadeTransitionWidth: 0.1
     renderers: []
   m_Enabled: 1
