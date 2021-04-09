@@ -31,17 +31,17 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 1}
   fog:
     enabled: 1
-    thickness: 20
+    thickness: 40
   sky:
     enabled: 1
-    top: {r: 0.4339623, g: 0, b: 0, a: 1}
+    top: {r: 0.5283019, g: 0, b: 0, a: 1}
     middle: {r: 0, g: 0, b: 0, a: 1}
   sun:
     enabled: 1
     changeIntensity: 1
     changeColor: 1
     intensity: 0
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 0}
   rain:
     enabled: 1
     changeIntensity: 1

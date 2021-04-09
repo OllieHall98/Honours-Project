@@ -24,6 +24,8 @@ public class MirrorPuzzle : MonoBehaviour
     public Affective.ProcessWebcamInput webcamScript;
     //public Material mirrorMat;
     
+    [SerializeField] private AK.Wwise.Event RelicGet;
+    
     [SerializeField] private GameObject soulBeacon;
 
 
@@ -115,6 +117,7 @@ public class MirrorPuzzle : MonoBehaviour
         PlayerStateScript.Instance.SetMovementActive(false, false);
         
         cutsceneAnimator.SetTrigger(FinishedPuzzle);
+        RelicGet.Post(gameObject);
         
         yield return new WaitForSecondsRealtime(5.0f);
         

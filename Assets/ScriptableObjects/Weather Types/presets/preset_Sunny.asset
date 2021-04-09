@@ -40,7 +40,7 @@ MonoBehaviour:
     enabled: 1
     changeIntensity: 1
     changeColor: 1
-    intensity: 30000
+    intensity: 20000
     color: {r: 1, g: 0.9529192, b: 0.7971698, a: 0}
   rain:
     enabled: 1

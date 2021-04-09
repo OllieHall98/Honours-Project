@@ -31,11 +31,11 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
   fog:
     enabled: 1
-    thickness: 450
+    thickness: 850
   sky:
     enabled: 1
-    top: {r: 1, g: 0.93124306, b: 0.7028302, a: 1}
-    middle: {r: 0.8915094, g: 0.9483378, b: 1, a: 1}
+    top: {r: 0.8443396, g: 0.99547416, b: 1, a: 1}
+    middle: {r: 0.6839622, g: 0.85326815, b: 1, a: 1}
   sun:
     enabled: 1
     changeIntensity: 1

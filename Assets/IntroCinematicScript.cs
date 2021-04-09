@@ -16,8 +16,9 @@ public class IntroCinematicScript : MonoBehaviour
     public GameObject blackBars;
     public Image fader;
 
-    public WeatherTypeData weatherStart;
-    public WeatherTypeData weatherTarget;
+    public WeatherTypeData weatherNight;
+    public WeatherTypeData weatherSunrise;
+    public WeatherTypeData weatherDay;
 
     [SerializeField] private float fadeTime;
 
@@ -30,7 +31,7 @@ public class IntroCinematicScript : MonoBehaviour
     {
         if (skipCutscene)
         {
-            WeatherController.Instance.startWeather = weatherTarget;
+            WeatherController.Instance.startWeather = weatherDay;
             GetComponent<Camera>().enabled = false;
             
             NotificationText.Instance.DisplayMessage(TransitionType.Float, "Introduce the player to the game", 6.0f);
@@ -39,7 +40,7 @@ public class IntroCinematicScript : MonoBehaviour
             return;
         }
 
-        WeatherController.Instance.startWeather = weatherStart;
+        WeatherController.Instance.startWeather = weatherNight;
         WeatherController.Instance.ResetWeather();
 
         StartCoroutine(Cutscene());
@@ -63,13 +64,15 @@ public class IntroCinematicScript : MonoBehaviour
         BlackBarTransitioner.Instance.Show(0.1f);
         
         yield return new WaitForSecondsRealtime(1f);
-            var tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, fadeTime);
+        var tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, fadeTime);
             tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(0,0,0, opacity); });
-        yield return new WaitForSecondsRealtime(4f);
-            WeatherController.Instance.ChangeWeather(weatherTarget);
-        yield return new WaitForSecondsRealtime(5f);
-            NotificationText.Instance.DisplayMessage(TransitionType.Fade, gameTitle, 10.0f);
-        yield return new WaitForSecondsRealtime(20f);
+        yield return new WaitForSecondsRealtime(7f);
+        WeatherController.Instance.ChangeWeather(weatherDay, 20.0f);
+        yield return new WaitForSecondsRealtime(2f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Fade, gameTitle, 10.0f);
+        yield return new WaitForSecondsRealtime(10f);
+        //WeatherController.Instance.ChangeWeather(weatherDay, 12.0f);
+        yield return new WaitForSecondsRealtime(10f);
         yield return new WaitForSecondsRealtime(2f);
         BlackBarTransitioner.Instance.Hide(3f);
         yield return new WaitForSecondsRealtime(2.5f);

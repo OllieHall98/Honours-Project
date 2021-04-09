@@ -15,7 +15,7 @@ public class OpenChest : MonoBehaviour
     private static readonly int Complete = Animator.StringToHash("Complete");
     [SerializeField] private Transform targetTransform;
 
-    
+    [SerializeField] private BoxCollider chestCollider;
     
     [SerializeField] private GameObject mindBeacon;
 
@@ -58,6 +58,8 @@ public class OpenChest : MonoBehaviour
     
     IEnumerator StartPuzzleCutscene()
     {
+        chestCollider.enabled = false;
+        
         BlackBarTransitioner.Instance.Show(0.4f);
         UIVisibilityScript.Instance.HideUI(0.25f);
         

@@ -14,10 +14,10 @@ namespace Weather
         public static WeatherController Instance;
         
         public float transitionDuration = 5f;
-        public WeatherTypeData startWeather;
+        public WeatherTypeData startWeather = default;
         public Volume vol;
         public Font weatherFont;
-        
+
         private WeatherTypeData _weatherTarget;
         private WeatherAudio _weatherAudio;
         
@@ -138,7 +138,7 @@ namespace Weather
             }
         }
         
-        public void ChangeWeather(WeatherTypeData weather)
+        public void ChangeWeather(WeatherTypeData weather, float duration)
         {
             //NotificationText.Instance.DisplayMessage("Changing weather to " + weather.weatherName, 2f);
 
@@ -150,7 +150,7 @@ namespace Weather
 
             if (!_coroutineExecuting)
             {
-                StartCoroutine(ChangeWeatherTransition());
+                StartCoroutine(ChangeWeatherTransition(duration));
             }
         }
 
@@ -199,64 +199,66 @@ namespace Weather
             rain.startIntensity = rain.HeavyEmission.rateOverTime.constant;
         }
         
-        private IEnumerator ChangeWeatherTransition()
+        private IEnumerator ChangeWeatherTransition(float duration)
         {
             _coroutineExecuting = true;
 
-            const float step = 0.002f;
+           // const float step = 0.002f;
 
-            for (_ft = 0f; _ft <= 1f; _ft += step)
+            float timer = 0;
+
+            while (timer < duration)
             {
                 LerpClouds(_weatherTarget.lowClouds, lowCloud);
                 LerpClouds(_weatherTarget.highClouds, highCloud);
                 
                 if (_weatherTarget.fog.enabled)
                 {
-                    fog.obj.meanFreePath.value = Mathf.Lerp(fog.startAttenuation, _weatherTarget.fog.thickness, _ft * 2.5f);
+                    fog.obj.meanFreePath.value = Mathf.Lerp(fog.startAttenuation, _weatherTarget.fog.thickness, timer / duration);
                 }
 
                 if (_weatherTarget.sky.enabled)
                 {
-                    sky.obj.top.value = Color.Lerp(sky.startTop, _weatherTarget.sky.top, _ft * 2);
-                    sky.obj.middle.value = Color.Lerp(sky.startMiddle, _weatherTarget.sky.middle, _ft * 2);
+                    sky.obj.top.value = Color.Lerp(sky.startTop, _weatherTarget.sky.top, timer / duration);
+                    sky.obj.middle.value = Color.Lerp(sky.startMiddle, _weatherTarget.sky.middle, timer / duration);
                 }
 
                 if (_weatherTarget.sun.enabled)
                 {
                     if (_weatherTarget.sun.changeColor)
                     {
-                        sun.obj.color = Color.Lerp(sun.startColor, _weatherTarget.sun.color, _ft);
+                        sun.obj.color = Color.Lerp(sun.startColor, _weatherTarget.sun.color, timer / duration);
                     }
 
                     if (_weatherTarget.sun.changeIntensity)
                     {
-                        sun.obj.intensity = Mathf.Lerp(sun.startIntensity, _weatherTarget.sun.intensity, _ft);
+                        sun.obj.intensity = Mathf.Lerp(sun.startIntensity, _weatherTarget.sun.intensity, timer / duration);
                     }
                 }
 
-                if(_weatherTarget.rain.enabled)
+                if (!_weatherTarget.rain.enabled) continue;
+                
+                if (_weatherTarget.rain.changeColor)
                 {
-                    if (_weatherTarget.rain.changeColor)
-                    {
-                        rain.LightMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color / 2, _ft);
-                        rain.HeavyMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color, _ft);
-                        rain.FloorMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color, _ft);
-                    }
-
-                    if (_weatherTarget.rain.changeIntensity)
-                    {
-                        rain.LightEmission.rateOverTime = Mathf.Lerp(rain.startIntensity,
-                            _weatherTarget.rain.intensity * 50, _ft);
-                        rain.HeavyEmission.rateOverTime = Mathf.Lerp(rain.startIntensity,
-                            _weatherTarget.rain.intensity * 50, _ft);
-
-                        _weatherAudio.SetRainIntensityRtcp(rain.LightEmission.rateOverTime.constant / 50);
-                    }
+                    rain.LightMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color / 2, timer / duration);
+                    rain.HeavyMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color, timer / duration);
+                    rain.FloorMain.startColor = Color.Lerp(rain.startColor, _weatherTarget.rain.color, timer / duration);
                 }
 
-                yield return new WaitForSecondsRealtime(transitionDuration / (1 / step));
-            }
+                if (_weatherTarget.rain.changeIntensity)
+                {
+                    rain.LightEmission.rateOverTime = Mathf.Lerp(rain.startIntensity,
+                        _weatherTarget.rain.intensity * 50, timer / duration);
+                    rain.HeavyEmission.rateOverTime = Mathf.Lerp(rain.startIntensity,
+                        _weatherTarget.rain.intensity * 50, timer / duration);
 
+                    _weatherAudio.SetRainIntensityRtcp(rain.LightEmission.rateOverTime.constant / 50);
+                }
+                
+                timer += Time.deltaTime;
+                yield return null;
+            }
+            
             _coroutineExecuting = false;
         }
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MenuManager : MonoBehaviour
@@ -29,7 +30,7 @@ public class MenuManager : MonoBehaviour
         Cursor.visible = Cursor.lockState != CursorLockMode.Locked;
     }
 
-    private void OpenPauseMenu()
+    public void OpenPauseMenu()
     {
         ChangeCursorState(CursorLockMode.None);
         pauseMenu.SetActive(true);
@@ -38,7 +39,12 @@ public class MenuManager : MonoBehaviour
         _paused = true;
     }
 
-    private void ClosePauseMenu()
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void ClosePauseMenu()
     {
         ChangeCursorState(CursorLockMode.Locked);
         pauseMenu.SetActive(false);

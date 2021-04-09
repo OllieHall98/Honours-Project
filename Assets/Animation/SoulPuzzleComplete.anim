@@ -62,7 +62,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 12.133333
-        value: {x: 0, y: 1000, z: 0}
+        value: {x: 0, y: 1200, z: 0}
         inSlope: {x: 0, y: 173.396, z: 0}
         outSlope: {x: 0, y: 173.396, z: 0}
         tangentMode: 0
@@ -845,7 +845,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 12.133333
-        value: 1000
+        value: 1200
         inSlope: 173.396
         outSlope: 173.396
         tangentMode: 0
@@ -969,7 +969,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SoulMedallion
+    path: Camera
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -979,17 +979,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SoulMedallion
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: SoulMedallion
+    path: Camera
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1008,8 +998,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: SoulMedallion
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Camera
+    path: SoulMedallion
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1019,7 +1019,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Camera
+    path: SoulMedallion
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
