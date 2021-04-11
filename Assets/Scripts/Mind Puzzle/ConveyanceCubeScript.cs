@@ -119,10 +119,10 @@ public class ConveyanceCubeScript : MonoBehaviour
     {
         if (!isHeld) return;
         
-        //ChangeState(DetermineCurrentEmotiveState());
+        ChangeState(DetermineCurrentEmotiveState());
         
-        if(Input.GetKeyDown(KeyCode.Alpha1)) ChangeState(CubeState.Negative);
-        if(Input.GetKeyDown(KeyCode.Alpha2)) ChangeState(CubeState.Positive);
+        //if(Input.GetKeyDown(KeyCode.Alpha1)) ChangeState(CubeState.Negative);
+        //if(Input.GetKeyDown(KeyCode.Alpha2)) ChangeState(CubeState.Positive);
     }
 
     private static CubeState DetermineCurrentEmotiveState()

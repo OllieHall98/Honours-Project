@@ -138,13 +138,21 @@ public class MirrorPuzzle : MonoBehaviour
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
         
-        PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
         
-        PlayerStateScript.Instance.SetMovementActive(true, true);
-        yield return new WaitForSecondsRealtime(2f);
-        BlackBarTransitioner.Instance.Hide(2f);
-        UIVisibilityScript.Instance.ShowUI(2.0f);
         
+        if (RelicHolderScript.Instance.CheckForAllRelics() == true)
+        {
+            PortalScript.Instance.OpenPortal();
+        }
+        else
+        {
+            yield return new WaitForSecondsRealtime(2f);
+            PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
+            PlayerStateScript.Instance.SetMovementActive(true, true);
+            BlackBarTransitioner.Instance.Hide(2f);
+            UIVisibilityScript.Instance.ShowUI(2.0f);
+        }
+
     }
 
     private bool CheckPlayerEmotion(string desiredEmotion)

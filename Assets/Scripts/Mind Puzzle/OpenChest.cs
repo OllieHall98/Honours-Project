@@ -121,11 +121,22 @@ public class OpenChest : MonoBehaviour
         RelicHolderScript.Instance.EnableRelic(RelicHolderScript.Instance.mindRelic);
         RelicUIManager.Instance.EnableRelicUI(RelicUIManager.Instance.mindRelic);
         _player.transform.position = PlayerStateScript.Instance.playerStartTransform.position;
-        PlayerStateScript.Instance.SetMovementActive(true, true);
-        PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
-        yield return new WaitForSecondsRealtime(1f);
-        BlackBarTransitioner.Instance.Hide(2f);
-        UIVisibilityScript.Instance.ShowUI(2.0f);
+        
+        
+        
+        
+        if (RelicHolderScript.Instance.CheckForAllRelics() == true)
+        {
+            PortalScript.Instance.OpenPortal();
+        }
+        else
+        {
+            yield return new WaitForSecondsRealtime(1f);
+            PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
+            PlayerStateScript.Instance.SetMovementActive(true, true);
+            BlackBarTransitioner.Instance.Hide(2f);
+            UIVisibilityScript.Instance.ShowUI(2.0f);
+        }
     }
 
     private void EndCutscene()

@@ -50,16 +50,15 @@ public class FireRaycast : MonoBehaviour
                 ReticleManager.Instance.HideReticle();
                 MirrorPuzzle.Instance.Initiate();
                 break;
-            case "ConveyanceCube":
-                // if (!Input.GetButtonDown($"Interact")) return;
-                // _playerStateScript.SetRaycastState(RaycastState.Disabled);
-                // ReticleManager.Instance.HideReticle();
-                // ConveyanceCubeScript.Instance.Pickup();
-                break;
             case "Receptor Chest Cap":
                 if (!Input.GetButtonDown($"Interact")) return;
                 ReticleManager.Instance.HideReticle();
                 OpenChest.Instance.Open();
+                break;
+            case "Maze Instructions":
+                if (!Input.GetButtonDown($"Interact")) return;
+                ReticleManager.Instance.HideReticle();
+                MazePickup.Instance.Pickup();
                 break;
             default:
                 ReticleManager.Instance.HideReticle();

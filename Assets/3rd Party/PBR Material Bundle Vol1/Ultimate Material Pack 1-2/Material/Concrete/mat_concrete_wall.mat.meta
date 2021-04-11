@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f6fb9df897bb574585435a36ff37594
+labels:
+- Concrete
+- Floor
+- Material
+- Pbr
+- Wall
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

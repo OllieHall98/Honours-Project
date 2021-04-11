@@ -17,7 +17,7 @@ namespace Affective
         public UnityAction AAnger;
         public UnityAction ASurprise;
 
-        private void Awake()
+        public void Awake()
         {
             ANeutral   +=   Neutral_State;
             AJoy       +=   Joy_State;

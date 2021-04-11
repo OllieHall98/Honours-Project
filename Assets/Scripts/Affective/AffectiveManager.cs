@@ -104,8 +104,7 @@ public class AffectiveManager : MonoBehaviour
             "joy" => _joyEvent,
             _ => _currentEvent
         };
-
-       // RaiseEvent(_currentEvent);
+        
         _currentEvent.Invoke();
     }
 
