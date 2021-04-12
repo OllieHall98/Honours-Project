@@ -7,6 +7,7 @@ using UI;
 using UnityEngine;
 using UnityEngine.UI;
 using VHS;
+using Weather;
 
 public class MirrorPuzzle : MonoBehaviour
 {
@@ -66,8 +67,7 @@ public class MirrorPuzzle : MonoBehaviour
     private IEnumerator MoveToMirror()
     {
         _coroutineExecuting = true;
-
-        UIVisibilityScript.Instance.HideUI(1.0f);
+        
 
         var targetPosition = targetTransform.position;
         var startPosition = _player.transform.position;
@@ -93,6 +93,8 @@ public class MirrorPuzzle : MonoBehaviour
 
     private IEnumerator MirrorPromptSequence()
     {
+        WeatherController.Instance.enabled = false;
+        
         NotificationText.Instance.DisplayMessage(TransitionType.Float, happySentence, 3f);
         
         while (!CheckPlayerEmotion("joy"))
@@ -128,6 +130,7 @@ public class MirrorPuzzle : MonoBehaviour
     private IEnumerator PuzzleCompleteCutscene()
     {
 
+        UIVisibilityScript.Instance.HideUI(1.0f);
         BlackBarTransitioner.Instance.Show(1.5f);
 
         yield return new WaitForSecondsRealtime(1.5f);
@@ -156,7 +159,7 @@ public class MirrorPuzzle : MonoBehaviour
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
         
-        
+        WeatherController.Instance.enabled = true;
         
         if (RelicHolderScript.Instance.CheckForAllRelics() == true)
         {
@@ -165,6 +168,7 @@ public class MirrorPuzzle : MonoBehaviour
         else
         {
             yield return new WaitForSecondsRealtime(2f);
+            
             PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
             PlayerStateScript.Instance.SetMovementActive(true, true);
             BlackBarTransitioner.Instance.Hide(2f);

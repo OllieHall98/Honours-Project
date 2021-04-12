@@ -30,6 +30,11 @@ public class MazePickup : MonoBehaviour
         StartCoroutine(MazeSymbolCutscene());
     }
 
+    public void RemovePaper()
+    {
+        heldPaper.SetActive(false);
+    }
+
     IEnumerator MazeSymbolCutscene()
     {
         PlayerStateScript.Instance.SetMovementActive(false, true);

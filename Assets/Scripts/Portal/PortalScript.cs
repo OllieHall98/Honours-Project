@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Weather;
 
 public class PortalScript : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PortalScript : MonoBehaviour
     [SerializeField] private AK.Wwise.Event allRelicsCollected;
     [SerializeField] private AK.Wwise.Event portalHum;
     [SerializeField] private AK.Wwise.Event portalOpen;
+
+    [SerializeField] private WeatherTypeData sunset;
     
     private Animator cutsceneAnimator;
     private static readonly int StartCutscene = Animator.StringToHash("StartCutscene");
@@ -26,7 +29,7 @@ public class PortalScript : MonoBehaviour
         
         portalEntryCollider.SetActive(false);
         
-        Disable();
+        Enable();
     }
 
     public void Enable()
@@ -41,6 +44,8 @@ public class PortalScript : MonoBehaviour
 
     public void OpenPortal()
     {
+        WeatherController.Instance.ChangeWeather(sunset, 1.0f);
+        
         StartCoroutine(PortalCutscene());
     }
 

@@ -1162,6 +1162,28 @@
 						<ActiveSource Name="PortalOpen" ID="{4E51F1CE-1AD9-4005-B9EF-9D6C3FEE7AAD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="FinalTeleport" ID="{329B760B-FAC0-48D0-89B2-0884B48D64BD}" ShortID="852214674">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FinalTeleport" ID="{8DE9E21B-ECB5-43E9-A08E-1CD30050C20E}">
+							<Language>SFX</Language>
+							<AudioFile>FinalTeleport.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="537129767"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FinalTeleport" ID="{8DE9E21B-ECB5-43E9-A08E-1CD30050C20E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="2912589880">
+		<SoundBank Id="782826392" Language="SFX" Hash="3236114444">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -37,6 +37,14 @@
 						<File Id="964361258" Language="SFX">
 							<ShortName>ConveyanceCubeMusic.wav</ShortName>
 							<Path>SFX\ConveyanceCubeMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1479917130" Name="FinalTeleport" ObjectPath="\Events\Default Work Unit\FinalTeleport" DurationType="OneShot" DurationMin="4.165667" DurationMax="4.165667">
+					<IncludedMemoryFiles>
+						<File Id="537129767" Language="SFX">
+							<ShortName>FinalTeleport.wav</ShortName>
+							<Path>SFX\FinalTeleport_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

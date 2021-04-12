@@ -25,6 +25,8 @@ namespace Affective
         private GameObject _webcamNotFoundImage = null;
 
         public WebCamTexture _webcamTex;
+
+        [SerializeField] private TMPro.TextMeshProUGUI hotkeyText;
         
         [Header("Haar Cascade files")]
         public TextAsset faces;
@@ -76,7 +78,15 @@ namespace Affective
 
         private void Start()
         {
-            if (affectiveOn) SearchForWebcam();
+            if (affectiveOn)
+            {
+                hotkeyText.enabled = false;
+                SearchForWebcam();
+            }
+            else
+            {
+                hotkeyText.enabled = true;
+            }
             
             showFaceToggle.onValueChanged.AddListener(delegate {SetWebcamVisibility();});
             webcamDropdown.onValueChanged.AddListener(delegate { PickWebcamFromDropdown(); });

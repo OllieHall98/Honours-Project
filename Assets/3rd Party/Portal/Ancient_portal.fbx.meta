@@ -3,7 +3,22 @@ guid: 5d03e0de27caa4141bdf9829fd395ad9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL
+    second: {fileID: 2100000, guid: 180685b3d20e3d142857a1d8652c466f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROCK
+    second: {fileID: 2100000, guid: 5f30383de6864734c987590f084f9ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STEPS
+    second: {fileID: 2100000, guid: 44da9b9f101f8e54ea32e2aa989531e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

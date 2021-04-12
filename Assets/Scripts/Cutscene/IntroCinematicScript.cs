@@ -34,7 +34,6 @@ public class IntroCinematicScript : MonoBehaviour
             WeatherController.Instance.startWeather = weatherDay;
             GetComponent<Camera>().enabled = false;
             
-            NotificationText.Instance.DisplayMessage(TransitionType.Float, "Introduce the player to the game", 6.0f);
             UIVisibilityScript.Instance.ShowUI(2f);
             
             return;
@@ -94,8 +93,6 @@ public class IntroCinematicScript : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         
         PlayerStateScript.Instance.SetMovementActive(true, true);
-        
-        NotificationText.Instance.DisplayMessage(TransitionType.Float, "Introduce the player to the game", 6.0f);
 
         yield return new WaitForSecondsRealtime(8f);
         

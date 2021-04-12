@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236c66cb75a59143b7cf18f910f7199, type: 3}
+  m_Name: 6333449B-064B-45EB-8A17-70271B62ECB4
+  m_EditorClassIdentifier: 
+  objectName: FinalTeleport
+  id: 1479917130
+  guid: 6333449B-064B-45EB-8A17-70271B62ECB4

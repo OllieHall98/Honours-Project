@@ -16,6 +16,7 @@
 						<ObjectRef Name="Resume" ID="{6A4783CE-66E5-4571-88DA-9F6DBDFB6EF6}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopMoodReceptorHum" ID="{26F6746D-5E9B-4591-B050-5290CEA21AE3}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FireConveyanceBeam_Stop" ID="{589FE7F5-A576-45E6-BBFF-FB9F03B7EB29}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FinalTeleport" ID="{6333449B-064B-45EB-8A17-70271B62ECB4}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpenGate" ID="{213F6D85-A186-4698-B03A-6715E524BE89}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameplayStartMusic" ID="{C10DE053-630A-4883-962E-7CE0E7F411C4}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickupPaper" ID="{402C4F6F-5CE4-4892-8113-79738C8E953A}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>

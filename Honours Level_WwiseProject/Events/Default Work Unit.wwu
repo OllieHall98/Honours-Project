@@ -302,6 +302,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FinalTeleport" ID="{6333449B-064B-45EB-8A17-70271B62ECB4}">
+					<ChildrenList>
+						<Action Name="" ID="{313A7F9C-D9DC-4C8B-81C8-37831F4091CB}" ShortID="81141062">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FinalTeleport" ID="{329B760B-FAC0-48D0-89B2-0884B48D64BD}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

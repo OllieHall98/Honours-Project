@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	953277036	Resume			\Default Work Unit\Resume	
 	1332520360	FireConveyanceBeam_Start			\Default Work Unit\FireConveyanceBeam_Start	
 	1409261969	MazeCentreDiscovery			\Default Work Unit\MazeCentreDiscovery	
+	1479917130	FinalTeleport			\Default Work Unit\FinalTeleport	
 	1826863455	ConveyanceCube_Music			\Default Work Unit\ConveyanceCube_Music	
 	2100819074	MindRelicGet			\Default Work Unit\MindRelicGet	
 	2241193683	AllRelicsCollected			\Default Work Unit\AllRelicsCollected	
@@ -39,6 +40,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	498478077	AllRelicsCollected	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\AllRelicsCollected_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AllRelicsCollected		1763936
 	515257183	Teleport	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport		2152356
 	528281650	MindRelicGet	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\MindRelicGet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MindRelicGet		2087488
+	537129767	FinalTeleport	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\FinalTeleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FinalTeleport		799872
 	541904421	MazeCentreDiscovery	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\MazeCentreDiscovery_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MazeCentreDiscovery		2208900
 	570604354	GameplayStartMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\GameplayStartMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameplayStartMusic		17287264
 	733600970	Light Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Light Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Light Rain		5636116

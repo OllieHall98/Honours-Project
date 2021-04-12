@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID ALLRELICSCOLLECTED = 2241193683U;
         static const AkUniqueID BRIDGEFORESTENTRY = 3594869627U;
         static const AkUniqueID CONVEYANCECUBE_MUSIC = 1826863455U;
+        static const AkUniqueID FINALTELEPORT = 1479917130U;
         static const AkUniqueID FIRECONVEYANCEBEAM_START = 1332520360U;
         static const AkUniqueID FIRECONVEYANCEBEAM_STOP = 2598825076U;
         static const AkUniqueID FORESTAUDIO = 3241912412U;
