@@ -28,8 +28,12 @@ public class MirrorPuzzle : MonoBehaviour
     
     [SerializeField] private GameObject soulBeacon;
 
+    [SerializeField] private Color color0, color1, color2, color3;
+    [SerializeField] private GameObject mirrorMat;
 
     [SerializeField] private AffectiveManager affectiveManager;
+
+    [SerializeField] private string happySentence, surpriseSentence, sadSentence;
     
     private float _ft;
     
@@ -39,6 +43,8 @@ public class MirrorPuzzle : MonoBehaviour
     {
         Instance = this;
         _player = GameObject.FindWithTag("Player");
+        
+        mirrorMat.GetComponent<Renderer>().materials[1].SetColor(EmissiveColor, color0);
     }
     
     
@@ -55,6 +61,7 @@ public class MirrorPuzzle : MonoBehaviour
     private bool _coroutineExecuting;
     private static readonly int MainTex = Shader.PropertyToID("_BaseColorMap");
     private static readonly int FinishedPuzzle = Animator.StringToHash("FinishedPuzzle");
+    private static readonly int EmissiveColor = Shader.PropertyToID("_EmissiveColor");
 
     private IEnumerator MoveToMirror()
     {
@@ -86,22 +93,33 @@ public class MirrorPuzzle : MonoBehaviour
 
     private IEnumerator MirrorPromptSequence()
     {
-        // NotificationText.Instance.DisplayMessage(TransitionType.Float, "<color=black>Show us a smile!</color>", 3f);
-        //
-        // while (!CheckPlayerEmotion("joy"))
-        //     yield return null;
-        //
-        // NotificationText.Instance.DisplayMessage(TransitionType.Float,"<color=black>You've just seen something shocking!</color>", 3f);
-        //
-        // while (!CheckPlayerEmotion("surprise"))
-        //     yield return null;
-        //
-        // NotificationText.Instance.DisplayMessage(TransitionType.Float,"<color=black>Congratulations! You've contracted depression! Give us a sad face</color>", 3f);
-        //
-        // while (!CheckPlayerEmotion("sadness"))
-        //     yield return null;
+        NotificationText.Instance.DisplayMessage(TransitionType.Float, happySentence, 3f);
+        
+        while (!CheckPlayerEmotion("joy"))
+            yield return null;
 
-        yield return new WaitForSecondsRealtime(2.0f);
+        var material = mirrorMat.GetComponent<Renderer>().materials[1];
+        
+        var tweenEmissive = LeanTween.value(mirrorMat, color0, color1 * 5, 1f);
+        tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
+        
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,surpriseSentence, 3f);
+        
+        while (!CheckPlayerEmotion("surprise"))
+            yield return null;
+        
+        tweenEmissive = LeanTween.value(mirrorMat, color1 * 5, color2 * 5, 1f);
+        tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
+        
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,sadSentence, 3f);
+        
+        while (!CheckPlayerEmotion("sadness"))
+            yield return null;
+        
+        tweenEmissive = LeanTween.value(mirrorMat, color2 * 5, color3 * 5, 1f);
+        tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
+
+        //yield return new WaitForSecondsRealtime(2.0f);
         
         // EXIT PUZZLE
         StartCoroutine(PuzzleCompleteCutscene());
