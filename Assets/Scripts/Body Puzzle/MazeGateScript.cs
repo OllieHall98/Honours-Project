@@ -21,12 +21,17 @@ public class MazeGateScript : ObjectState
     [SerializeField] private Emotion currentEmotion = Emotion.None; 
     [SerializeField] private Emotion desiredEmotion;
 
+    [SerializeField] private GameObject soundEmitter;
+    [SerializeField] private AK.Wwise.Event gateOpenSound;
+
     private Animator _gateAnimator;
 
     private GameObject _player;
     [SerializeField] private BoxCollider triggerCollider;
     private static readonly int Open = Animator.StringToHash("Open");
 
+    private bool _opened = false;
+    
     private new void Awake()
     {
         base.Awake();
@@ -35,6 +40,7 @@ public class MazeGateScript : ObjectState
 
     private void Start()
     {
+        _opened = false;
         _player = PlayerStateScript.Instance.gameObject;
     }
 
@@ -42,10 +48,13 @@ public class MazeGateScript : ObjectState
     {
         if (emotion != desiredEmotion) return;
 
-        if (triggerCollider.bounds.Contains(_player.transform.position))
-        {
-            _gateAnimator.SetTrigger(Open);
-        }
+        if (_opened) return;
+        
+        if (!triggerCollider.bounds.Contains(_player.transform.position)) return;
+
+        _opened = true;
+        gateOpenSound.Post(soundEmitter);
+        _gateAnimator.SetTrigger(Open);
     }
     
     public override void Neutral_State() => CheckIfDesiredEmotion(Emotion.Neutral);

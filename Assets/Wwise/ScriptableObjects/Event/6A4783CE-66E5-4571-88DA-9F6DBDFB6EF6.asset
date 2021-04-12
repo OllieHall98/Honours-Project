@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236c66cb75a59143b7cf18f910f7199, type: 3}
+  m_Name: 6A4783CE-66E5-4571-88DA-9F6DBDFB6EF6
+  m_EditorClassIdentifier: 
+  objectName: Resume
+  id: 953277036
+  guid: 6A4783CE-66E5-4571-88DA-9F6DBDFB6EF6

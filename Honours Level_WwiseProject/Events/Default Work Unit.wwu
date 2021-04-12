@@ -203,6 +203,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="OpenGate" ID="{213F6D85-A186-4698-B03A-6715E524BE89}">
+					<ChildrenList>
+						<Action Name="" ID="{E081BCF0-2BB5-4A96-B844-16105400C3BD}" ShortID="249077752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GateOpen" ID="{EB42A1B5-43A3-478F-B3E1-74422E177D14}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GateSymbolShow" ID="{56841468-BAC6-4992-8BB9-773805317FC8}">
+					<ChildrenList>
+						<Action Name="" ID="{206C1F55-0D9C-4955-B304-6F03CCAE6064}" ShortID="76573852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GateSymbolShow" ID="{1425A465-318F-4115-A6DB-B2D7EC7CB768}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickupPaper" ID="{402C4F6F-5CE4-4892-8113-79738C8E953A}">
+					<ChildrenList>
+						<Action Name="" ID="{A018DB00-A98F-40C3-B14F-852B84FB62E2}" ShortID="567855290">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pickup" ID="{113817C7-CA2A-4D39-8D06-79FED9F2E07C}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MazeCentreDiscovery" ID="{506AEB84-977E-4D6B-B04D-C1089A64C14E}">
+					<ChildrenList>
+						<Action Name="" ID="{DD0DEBBD-E920-4290-8337-C9E8D9940EDE}" ShortID="967063870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MazeCentreDiscovery" ID="{B3C75085-4822-4A72-9595-F51018B7CC5A}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AllRelicsCollected" ID="{2C386281-A463-4AD5-BF43-867DEBB9E7AB}">
+					<ChildrenList>
+						<Action Name="" ID="{D2C9A33D-9782-42BA-8240-9A0CA3A11A4F}" ShortID="642448152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AllRelicsCollected" ID="{74670F74-BF88-42EC-8052-C6F594C0177B}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PortalHum" ID="{3985630F-D7B8-44B4-B74B-3D370A73444F}">
+					<ChildrenList>
+						<Action Name="" ID="{C90D1D9E-501D-4F20-B8A6-FA2BF696C97C}" ShortID="655198587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Portal hum" ID="{6ABDAE28-DE9B-4F1E-848D-134EBF9F1DE0}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause" ID="{F1EC011F-A916-4E83-9E22-90CE6FE57308}">
+					<ChildrenList>
+						<Action Name="" ID="{B52E3599-BC65-4E0F-9A4A-C3B82EB22BD1}" ShortID="128805259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume" ID="{6A4783CE-66E5-4571-88DA-9F6DBDFB6EF6}">
+					<ChildrenList>
+						<Action Name="" ID="{09AA8CAA-2215-4D5C-A2F3-4F268E97E65C}" ShortID="165954109">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PortalOpen" ID="{ADB17AA0-4B7E-4203-869E-38DD18AB4641}">
+					<ChildrenList>
+						<Action Name="" ID="{223A761A-F5D4-4413-ACE5-FA7FA87C338D}" ShortID="565726463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PortalOpen" ID="{C29599D8-AD0A-4922-860A-78090F7D9A62}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

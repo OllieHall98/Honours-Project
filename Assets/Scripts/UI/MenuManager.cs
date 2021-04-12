@@ -9,6 +9,8 @@ public class MenuManager : MonoBehaviour
 
     public GameObject pauseMenu;
 
+    [SerializeField] private AK.Wwise.Event pause, resume;
+
     private void Start()
     {
         _paused = false;
@@ -32,6 +34,8 @@ public class MenuManager : MonoBehaviour
 
     public void OpenPauseMenu()
     {
+        pause.Post(gameObject);
+        
         ChangeCursorState(CursorLockMode.None);
         pauseMenu.SetActive(true);
         Time.timeScale = 0;
@@ -46,6 +50,8 @@ public class MenuManager : MonoBehaviour
 
     public void ClosePauseMenu()
     {
+        resume.Post(gameObject);
+        
         ChangeCursorState(CursorLockMode.Locked);
         pauseMenu.SetActive(false);
         Time.timeScale = 1;

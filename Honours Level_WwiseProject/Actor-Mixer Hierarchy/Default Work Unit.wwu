@@ -942,6 +942,226 @@
 						<ActiveSource Name="GameplayStartMusic" ID="{12EC482E-A479-4E41-9C72-024FD67C2781}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="GateOpen" ID="{EB42A1B5-43A3-478F-B3E1-74422E177D14}" ShortID="1068753688">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F4E30492-EE1D-4531-873B-D1901ED2080E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="76"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="MoodRecepter" ID="{7CA4B298-C6F9-432D-BDD4-2775418FF091}" WorkUnitID="{7DADA13A-F3E6-4F42-A41A-683BFE5448E8}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GateOpen" ID="{FFA5DFFB-4F88-4936-B794-C9194E1689EC}">
+							<Language>SFX</Language>
+							<AudioFile>GateOpen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="496834548"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GateOpen" ID="{FFA5DFFB-4F88-4936-B794-C9194E1689EC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GateSymbolShow" ID="{1425A465-318F-4115-A6DB-B2D7EC7CB768}" ShortID="390499885">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GateSymbolShow" ID="{71FE1806-F7BD-4DB0-A305-E3976CD125B8}">
+							<Language>SFX</Language>
+							<AudioFile>GateSymbolShow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="382355229"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GateSymbolShow" ID="{71FE1806-F7BD-4DB0-A305-E3976CD125B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pickup" ID="{113817C7-CA2A-4D39-8D06-79FED9F2E07C}" ShortID="605697860">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pickup" ID="{394B7326-0865-4D17-B591-C8BE9830848E}">
+							<Language>SFX</Language>
+							<AudioFile>pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="171071513"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pickup" ID="{394B7326-0865-4D17-B591-C8BE9830848E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MazeCentreDiscovery" ID="{B3C75085-4822-4A72-9595-F51018B7CC5A}" ShortID="661679205">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MazeCentreDiscovery" ID="{53B76714-8FF7-4229-BDBA-01865BC1CFB7}">
+							<Language>SFX</Language>
+							<AudioFile>MazeCentreDiscovery.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="541904421"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MazeCentreDiscovery" ID="{53B76714-8FF7-4229-BDBA-01865BC1CFB7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AllRelicsCollected" ID="{74670F74-BF88-42EC-8052-C6F594C0177B}" ShortID="124736442">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AllRelicsCollected" ID="{DD56AA79-63DD-44FD-AFC1-179394C39871}">
+							<Language>SFX</Language>
+							<AudioFile>AllRelicsCollected.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="498478077"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AllRelicsCollected" ID="{DD56AA79-63DD-44FD-AFC1-179394C39871}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Portal hum" ID="{6ABDAE28-DE9B-4F1E-848D-134EBF9F1DE0}" ShortID="300980232">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Portal" ID="{09076CEE-CEC2-4DBA-8B5E-1D9DE8B8DB0C}" WorkUnitID="{7DADA13A-F3E6-4F42-A41A-683BFE5448E8}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Portal hum" ID="{968D941C-A043-4367-9F90-AAC286069341}">
+							<Language>SFX</Language>
+							<AudioFile>Portal hum.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="291267689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Portal hum" ID="{968D941C-A043-4367-9F90-AAC286069341}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PortalOpen" ID="{C29599D8-AD0A-4922-860A-78090F7D9A62}" ShortID="826221264">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PortalOpen" ID="{4E51F1CE-1AD9-4005-B9EF-9D6C3FEE7AAD}">
+							<Language>SFX</Language>
+							<AudioFile>PortalOpen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="826374212"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PortalOpen" ID="{4E51F1CE-1AD9-4005-B9EF-9D6C3FEE7AAD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

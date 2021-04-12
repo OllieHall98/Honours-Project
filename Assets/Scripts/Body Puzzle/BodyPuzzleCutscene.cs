@@ -10,6 +10,9 @@ public class BodyPuzzleCutscene : MonoBehaviour
     private Animator _cutsceneAnimator;
     private static readonly int StartCutscene1 = Animator.StringToHash("StartCutscene");
 
+    [SerializeField] private AK.Wwise.Event relicAcquired;
+    [SerializeField] private AK.Wwise.Event mazeDiscovery;
+    
     [SerializeField] private GameObject bodyBeacon;
     [SerializeField] private Image fader;
     
@@ -30,12 +33,21 @@ public class BodyPuzzleCutscene : MonoBehaviour
         UIVisibilityScript.Instance.HideUI(0.5f);
         BlackBarTransitioner.Instance.Show(1.5f);
         
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(0.2f);
         
         AkSoundEngine.StopAll();
+        
+        mazeDiscovery.Post(gameObject);
+        
+        yield return new WaitForSecondsRealtime(0.5f);
+        
         _cutsceneAnimator.SetTrigger(StartCutscene1);
 
-        yield return new WaitForSecondsRealtime(12f);
+        yield return new WaitForSecondsRealtime(6f);
+        
+        relicAcquired.Post(gameObject);
+        
+        yield return new WaitForSecondsRealtime(4f);
         
         NotificationText.Instance.DisplayMessage(TransitionType.Float, "<color=red>Body Relic</color> obtained.", 3.0f);
         

@@ -11,11 +11,19 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="548041206">
+		<SoundBank Id="782826392" Language="SFX" Hash="2912589880">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2241193683" Name="AllRelicsCollected" ObjectPath="\Events\Default Work Unit\AllRelicsCollected" DurationType="OneShot" DurationMin="9.999274" DurationMax="9.999274">
+					<IncludedMemoryFiles>
+						<File Id="498478077" Language="SFX">
+							<ShortName>AllRelicsCollected.wav</ShortName>
+							<Path>SFX\AllRelicsCollected_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3594869627" Name="BridgeForestEntry" ObjectPath="\Events\Default Work Unit\BridgeForestEntry" DurationType="OneShot" DurationMin="63.526848" DurationMax="63.526848">
 					<IncludedMemoryFiles>
 						<File Id="988523118" Language="SFX">
@@ -65,6 +73,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2775288295" Name="GateSymbolShow" ObjectPath="\Events\Default Work Unit\GateSymbolShow" DurationType="OneShot" DurationMin="5.521313" DurationMax="5.521313">
+					<IncludedMemoryFiles>
+						<File Id="382355229" Language="SFX">
+							<ShortName>GateSymbolShow.wav</ShortName>
+							<Path>SFX\GateSymbolShow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1409261969" Name="MazeCentreDiscovery" ObjectPath="\Events\Default Work Unit\MazeCentreDiscovery" DurationType="OneShot" DurationMin="12.521746" DurationMax="12.521746">
+					<IncludedMemoryFiles>
+						<File Id="541904421" Language="SFX">
+							<ShortName>MazeCentreDiscovery.wav</ShortName>
+							<Path>SFX\MazeCentreDiscovery_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2100819074" Name="MindRelicGet" ObjectPath="\Events\Default Work Unit\MindRelicGet" DurationType="OneShot" DurationMin="11.833469" DurationMax="11.833469">
 					<IncludedMemoryFiles>
 						<File Id="528281650" Language="SFX">
@@ -81,6 +105,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="604601532" Name="OpenGate" ObjectPath="\Events\Default Work Unit\OpenGate" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="2.544799" DurationMax="2.778331">
+					<IncludedMemoryFiles>
+						<File Id="496834548" Language="SFX">
+							<ShortName>GateOpen.wav</ShortName>
+							<Path>SFX\GateOpen_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3875903466" Name="OpeningCinematic" ObjectPath="\Events\Default Work Unit\OpeningCinematic" DurationType="OneShot" DurationMin="52.393402" DurationMax="52.393402">
 					<IncludedMemoryFiles>
 						<File Id="345908968" Language="SFX">
@@ -89,6 +121,32 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="579976681" Name="PickupPaper" ObjectPath="\Events\Default Work Unit\PickupPaper" DurationType="OneShot" DurationMin="0.296009" DurationMax="0.296009">
+					<IncludedMemoryFiles>
+						<File Id="171071513" Language="SFX">
+							<ShortName>pickup.wav</ShortName>
+							<Path>SFX\pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3599883275" Name="PortalHum" ObjectPath="\Events\Default Work Unit\PortalHum" MaxAttenuation="35.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="291267689" Language="SFX">
+							<ShortName>Portal hum.wav</ShortName>
+							<Path>SFX\Portal hum_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2461641043" Name="PortalOpen" ObjectPath="\Events\Default Work Unit\PortalOpen" DurationType="OneShot" DurationMin="7.619041" DurationMax="7.619041">
+					<IncludedMemoryFiles>
+						<File Id="826374212" Language="SFX">
+							<ShortName>PortalOpen.wav</ShortName>
+							<Path>SFX\PortalOpen_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="953277036" Name="Resume" ObjectPath="\Events\Default Work Unit\Resume" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2597147220" Name="StartMoodReceptorHum" ObjectPath="\Events\Default Work Unit\StartMoodReceptorHum" MaxAttenuation="20.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="425260009" Language="SFX">

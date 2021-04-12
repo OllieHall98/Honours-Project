@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d9bd86c2ecffcb43be2a739e96c240df
     GuidInternal: 
-    m_lastTime: -8585837920338277466
+    m_lastTime: -8585834194430186586
     List:
     - name: Default
       guid: 1eced2f1efc9b846b3ca73a567b39d78
@@ -68,8 +68,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2cf7823a53e5be47a47e243015e32196
     GuidInternal: 
-    m_lastTime: -8585837891935712536
+    m_lastTime: -8585834194430025394
     List:
+    - name: AllRelicsCollected
+      guid: 8162382c63a4d54abf43867debb9e7ab
+      id: 2241193683
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AllRelicsCollected
+        ObjectType: 3
+      Path: Default Work Unit\AllRelicsCollected
+      maxAttenuation: 0
+      maxDuration: 14.249
+      minDuration: 14.249
     - name: BridgeForestEntry
       guid: 7ae08d3d5fac0c42ace332799b3bad93
       id: 3594869627
@@ -154,6 +166,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 98
       minDuration: 98
+    - name: GateSymbolShow
+      guid: 68148456c6ba92498bb9773805317fc8
+      id: 2775288295
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GateSymbolShow
+        ObjectType: 3
+      Path: Default Work Unit\GateSymbolShow
+      maxAttenuation: 0
+      maxDuration: 5.521313
+      minDuration: 5.521313
+    - name: MazeCentreDiscovery
+      guid: 84eb6a507e976b4db04dc1089a64c14e
+      id: 1409261969
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MazeCentreDiscovery
+        ObjectType: 3
+      Path: Default Work Unit\MazeCentreDiscovery
+      maxAttenuation: 0
+      maxDuration: 12.521746
+      minDuration: 12.521746
     - name: MindRelicGet
       guid: 112dcedda12da54496e330a808413513
       id: 2100819074
@@ -178,6 +214,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 10.716848
       minDuration: 10.716848
+    - name: OpenGate
+      guid: 856d3f2186a19846b03a6715e524be89
+      id: 604601532
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OpenGate
+        ObjectType: 3
+      Path: Default Work Unit\OpenGate
+      maxAttenuation: 20
+      maxDuration: 2.778331
+      minDuration: 2.544799
     - name: OpeningCinematic
       guid: 06ee0bfd5303b8419e7f08aae29b7b5b
       id: 3875903466
@@ -190,6 +238,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 52.393402
       minDuration: 52.393402
+    - name: PickupPaper
+      guid: 6f4f2c40e45c9248811379738c8e953a
+      id: 579976681
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PickupPaper
+        ObjectType: 3
+      Path: Default Work Unit\PickupPaper
+      maxAttenuation: 0
+      maxDuration: 0.296009
+      minDuration: 0.296009
+    - name: PortalHum
+      guid: 0f638539b8d7b444b74b3d370a73444f
+      id: 3599883275
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PortalHum
+        ObjectType: 3
+      Path: Default Work Unit\PortalHum
+      maxAttenuation: 35
+      maxDuration: -1
+      minDuration: -1
     - name: StartMoodReceptorHum
       guid: cc0171deade5c244a01f22a9d2a6ce3c
       id: 2597147220

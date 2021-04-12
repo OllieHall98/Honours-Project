@@ -10,6 +10,10 @@ public class PortalScript : MonoBehaviour
     [SerializeField] private GameObject portalLight;
 
     [SerializeField] private GameObject portalEntryCollider;
+
+    [SerializeField] private AK.Wwise.Event allRelicsCollected;
+    [SerializeField] private AK.Wwise.Event portalHum;
+    [SerializeField] private AK.Wwise.Event portalOpen;
     
     private Animator cutsceneAnimator;
     private static readonly int StartCutscene = Animator.StringToHash("StartCutscene");
@@ -44,7 +48,19 @@ public class PortalScript : MonoBehaviour
     {
         cutsceneAnimator.SetTrigger(StartCutscene);
 
-        yield return new WaitForSecondsRealtime(14f);
+        allRelicsCollected.Post(gameObject);
+        
+        yield return new WaitForSecondsRealtime(6.7f);
+        
+        portalOpen.Post(gameObject);
+        
+        yield return new WaitForSecondsRealtime(1.8f);
+        
+        portalHum.Post(portalLight);
+        
+        yield return new WaitForSecondsRealtime(4.5f);
+        
+        
         
         portalEntryCollider.SetActive(true);
         
