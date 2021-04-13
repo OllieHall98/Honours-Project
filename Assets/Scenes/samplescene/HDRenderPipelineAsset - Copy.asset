@@ -317,8 +317,8 @@ MonoBehaviour:
       bufferFormat: 74
     dynamicResolutionSettings:
       enabled: 0
-      maxPercentage: 100
-      minPercentage: 100
+      maxPercentage: 10
+      minPercentage: 10
       dynResType: 1
       upsampleFilter: 1
       forceResolution: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
-      m_Values: 000000000000000000000000
+      m_Values: 000000000000000004000000
       m_SchemaId:
         m_Id: With3Levels
     lodBias:

@@ -75,7 +75,9 @@ public class AffectiveManager : MonoBehaviour
 
     public void SetCurrentEmotion(string emotion)
     {
-        if (emotion == "N/A")
+        Debug.Log(emotion);
+        
+        if (emotion == "N/A" || emotion == "")
         { 
             Debug.Log("No Face Detected");
             emotionText.text = "No Face Detected";
@@ -110,12 +112,10 @@ public class AffectiveManager : MonoBehaviour
 
     private string CalculateStrongestEmotion(string emotion)
     {
-        if (_emotionList.Count > 30) _emotionList.Dequeue();
+        if (_emotionList.Count > 15) _emotionList.Dequeue();
         _emotionList.Enqueue(emotion);
         
-        string[] emotions = _emotionList.ToArray();
-        
-        var groups = emotions.GroupBy(s => s);
+        var groups = _emotionList.ToArray().GroupBy(s => s);
 
         var highestGroupCount = 0;
         string strongestEmotion = null;

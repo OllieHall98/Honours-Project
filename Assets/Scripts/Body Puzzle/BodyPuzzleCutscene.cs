@@ -33,8 +33,6 @@ public class BodyPuzzleCutscene : MonoBehaviour
         PlayerStateScript.Instance.SetMovementActive(false, false);
         UIVisibilityScript.Instance.HideUI(0.5f);
         BlackBarTransitioner.Instance.Show(1.5f);
-
-        MazePickup.Instance.RemovePaper();
         
         yield return new WaitForSecondsRealtime(0.2f);
         
@@ -43,6 +41,8 @@ public class BodyPuzzleCutscene : MonoBehaviour
         mazeDiscovery.Post(gameObject);
         
         yield return new WaitForSecondsRealtime(0.5f);
+        
+        MazePickup.Instance.RemovePaper();
         
         _cutsceneAnimator.SetTrigger(StartCutscene1);
 

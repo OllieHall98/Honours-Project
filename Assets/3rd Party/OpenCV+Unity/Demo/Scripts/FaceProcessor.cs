@@ -266,6 +266,91 @@
                 DataStabilizer.ThresholdFactor = invF;
 
                 // convert to grayscale and normalize
+                var gray = new Mat();
+                Cv2.CvtColor(processingImage, gray, ColorConversionCodes.BGR2GRAY);
+
+                // fix shadows
+                Cv2.EqualizeHist(gray, gray);
+
+                Image = gray;
+
+                /*Mat normalized = new Mat();
+                CLAHE clahe = CLAHE.Create();
+                clahe.TilesGridSize = new Size(8, 8);
+                clahe.Apply(gray, normalized);
+                gray = normalized;*/
+
+                // detect matching regions (faces bounding)
+                Rect[] rawFaces = cascadeFaces.DetectMultiScale(Image, 1.2, 6);
+				if (Faces.Count != rawFaces.Length)
+					Faces.Clear();
+
+                // now per each detected face draw a marker and detect eyes inside the face rect
+                int facesCount = 0;
+                for (int i = 0; i < rawFaces.Length; ++i)
+                {
+                    Rect faceRect = rawFaces[i];
+                    Rect faceRectScaled = faceRect * invF;
+                    using (Mat grayFace = new Mat(Image, faceRect))
+                    {
+                        // another trick: confirm the face with eye detector, will cut some false positives
+                        if (cutFalsePositivesWithEyesSearch && null != cascadeEyes)
+                        {
+                            Rect[] eyes = cascadeEyes.DetectMultiScale(grayFace);
+                            if (eyes.Length == 0 || eyes.Length > 2)
+                                continue;
+                        }
+
+                        // get face object
+                        DetectedFace face = null;
+                        if (Faces.Count < i + 1)
+                        {
+                            face = new DetectedFace(DataStabilizer, faceRectScaled);
+                            Faces.Add(face);
+                        }
+                        else
+                        {
+                            face = Faces[i];
+                            face.SetRegion(faceRectScaled);
+                        }
+
+                        // shape
+                        facesCount++;
+                        // if (null != shapeFaces)
+                        // {
+                        //     Point[] marks = shapeFaces.DetectLandmarks(gray, faceRect);
+                        //
+                        //     // we have 68-point predictor
+                        //     if (marks.Length == 68)
+                        //     {
+                        //         // transform landmarks to the original image space
+                        //         List<Point> converted = new List<Point>();
+                        //         foreach (Point pt in marks)
+                        //             converted.Add(pt * invF);
+                        //
+                        //         // save and parse landmarks
+                        //         face.SetLandmarks(converted.ToArray());
+                        //     }
+                        // }
+                    }
+                }
+
+                // log
+                //UnityEngine.Debug.Log(String.Format("Found {0} faces", Faces.Count));
+            }
+        }
+        
+         public virtual void ProcessMat(Mat mat, Unity.TextureConversionParams texParams, bool detect = true)
+        {
+            processingImage = mat;
+            
+            // detect
+            if (detect)
+            {
+                double invF = 1.0 / appliedFactor;
+                DataStabilizer.ThresholdFactor = invF;
+
+                // convert to grayscale and normalize
                 Mat gray = new Mat();
                 Cv2.CvtColor(processingImage, gray, ColorConversionCodes.BGR2GRAY);
 

@@ -79,8 +79,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.5622846, b: 0.36405307, a: 0}
-  m_Intensity: 12000
+  m_Color: {r: 1, g: 0.8861918, b: 0.6650944, a: 1}
+  m_Intensity: 15000
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -150,13 +150,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 12000
+  m_Intensity: 15000
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 2
+  m_VolumetricDimmer: 10
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -212,14 +212,14 @@ MonoBehaviour:
   m_ShadowResolution:
     m_Override: 1024
     m_UseOverride: 0
-    m_Level: 2
+    m_Level: 1
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
   m_UseContactShadow:
     m_Override: 1
     m_UseOverride: 0
-    m_Level: 2
+    m_Level: 1
   m_RayTracedContactShadow: 0
   m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
   m_PenumbraTint: 0
@@ -345,37 +345,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695739d523d5bc44e900a0e0fa6071e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionDuration: 15
-  startWeather: {fileID: 11400000, guid: 71fc47cbda9db7541bb0a0acae0bb4a3, type: 2}
+  transitionDuration: 5
+  startWeather: {fileID: 11400000, guid: dda613125c83c0943ab14b6bd8893281, type: 2}
   vol: {fileID: 5405870909712001097}
-  weatherFont: {fileID: 12800000, guid: fae067962e5934395be31c8aba4a3455, type: 3}
+  weatherFont: {fileID: 0}
+  enabled: 0
   lowCloud:
     material: {fileID: 2100000, guid: 4195d31cc7b144914b4ffe90c3adf382, type: 2}
-    startDensity: 1.5
-    startSpeed: -0.25
-    startColor: {r: 1, g: 0.8461303, b: 0.6666667, a: 1}
-    currentDensity: 1.5
-    currentSpeed: -0.25
-    currentColor: {r: 1, g: 0.8461303, b: 0.6666667, a: 1}
+    startDensity: 1.06
+    startSpeed: 0.25
+    startColor: {r: 1, g: 1, b: 1, a: 1}
+    currentDensity: 1.06
+    currentSpeed: 0.25
+    currentColor: {r: 1, g: 1, b: 1, a: 1}
   highCloud:
     material: {fileID: 2100000, guid: 0e149e22a60d2eb47b181688cff3297d, type: 2}
-    startDensity: 1
-    startSpeed: -0.25
-    startColor: {r: 0.88983625, g: 0.76862746, b: 1, a: 1}
-    currentDensity: 1
-    currentSpeed: -0.25
-    currentColor: {r: 0.88983625, g: 0.76862746, b: 1, a: 1}
+    startDensity: 1.34
+    startSpeed: -0.18
+    startColor: {r: 1, g: 1, b: 1, a: 1}
+    currentDensity: 1.34
+    currentSpeed: -0.18
+    currentColor: {r: 1, g: 1, b: 1, a: 1}
   sky:
     obj: {fileID: 3812456634243339563, guid: b5e29e82bfbd9c145a01f1076bfd483d, type: 2}
-    startTop: {r: 0.90566874, g: 0.7335796, b: 0.990566, a: 1}
-    startMiddle: {r: 1, g: 0.67002255, b: 0.3915094, a: 1}
+    startTop: {r: 0.8443396, g: 0.99547416, b: 1, a: 1}
+    startMiddle: {r: 0.6839622, g: 0.85326815, b: 1, a: 1}
   fog:
     obj: {fileID: 7390374394701255129, guid: b5e29e82bfbd9c145a01f1076bfd483d, type: 2}
-    startAttenuation: 500
+    startAttenuation: 850
   sun:
     obj: {fileID: 627632169679015084}
-    startColor: {r: 0.9528302, g: 0.5622846, b: 0.36405307, a: 0}
-    startIntensity: 12000
+    startColor: {r: 1, g: 0.8861918, b: 0.6650944, a: 1}
+    startIntensity: 8000
   rain:
     lightPS: {fileID: 0}
     heavyPS: {fileID: 0}
