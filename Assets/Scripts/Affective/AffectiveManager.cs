@@ -112,7 +112,7 @@ public class AffectiveManager : MonoBehaviour
 
     private string CalculateStrongestEmotion(string emotion)
     {
-        if (_emotionList.Count > 15) _emotionList.Dequeue();
+        if (_emotionList.Count > 10) _emotionList.Dequeue();
         _emotionList.Enqueue(emotion);
         
         var groups = _emotionList.ToArray().GroupBy(s => s);

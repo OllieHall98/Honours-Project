@@ -59,7 +59,7 @@ public class BodyPuzzleCutscene : MonoBehaviour
         var tweenOpacity = LeanTween.value(fader.gameObject, 0, 1, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
         
-        yield return new WaitForSecondsRealtime(2.5f);
+        yield return new WaitForSecondsRealtime(4.5f);
         
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
