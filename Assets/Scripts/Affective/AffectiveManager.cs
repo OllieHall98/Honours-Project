@@ -10,6 +10,15 @@ using UnityEngine.Events;
 
 public class AffectiveManager : MonoBehaviour
 {
+    public enum AffectiveMode
+    {
+        Reinforce,
+        Support
+    }
+
+    public AffectiveMode currentAffectiveMode;
+    
+    
     public static AffectiveManager Instance;
     
     #region events
@@ -75,7 +84,7 @@ public class AffectiveManager : MonoBehaviour
 
     public void SetCurrentEmotion(string emotion)
     {
-        Debug.Log(emotion);
+        //Debug.Log(emotion);
         
         if (emotion == "N/A" || emotion == "")
         { 
@@ -112,7 +121,7 @@ public class AffectiveManager : MonoBehaviour
 
     private string CalculateStrongestEmotion(string emotion)
     {
-        if (_emotionList.Count > 10) _emotionList.Dequeue();
+        if (_emotionList.Count > 6) _emotionList.Dequeue();
         _emotionList.Enqueue(emotion);
         
         var groups = _emotionList.ToArray().GroupBy(s => s);

@@ -416,9 +416,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585883691688532564
     List: []
-  ExpandedItems:
-  - /Honours Level_WwiseProject
-  - /Honours Level_WwiseProject/Events
-  - /Honours Level_WwiseProject/Events/Default Work Unit
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

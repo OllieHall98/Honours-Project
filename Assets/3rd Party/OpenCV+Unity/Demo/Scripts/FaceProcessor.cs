@@ -244,8 +244,15 @@
                 appliedFactor = 1.0;
                 processingImage = Image;
             }
+            
+            // convert to grayscale and normalize
+            var gray = new Mat();
+            Cv2.CvtColor(processingImage, gray, ColorConversionCodes.BGR2GRAY);
 
-            return Image;
+            // fix shadows
+            Cv2.EqualizeHist(gray, gray);
+
+            return gray;
         }
 
         /// <summary>

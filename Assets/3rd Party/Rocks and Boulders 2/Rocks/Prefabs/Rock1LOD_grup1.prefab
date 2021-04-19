@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -112,7 +112,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400002
 Transform:
@@ -207,7 +207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400004
 Transform:
@@ -302,7 +302,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400006
 Transform:
@@ -394,7 +394,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400008
 Transform:
@@ -424,12 +424,13 @@ GameObject:
   m_Component:
   - component: {fileID: 400010}
   - component: {fileID: 20500000}
+  - component: {fileID: 1716667204841496167}
   m_Layer: 0
   m_Name: Rock1LOD_grup1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967277
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &400010
 Transform:
@@ -467,4 +468,16 @@ LODGroup:
     - renderer: {fileID: 2300004}
     - renderer: {fileID: 2300002}
     - renderer: {fileID: 2300000}
+  m_Enabled: 0
+--- !u!114 &1716667204841496167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4c2651278bdf141a0adc9045cd1669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

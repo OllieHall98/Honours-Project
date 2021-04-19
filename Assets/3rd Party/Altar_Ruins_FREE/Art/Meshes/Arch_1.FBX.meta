@@ -1,49 +1,125 @@
 fileFormatVersion: 2
 guid: 907217e528e335845ba60ee480bc1323
-timeCreated: 1527622940
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Altar
-    100002: //RootNode
-    100004: Arch_1
-    100006: Arches
-    100008: Entrance
-    100010: Flag
-    100012: Platform
-    100014: Tree
-    400000: Altar
-    400002: //RootNode
-    400004: Arch_1
-    400006: Arches
-    400008: Entrance
-    400010: Flag
-    400012: Platform
-    400014: Tree
-    2300000: Altar
-    2300002: Arch_1
-    2300004: Arches
-    2300006: Entrance
-    2300008: Flag
-    2300010: Platform
-    2300012: Tree
-    2300014: //RootNode
-    3300000: Altar
-    3300002: Arch_1
-    3300004: Arches
-    3300006: Entrance
-    3300008: Flag
-    3300010: Platform
-    3300012: Tree
-    3300014: //RootNode
-    4300000: Altar
-    4300002: Arches
-    4300004: Entrance
-    4300006: Flag
-    4300008: Platform
-    4300010: Tree
-    4300012: Arch_1
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Altar
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Arch_1
+  - first:
+      1: 100006
+    second: Arches
+  - first:
+      1: 100008
+    second: Entrance
+  - first:
+      1: 100010
+    second: Flag
+  - first:
+      1: 100012
+    second: Platform
+  - first:
+      1: 100014
+    second: Tree
+  - first:
+      4: 400000
+    second: Altar
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Arch_1
+  - first:
+      4: 400006
+    second: Arches
+  - first:
+      4: 400008
+    second: Entrance
+  - first:
+      4: 400010
+    second: Flag
+  - first:
+      4: 400012
+    second: Platform
+  - first:
+      4: 400014
+    second: Tree
+  - first:
+      23: 2300000
+    second: Altar
+  - first:
+      23: 2300002
+    second: Arch_1
+  - first:
+      23: 2300004
+    second: Arches
+  - first:
+      23: 2300006
+    second: Entrance
+  - first:
+      23: 2300008
+    second: Flag
+  - first:
+      23: 2300010
+    second: Platform
+  - first:
+      23: 2300012
+    second: Tree
+  - first:
+      23: 2300014
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Altar
+  - first:
+      33: 3300002
+    second: Arch_1
+  - first:
+      33: 3300004
+    second: Arches
+  - first:
+      33: 3300006
+    second: Entrance
+  - first:
+      33: 3300008
+    second: Flag
+  - first:
+      33: 3300010
+    second: Platform
+  - first:
+      33: 3300012
+    second: Tree
+  - first:
+      33: 3300014
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Altar
+  - first:
+      43: 4300002
+    second: Arches
+  - first:
+      43: 4300004
+    second: Entrance
+  - first:
+      43: 4300006
+    second: Flag
+  - first:
+      43: 4300008
+    second: Platform
+  - first:
+      43: 4300010
+    second: Tree
+  - first:
+      43: 4300012
+    second: Arch_1
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -51,7 +127,7 @@ ModelImporter:
       name: 01 - Default
     second: {fileID: 2100000, guid: d6c9df0629c9caa4c8661f442d17cd6a, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -68,6 +144,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -80,21 +157,33 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -102,10 +191,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -115,14 +207,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

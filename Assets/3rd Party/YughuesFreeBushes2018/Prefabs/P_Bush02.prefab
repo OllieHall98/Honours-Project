@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7992715529498157137
 Transform:
@@ -112,12 +112,13 @@ GameObject:
   m_Component:
   - component: {fileID: 7992715529498157145}
   - component: {fileID: 7992715529511154937}
+  - component: {fileID: -1769971172100719188}
   m_Layer: 0
   m_Name: P_Bush02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7992715529498157145
 Transform:
@@ -151,11 +152,11 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.5441412
+  - screenRelativeHeight: 0.6894246
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 7992715529495863993}
-  - screenRelativeHeight: 0.15085426
+  - screenRelativeHeight: 0.19868377
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 7992715529495863995}
@@ -163,11 +164,23 @@ LODGroup:
     fadeTransitionWidth: 0.2
     renderers:
     - renderer: {fileID: 7992715529495863997}
-  - screenRelativeHeight: 0.0008144488
+  - screenRelativeHeight: 0.004606899
     fadeTransitionWidth: 0.3
     renderers:
     - renderer: {fileID: 7992715529495863999}
   m_Enabled: 1
+--- !u!114 &-1769971172100719188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7992715529498131577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4c2651278bdf141a0adc9045cd1669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7992715529498131579
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7992715529498157147
 Transform:
@@ -287,7 +300,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7992715529498157149
 Transform:
@@ -389,7 +402,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7992715529498157151
 Transform:

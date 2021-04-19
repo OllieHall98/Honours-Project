@@ -8,12 +8,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
-using System.Threading;
 using DlibDotNet;
 using Microsoft.ML;
 using Microsoft.ML.Data;
-using UI;
-using Rect = OpenCvSharp.Rect;
+using UnityEngine.Windows.WebCam;
 
 namespace Affective
 {
@@ -22,9 +20,7 @@ namespace Affective
         //private FacialExpressionDetection _facialExpressionDetection = null;
         public AffectiveManager affectiveManager = null;
         private FacialDetection _facialDetection;
-        private GameObject _webcamNotFoundImage = null;
-
-        public WebCamTexture _webcamTex;
+        private WebCamTexture _webcamTex;
 
         [SerializeField] private TMPro.TextMeshProUGUI hotkeyText;
         
@@ -35,7 +31,7 @@ namespace Affective
 
         private FaceProcessorLive<WebCamTexture> _processor;
 
-        private RawImage _imageOutput;
+        [SerializeField] private RawImage imageOutput;
 
         private WebCamDevice[] _webcams;
         public TMP_Dropdown webcamDropdown;
@@ -43,16 +39,9 @@ namespace Affective
 
         public AspectRatioFitter imageFitter;
         
-        private bool _checkFaceStarted;
-        private bool _findFaceStarted;
-
         public bool affectiveOn;
-
-        private Rectangle faceRect;
         
-        //private CascadeClassifier _faceCascade;
-
-        private bool scanningFace = false;
+        private bool _scanningFace = false;
         
 
         private void Awake()
@@ -60,7 +49,7 @@ namespace Affective
             _facialDetection = new FacialDetection();
             _facialDetection.Init();
             
-            _imageOutput = GetComponent<RawImage>();
+            //_imageOutput = GetComponent<RawImage>();
             
             //_faceCascade = new CascadeClassifier();
             //_faceCascade.Load(faces.text);
@@ -80,11 +69,11 @@ namespace Affective
 
             // data stabilizer - affects face rects, face landmarks etc.
             _processor.DataStabilizer.Enabled = true;        // enable stabilizer
-            _processor.DataStabilizer.Threshold = 4.0;       // threshold value in pixels
+            _processor.DataStabilizer.Threshold = 6.0;       // threshold value in pixels
             _processor.DataStabilizer.SamplesCount = 1;      // how many samples do we need to compute stable data
 
             // performance data - some tricks to make it work faster
-            //_processor.Performance.Downscale = 1024;          // processed image is pre-scaled down to N px by long side
+            _processor.Performance.Downscale = 512;          // processed image is pre-scaled down to N px by long side
             //_processor.Performance.SkipRate = 0;             // we actually process only each Nth frame (and every frame for skipRate = 0)
         }
 
@@ -103,7 +92,7 @@ namespace Affective
             showFaceToggle.onValueChanged.AddListener(delegate {SetWebcamVisibility();});
             webcamDropdown.onValueChanged.AddListener(delegate { PickWebcamFromDropdown(); });
 
-            scanningFace = false;
+            _scanningFace = false;
         }
 
 
@@ -119,25 +108,22 @@ namespace Affective
 
         private void SearchForWebcam()
         {
-            _webcamNotFoundImage = transform.GetChild(0).gameObject;
-            _webcamNotFoundImage.SetActive(true);
-            
             _webcams = WebCamTexture.devices;
 
-            if (_webcams.Length == 0)
-            {
-                _webcamNotFoundImage.SetActive(true);
-                Debug.LogError("No camera detected!");
-                return;
-            }
-
-            // Populate dropdown
-            var webcamList = _webcams.Select(webcam => webcam.name).ToList();
-            webcamDropdown.ClearOptions();
-            webcamDropdown.AddOptions(webcamList);
-            
             SelectWebcam(_webcams[0]);
-            _webcamNotFoundImage.SetActive(false);
+            
+            // if (_webcams.Length == 0)
+            // {
+            //     Debug.LogError("No camera detected!");
+            //     return;
+            // }
+            //
+            // // Populate dropdown
+            // var webcamList = _webcams.Select(webcam => webcam.name).ToList();
+            // webcamDropdown.ClearOptions();
+            // webcamDropdown.AddOptions(webcamList);
+            //
+            // SelectWebcam(_webcams[0]);
 
             float videoRatio = _webcamTex.width / (float)_webcamTex.height;
             imageFitter.aspectRatio = videoRatio;
@@ -169,49 +155,26 @@ namespace Affective
             
             OutputProcessedImage();
 
-             if (!_facialDetection.faceCoroutineRunning)
-             {
-                 StartCoroutine(_facialDetection.CheckForFaces());
-             }
-
-             if (!_webcamTex || scanningFace) return;
+            if (!_webcamTex || _scanningFace) return;
              
              if (_facialDetection.coroutineRunning) return;
-             
+            
              _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams(), false);
              StartCoroutine(_facialDetection.DetectFacialExpression(_processor.Image));
-             //StartCoroutine(CheckFace());
+             
+             if (!_facialDetection.faceCoroutineRunning)  
+                 StartCoroutine(_facialDetection.CheckForFaces());
         }
-
-        private IEnumerator FindFace()
-        {
-            _findFaceStarted = true;
-            
-            _facialDetection.FaceFound();
-            
-            yield return new WaitForSecondsRealtime(2);
-            
-            _findFaceStarted = false;
-        }
-    
-
-        private Mat PreprocessedImage()
-        {
-            // detect everything we're interested in
-            _processor.ProcessTexture(_webcamTex, new OpenCvSharp.Unity.TextureConversionParams(), false);
-           
-            return _processor.Image;
-        }
-
+        
         private void OutputProcessedImage()
         {
-            if (!_imageOutput.enabled)
+            if (!imageOutput.enabled)
                 return;
     
-            _imageOutput.texture = _webcamTex;
+            imageOutput.texture = _webcamTex;
         }
 
-        private void SetWebcamVisibility() => _imageOutput.enabled = showFaceToggle.isOn;
+        private void SetWebcamVisibility() => imageOutput.enabled = showFaceToggle.isOn;
 
     }
     
@@ -234,20 +197,19 @@ namespace Affective
         private static float lipHeight;
         
         private Rectangle[] _faces;
-        private Array2D<BgrPixel> _cimg;
-        
+
         private static FullObjectDetection shape;
 
         public bool coroutineRunning = false;
         public bool faceCoroutineRunning = false;
 
-        private float calculationInterval = 0.02f;
+        private float calculationInterval = 0.03f;
+
+        private Array2D<RgbPixel> img;
 
         public void Init()
         {
             _faces = new Rectangle[0];
-            _cimg = new Array2D<BgrPixel>();
-
             _mlContext = new MLContext();
 
             OpenPredictionPipeline();
@@ -260,50 +222,40 @@ namespace Affective
             
             _affectiveManager = AffectiveManager.Instance;
             
-            //threads = new Thread[6];
-        }
-
-        public void FaceFound()
-        {
-            // find all faces in the image
-            _faces = _frontalFaceDetector.Operator(_cimg);
         }
         
        
          public IEnumerator CheckForFaces()
          {
              faceCoroutineRunning = true;
-
-             _faces = _frontalFaceDetector.Operator(_cimg);
+             
+             _faces = _frontalFaceDetector .Operator(img);
 
              yield return new WaitForSecondsRealtime(5.0f);
              
              faceCoroutineRunning = false;
          }
-         
-         public IEnumerator DetectFacialExpression(Mat image)
+
+      
+         public IEnumerator DetectFacialExpression(Mat mat)
          {
              coroutineRunning = true;
              
-             _cimg = GenerateArray2D(image);
+             var array = new byte[mat.Width * mat.Height * mat.ElemSize()];
+             Marshal.Copy(mat.Data, array, 0, array.Length);
 
-              if (!_faces.Any())
-              {
-                  _faces = _frontalFaceDetector.Operator(_cimg);
-                  coroutineRunning = false;
-                  goto here;
-              }
-             
-             yield return new WaitForSecondsRealtime(calculationInterval);
-             shape = _shapePredictor.Detect(_cimg, _faces[0]);
+             img = Dlib.LoadImageData<RgbPixel>(array, (uint) mat.Height, (uint) mat.Width,
+                 (uint) (mat.Width * mat.ElemSize()));
 
-             if (shape == null)
+             if (!_faces.Any())
              {
-                 _faces = _frontalFaceDetector.Operator(_cimg);
-                 coroutineRunning = false;
+                 _faces = _frontalFaceDetector.Operator(img);
                  goto here;
              }
              
+             shape = _shapePredictor.Detect(img, _faces[0]);
+             
+             yield return new WaitForSecondsRealtime(calculationInterval);
              CalculateLeftEyebrow();
              yield return new WaitForSecondsRealtime(calculationInterval);
              CalculateRightEyebrow();
@@ -315,8 +267,6 @@ namespace Affective
              CalculateLipWidth();
              yield return new WaitForSecondsRealtime(calculationInterval);
              CalculateLipHeight();
-             yield return new WaitForSecondsRealtime(calculationInterval);
-             
              var inputData = new FeatureInputData
              {
                  leftEyebrow = leftEyebrow,
@@ -326,27 +276,14 @@ namespace Affective
                  lipWidth = lipWidth,
                  lipHeight = lipHeight
              };
-             
-             AffectiveManager.Instance.SetCurrentEmotion(_predictionEngine.Predict(inputData).Expression);
+             yield return new WaitForSecondsRealtime(calculationInterval);
+             string emotion = _predictionEngine.Predict(inputData).Expression;
+             AffectiveManager.Instance.SetCurrentEmotion(emotion);
              
              here:
-             
              coroutineRunning = false;
          }
-         
         
-        
-        Array2D<BgrPixel> GenerateArray2D(Mat image)
-        {
-            var array = new byte[image.Width * image.Height * image.ElemSize()];
-            
-            Marshal.Copy(image.Data, array, 0 , array.Length);
-            
-            return  Dlib.LoadImageData<BgrPixel>(array, (uint) image.Height, (uint) image.Width,
-                (uint) (image.Width * image.ElemSize()));
-            
-        }
-
         private void OpenPredictionPipeline()
         {
             var predictionPipeline = _mlContext.Model.Load(Application.streamingAssetsPath + "/model.zip", out _);
@@ -355,8 +292,6 @@ namespace Affective
 
         private static void CalculateLeftEyebrow()
         {
-            //var shape = (FullObjectDetection) data;
-
             float result = 0;
             float normalisationDistance = CalculateDistance(shape, 21, 39);
 
@@ -367,8 +302,6 @@ namespace Affective
 
         private static void CalculateRightEyebrow()
         {
-            //var shape = (FullObjectDetection) data;
-            
             float result = 0;
             float normalisationDistance = CalculateDistance(shape, 22, 42);
 
@@ -379,8 +312,6 @@ namespace Affective
 
         private static void CalculateLeftLip()
         {
-            //var shape = (FullObjectDetection) data;
-            
             float result = 0;
             float normalisationDistance = CalculateDistance(shape, 33, 51);
 
@@ -391,8 +322,6 @@ namespace Affective
 
         private static void CalculateRightLip()
         {
-            //var shape = (FullObjectDetection) data;
-            
             float result = 0;
             float normalisationDistance = CalculateDistance(shape, 33, 51);
 
@@ -403,7 +332,6 @@ namespace Affective
 
         private static void CalculateLipWidth()
         {
-            //var shape = (FullObjectDetection) data;
             lipWidth = CalculateDistance(shape, 48, 54) / CalculateDistance(shape, 33, 51);
         }
 
