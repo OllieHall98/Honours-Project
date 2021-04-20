@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3236114444">
+		<SoundBank Id="782826392" Language="SFX" Hash="1901734140">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -32,11 +32,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="701139723" Name="Cicadas" ObjectPath="\Events\Default Work Unit\Cicadas" MaxAttenuation="75.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1010257280" Language="SFX">
+							<ShortName>Cicadas.wav</ShortName>
+							<Path>SFX\Cicadas_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1826863455" Name="ConveyanceCube_Music" ObjectPath="\Events\Default Work Unit\ConveyanceCube_Music" DurationType="OneShot" DurationMin="28.413469" DurationMax="28.413469">
 					<IncludedMemoryFiles>
 						<File Id="964361258" Language="SFX">
 							<ShortName>ConveyanceCubeMusic.wav</ShortName>
 							<Path>SFX\ConveyanceCubeMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="122842808" Name="DesertAudio" ObjectPath="\Events\Default Work Unit\DesertAudio" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="318856110" Language="SFX">
+							<ShortName>DesertAudio.wav</ShortName>
+							<Path>SFX\DesertAudio_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +73,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2598825076" Name="FireConveyanceBeam_Stop" ObjectPath="\Events\Default Work Unit\FireConveyanceBeam_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3241912412" Name="ForestAudio" ObjectPath="\Events\Default Work Unit\ForestAudio" MaxAttenuation="40.000000" DurationType="Infinite">
+				<Event Id="3241912412" Name="ForestAudio" ObjectPath="\Events\Default Work Unit\ForestAudio" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="816237619" Language="SFX">
 							<ShortName>Forest ambience.wav</ShortName>
@@ -196,9 +212,10 @@
 			<GameParameters>
 				<GameParameter Id="467945479" Name="MoodReceptorValue" ObjectPath="\Game Parameters\Default Work Unit\MoodReceptorValue"/>
 				<GameParameter Id="1866329414" Name="RainIntensity" ObjectPath="\Game Parameters\Default Work Unit\RainIntensity"/>
+				<GameParameter Id="3211196718" Name="EnvironmentVolume" ObjectPath="\Game Parameters\Default Work Unit\EnvironmentVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3609226010">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2656921177">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

@@ -91,6 +91,15 @@ namespace Weather
             }
         }
         
+        [Serializable]
+        public class BirdClass
+        {
+            public NVBoids Birds;
+            
+            [HideInInspector] public float StartAmount = 0;
+            [HideInInspector] public float StartSpeed = 0;
+        }
+        
 
         public CloudClass lowCloud;
         public CloudClass highCloud;
@@ -98,6 +107,7 @@ namespace Weather
         [HideInInspector] public FogClass fog;
         public SunClass sun;
         public RainClass rain;
+        public BirdClass birds;
         
         private void Awake()
         {
@@ -109,6 +119,7 @@ namespace Weather
 
             rain.ConfigureRainSystem();
             GetVolumeProfile();
+
         }
 
         private void Start()
@@ -148,7 +159,7 @@ namespace Weather
             
             //NotificationText.Instance.DisplayMessage("Changing weather to " + weather.weatherName, 2f);
 
-            Debug.Log("Changing weather to " + weather.name);
+            //Debug.Log("Changing weather to " + weather.name);
 
             _weatherTarget = weather;
 
@@ -203,6 +214,12 @@ namespace Weather
             rain.startColor = rain.LightMain.startColor.color;
 
             rain.startIntensity = rain.HeavyEmission.rateOverTime.constant;
+
+            //birds.StartAmount = birds.Birds.birdsNum;
+            birds.StartSpeed = birds.Birds.birdSpeed;
+            
+            //birds.Birds.CreateFlock();
+            //birds.Birds.CreateBird();
         }
         
         private IEnumerator ChangeWeatherTransition(float duration)
@@ -256,8 +273,11 @@ namespace Weather
                     rain.HeavyEmission.rateOverTime = Mathf.Lerp(rain.startIntensity,
                         _weatherTarget.rain.intensity * 50, _timer / duration);
 
-                    _weatherAudio.SetRainIntensityRtcp(rain.LightEmission.rateOverTime.constant / 50);
+                    _weatherAudio.SetRainIntensityRtcp(rain.LightEmission.rateOverTime.constant / 20);
                 }
+
+                //birds.Birds.birdsNum = (int)Mathf.Lerp(birds.StartAmount, _weatherTarget.birdNumber, _timer / duration);
+                birds.Birds.birdSpeed = Mathf.Lerp(birds.StartSpeed, _weatherTarget.birdSpeed, _timer / duration);
                 
                 _timer += Time.deltaTime;
                 yield return null;
@@ -377,6 +397,9 @@ namespace Weather
                 }
             }
 
+            //birds.Birds.birdsNum = (int)_weatherTarget.birdNumber;
+            birds.Birds.birdSpeed = _weatherTarget.birdSpeed;
+
             SetTransitionStartValues();
 
         }
@@ -456,6 +479,8 @@ namespace Weather
                 script.rain.lightPS = (ParticleSystem)EditorGUILayout.ObjectField("Light Rain", script.rain.lightPS, typeof(ParticleSystem), true);
                 script.rain.heavyPS = (ParticleSystem)EditorGUILayout.ObjectField("Heavy Rain", script.rain.heavyPS, typeof(ParticleSystem), true);
                 script.rain.floorPS = (ParticleSystem)EditorGUILayout.ObjectField("Floor Rain", script.rain.floorPS, typeof(ParticleSystem), true);
+                GUILayout.Space(5);
+                script.birds.Birds = (NVBoids)EditorGUILayout.ObjectField("Birds", script.birds.Birds, typeof(NVBoids), true);
                 GUILayout.Space(5);
                 GUILayout.EndVertical();
                 

@@ -31,7 +31,7 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
   fog:
     enabled: 1
-    thickness: 1500
+    thickness: 2500
   sky:
     enabled: 1
     top: {r: 0.46293166, g: 0.833496, b: 0.9528302, a: 1}
@@ -48,3 +48,5 @@ MonoBehaviour:
     changeColor: 1
     color: {r: 1, g: 1, b: 1, a: 1}
     intensity: 0
+  birdNumber: 100
+  birdSpeed: 2

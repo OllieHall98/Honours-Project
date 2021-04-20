@@ -15,7 +15,9 @@ namespace AK
     {
         static const AkUniqueID ALLRELICSCOLLECTED = 2241193683U;
         static const AkUniqueID BRIDGEFORESTENTRY = 3594869627U;
+        static const AkUniqueID CICADAS = 701139723U;
         static const AkUniqueID CONVEYANCECUBE_MUSIC = 1826863455U;
+        static const AkUniqueID DESERTAUDIO = 122842808U;
         static const AkUniqueID FINALTELEPORT = 1479917130U;
         static const AkUniqueID FIRECONVEYANCEBEAM_START = 1332520360U;
         static const AkUniqueID FIRECONVEYANCEBEAM_STOP = 2598825076U;
@@ -41,6 +43,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID ENVIRONMENTVOLUME = 3211196718U;
         static const AkUniqueID MOODRECEPTORVALUE = 467945479U;
         static const AkUniqueID RAININTENSITY = 1866329414U;
     } // namespace GAME_PARAMETERS

@@ -187,7 +187,7 @@ Material:
     - _AffectNormal: 1
     - _AffectSmoothness: 1
     - _AlbedoAffectEmissive: 0
-    - _AlphaCutoff: 0.333
+    - _AlphaCutoff: 0.263
     - _AlphaCutoffEnable: 1
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
@@ -202,7 +202,7 @@ Material:
     - _CoatMask: 0
     - _CullMode: 0
     - _CullModeForward: 0
-    - _Cutoff: 0.333
+    - _Cutoff: 0.263
     - _DecalBlend: 0.5
     - _DecalColorMask0: 15
     - _DecalColorMask1: 15

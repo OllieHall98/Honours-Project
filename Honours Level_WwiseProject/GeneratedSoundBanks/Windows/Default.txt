@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	122842808	DesertAudio			\Default Work Unit\DesertAudio	
 	530129416	Teleport			\Default Work Unit\Teleport	
 	579976681	PickupPaper			\Default Work Unit\PickupPaper	
 	604601532	OpenGate			\Default Work Unit\OpenGate	
+	701139723	Cicadas			\Default Work Unit\Cicadas	
 	953277036	Resume			\Default Work Unit\Resume	
 	1332520360	FireConveyanceBeam_Start			\Default Work Unit\FireConveyanceBeam_Start	
 	1409261969	MazeCentreDiscovery			\Default Work Unit\MazeCentreDiscovery	
@@ -27,10 +29,12 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	467945479	MoodReceptorValue			\Default Work Unit\MoodReceptorValue	
 	1866329414	RainIntensity			\Default Work Unit\RainIntensity	
+	3211196718	EnvironmentVolume			\Default Work Unit\EnvironmentVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171071513	pickup	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pickup		52280
 	291267689	Portal hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Portal hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portal hum		2487388
+	318856110	DesertAudio	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\DesertAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertAudio		44559424
 	345908968	CinematicIntroAudio	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\CinematicIntroAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CinematicIntroAudio		9242260
 	345965029	Heavy Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Heavy Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Heavy Rain		10379772
 	382355229	GateSymbolShow	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\GateSymbolShow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GateSymbolShow		1060156
@@ -52,4 +56,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	947005409	Beam Laser	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Conveyance Cube\Beam Laser_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Conveyance Cube\Beam Laser		322830
 	964361258	ConveyanceCubeMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ConveyanceCubeMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ConveyanceCubeMusic		5012264
 	988523118	BridgeForest Intro Music	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\BridgeForest Intro Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BridgeForest Intro Music		11206200
+	1010257280	Cicadas	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Cicadas_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cicadas		9063100
 

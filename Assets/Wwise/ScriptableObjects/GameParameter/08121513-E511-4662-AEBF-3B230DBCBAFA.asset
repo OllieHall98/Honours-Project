@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8c5020eae704241af1846cd37a9d7b, type: 3}
+  m_Name: 08121513-E511-4662-AEBF-3B230DBCBAFA
+  m_EditorClassIdentifier: 
+  objectName: EnvironmentVolume
+  id: 3211196718
+  guid: 08121513-E511-4662-AEBF-3B230DBCBAFA

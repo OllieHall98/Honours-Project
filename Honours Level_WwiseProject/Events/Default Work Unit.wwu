@@ -313,6 +313,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DesertAudio" ID="{70368208-3741-44B7-A11C-159FE0D3924A}">
+					<ChildrenList>
+						<Action Name="" ID="{5EFEBBB9-D84D-41AF-A866-7BD9628E3FC3}" ShortID="836940674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DesertAudio" ID="{FE1553E1-371D-4FD0-A1E1-BDB1CF639510}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cicadas" ID="{9B83A557-F5AE-4111-B4D5-CBE3999B07D3}">
+					<ChildrenList>
+						<Action Name="" ID="{5C2E80F7-398C-4F4D-963B-A65613C290BF}" ShortID="492061835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cicadas" ID="{533DC4C4-BAE0-4CD9-9729-15E04886FB51}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

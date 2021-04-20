@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="RainIntensity" ID="{1D69E9FF-BD9A-41D5-9398-BCA91C164177}"/>
 				<GameParameter Name="MoodReceptorValue" ID="{D1929043-875A-4521-B9BA-22B88E408A94}"/>
+				<GameParameter Name="EnvironmentVolume" ID="{08121513-E511-4662-AEBF-3B230DBCBAFA}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

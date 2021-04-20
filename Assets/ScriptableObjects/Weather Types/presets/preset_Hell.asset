@@ -48,3 +48,5 @@ MonoBehaviour:
     changeColor: 1
     color: {r: 1, g: 0, b: 0, a: 1}
     intensity: 100
+  birdNumber: 1000
+  birdSpeed: 6.9

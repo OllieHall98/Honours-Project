@@ -49,11 +49,6 @@ namespace Affective
             _facialDetection = new FacialDetection();
             _facialDetection.Init();
             
-            //_imageOutput = GetComponent<RawImage>();
-            
-            //_faceCascade = new CascadeClassifier();
-            //_faceCascade.Load(faces.text);
-            
             InitializeProcessor();
             
             if (affectiveOn)
@@ -82,7 +77,6 @@ namespace Affective
             if (affectiveOn)
             {
                 hotkeyText.enabled = false;
-                //SearchForWebcam();
             }
             else
             {
@@ -111,19 +105,6 @@ namespace Affective
             _webcams = WebCamTexture.devices;
 
             SelectWebcam(_webcams[0]);
-            
-            // if (_webcams.Length == 0)
-            // {
-            //     Debug.LogError("No camera detected!");
-            //     return;
-            // }
-            //
-            // // Populate dropdown
-            // var webcamList = _webcams.Select(webcam => webcam.name).ToList();
-            // webcamDropdown.ClearOptions();
-            // webcamDropdown.AddOptions(webcamList);
-            //
-            // SelectWebcam(_webcams[0]);
 
             float videoRatio = _webcamTex.width / (float)_webcamTex.height;
             imageFitter.aspectRatio = videoRatio;

@@ -778,6 +778,32 @@
 							<ValueList>
 								<Value>-30</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{CEF61359-8BBE-47B6-9F20-4B0FAE5D0EAD}" ShortID="629528964">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EnvironmentVolume" ID="{08121513-E511-4662-AEBF-3B230DBCBAFA}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0D46DF59-D923-46A6-910C-8191426DED24}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1182,6 +1208,127 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="FinalTeleport" ID="{8DE9E21B-ECB5-43E9-A08E-1CD30050C20E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Cicadas" ID="{533DC4C4-BAE0-4CD9-9729-15E04886FB51}" ShortID="478251669">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{48E045AA-9F2B-473A-A5CF-45A1E9437C91}" ShortID="90602667">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EnvironmentVolume" ID="{08121513-E511-4662-AEBF-3B230DBCBAFA}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{13CEE372-9EA7-4299-B322-9A05D0C53121}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Cicadas" ID="{01BA8882-4CBF-45E3-93BC-CBAA3A55C587}" WorkUnitID="{7DADA13A-F3E6-4F42-A41A-683BFE5448E8}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cicadas" ID="{60D17425-19D8-4859-AF15-6C31CC2D3C18}">
+							<Language>SFX</Language>
+							<AudioFile>Cicadas.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1010257280"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cicadas" ID="{60D17425-19D8-4859-AF15-6C31CC2D3C18}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DesertAudio" ID="{FE1553E1-371D-4FD0-A1E1-BDB1CF639510}" ShortID="25978968">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{3BA5BDCE-73E1-4E7B-9B4C-FE804A55FED5}" ShortID="604145661">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EnvironmentVolume" ID="{08121513-E511-4662-AEBF-3B230DBCBAFA}" WorkUnitID="{E6A45E81-1ECC-4D66-8ADF-5412FCAB8E36}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F22B276F-CB5B-4F2A-9702-446F14DD3FE6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Forest" ID="{35A37F07-64AA-4DE9-A25F-C42E4DA1799B}" WorkUnitID="{7DADA13A-F3E6-4F42-A41A-683BFE5448E8}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DesertAudio" ID="{E43564A1-B783-4F70-A53D-15F67D439F56}">
+							<Language>SFX</Language>
+							<AudioFile>DesertAudio.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="318856110"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DesertAudio" ID="{E43564A1-B783-4F70-A53D-15F67D439F56}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

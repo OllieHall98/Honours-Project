@@ -63,13 +63,24 @@ public class AffectiveManager : MonoBehaviour
 
         foreach (var obj in GameObject.FindGameObjectsWithTag("Affective"))
         {
-            _neutralEvent.AddListener(obj.GetComponent<ObjectState>().ANeutral);
-            _joyEvent.AddListener(obj.GetComponent<ObjectState>().AJoy);
-            _sadnessEvent.AddListener(obj.GetComponent<ObjectState>().ASadness);
-            _fearEvent.AddListener(obj.GetComponent<ObjectState>().AFear);
-            _disgustEvent.AddListener(obj.GetComponent<ObjectState>().ADisgust);
-            _angerEvent.AddListener(obj.GetComponent<ObjectState>().AAnger);
-            _surpriseEvent.AddListener(obj.GetComponent<ObjectState>().ASurprise);
+            foreach (var objectState in obj.GetComponents<ObjectState>())
+            {
+                _neutralEvent.AddListener(objectState.ANeutral);
+                _joyEvent.AddListener(objectState.AJoy);
+                _sadnessEvent.AddListener(objectState.ASadness);
+                _fearEvent.AddListener(objectState.AFear);
+                _disgustEvent.AddListener(objectState.ADisgust);
+                _angerEvent.AddListener(objectState.AAnger);
+                _surpriseEvent.AddListener(objectState.ASurprise);
+            }
+            
+            // _neutralEvent.AddListener(obj.GetComponents<ObjectState>().ANeutral);
+            // _joyEvent.AddListener(obj.GetComponent<ObjectState>().AJoy);
+            // _sadnessEvent.AddListener(obj.GetComponent<ObjectState>().ASadness);
+            // _fearEvent.AddListener(obj.GetComponent<ObjectState>().AFear);
+            // _disgustEvent.AddListener(obj.GetComponent<ObjectState>().ADisgust);
+            // _angerEvent.AddListener(obj.GetComponent<ObjectState>().AAnger);
+            // _surpriseEvent.AddListener(obj.GetComponent<ObjectState>().ASurprise);
         }
     }
 

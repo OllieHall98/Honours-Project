@@ -66,6 +66,9 @@ namespace Weather
             public float intensity;
         }
 
+        public float birdNumber;
+        public float birdSpeed;
+
     }
     
     #if UNITY_EDITOR
@@ -112,6 +115,8 @@ namespace Weather
             SunSection();
             GUILayout.FlexibleSpace();
             RainSection();
+            GUILayout.FlexibleSpace();
+            BirdSection();
             
             GUILayout.EndVertical();
             
@@ -296,6 +301,29 @@ namespace Weather
                 GUILayout.EndVertical();
             }
             
+            GUILayout.EndVertical();
+        }
+        
+        void BirdSection()
+        {
+            GUILayout.BeginVertical(EditorStyles.helpBox);
+
+            GUILayout.BeginVertical();
+            GUILayout.Space(5);
+            
+            GUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("Bird amount", labelWidth);
+            data.birdNumber = EditorGUILayout.Slider(data.birdNumber, 0, 1000, fieldWidth);
+            GUILayout.EndHorizontal();
+            
+            GUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("Bird speed", labelWidth);
+            data.birdSpeed = EditorGUILayout.Slider(data.birdSpeed, 2, 12, fieldWidth);
+            GUILayout.EndHorizontal();
+
+            GUILayout.Space(5);
+            GUILayout.EndVertical();
+
             GUILayout.EndVertical();
         }
         
