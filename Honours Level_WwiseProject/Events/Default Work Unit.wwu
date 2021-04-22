@@ -335,6 +335,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MirrorPromptComplete" ID="{E7049A7D-12F3-4262-A4E9-004C4E3C2135}">
+					<ChildrenList>
+						<Action Name="" ID="{91359C73-D94F-422F-9473-FED4E186E48D}" ShortID="488278987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MirrorMagic" ID="{F8D2957F-50CD-45FE-B39D-6AEE0D19AF30}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MirrorBackgroundSparkle" ID="{3B275B19-ACA7-4F07-87B3-C7D8220F8F0B}">
+					<ChildrenList>
+						<Action Name="" ID="{6249B950-B6C0-499A-933D-43F0AAB8C43C}" ShortID="176108005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MirrorSparkle" ID="{533EE972-A7B9-4728-9FC2-E927E679310C}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

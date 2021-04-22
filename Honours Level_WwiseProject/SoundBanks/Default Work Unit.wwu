@@ -11,6 +11,7 @@
 						<ObjectRef Name="PortalOpen" ID="{ADB17AA0-4B7E-4203-869E-38DD18AB4641}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BridgeForestEntry" ID="{3D8DE07A-AC5F-420C-ACE3-32799B3BAD93}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpenChest" ID="{EB95101F-C843-4222-9863-FBC1E9A9703C}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MirrorPromptComplete" ID="{E7049A7D-12F3-4262-A4E9-004C4E3C2135}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MindRelicGet" ID="{DDCE2D11-2DA1-44A5-96E3-30A808413513}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PortalHum" ID="{3985630F-D7B8-44B4-B74B-3D370A73444F}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DesertAudio" ID="{70368208-3741-44B7-A11C-159FE0D3924A}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
@@ -31,6 +32,7 @@
 						<ObjectRef Name="StartRain" ID="{61C69A30-A521-4DBF-9F69-FD084230C63A}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ConveyanceCube_Music" ID="{C4376770-8890-4E18-B146-DC2E4A239236}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause" ID="{F1EC011F-A916-4E83-9E22-90CE6FE57308}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MirrorBackgroundSparkle" ID="{3B275B19-ACA7-4F07-87B3-C7D8220F8F0B}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

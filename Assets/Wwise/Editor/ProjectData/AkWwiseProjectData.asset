@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d9bd86c2ecffcb43be2a739e96c240df
     GuidInternal: 
-    m_lastTime: -8585827240767192425
+    m_lastTime: -8585825602970000463
     List:
     - name: Default
       guid: 1eced2f1efc9b846b3ca73a567b39d78
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2cf7823a53e5be47a47e243015e32196
     GuidInternal: 
-    m_lastTime: -8585827244717319215
+    m_lastTime: -8585825603064404487
     List:
     - name: AllRelicsCollected
       guid: 8162382c63a4d54abf43867debb9e7ab
@@ -104,8 +104,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Cicadas
       maxAttenuation: 75
-      maxDuration: 51.377754
-      minDuration: 51.377754
+      maxDuration: -1
+      minDuration: -1
     - name: ConveyanceCube_Music
       guid: 706737c49088184eb146dc2e4a239236
       id: 1826863455
@@ -128,8 +128,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\DesertAudio
       maxAttenuation: 100
-      maxDuration: 232.08
-      minDuration: 232.08
+      maxDuration: -1
+      minDuration: -1
     - name: FinalTeleport
       guid: 9b4433634b06eb458a1770271b62ecb4
       id: 1479917130
@@ -238,6 +238,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 11.833469
       minDuration: 11.833469
+    - name: MirrorBackgroundSparkle
+      guid: 195b273ba7ac074f87b3c7d8220f8f0b
+      id: 3762912606
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MirrorBackgroundSparkle
+        ObjectType: 3
+      Path: Default Work Unit\MirrorBackgroundSparkle
+      maxAttenuation: 0
+      maxDuration: 23.540861
+      minDuration: 23.540861
+    - name: MirrorPromptComplete
+      guid: 7d9a04e7f3126242a4e9004c4e3c2135
+      id: 349496443
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MirrorPromptComplete
+        ObjectType: 3
+      Path: Default Work Unit\MirrorPromptComplete
+      maxAttenuation: 0
+      maxDuration: 3.510499
+      minDuration: 3.510499
     - name: OpenChest
       guid: 1f1095eb43c822429863fbc1e9a9703c
       id: 4187372360
@@ -390,7 +414,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 815ea4e6cc1e664d8adf5412fcab8e36
     GuidInternal: 
-    m_lastTime: -8585826660232823898
+    m_lastTime: -8585825603064368097
     List:
     - name: EnvironmentVolume
       guid: 1315120811e56246aebf3b230dbcbafa
@@ -401,6 +425,15 @@ MonoBehaviour:
       - ElementName: EnvironmentVolume
         ObjectType: 13
       Path: Default Work Unit\EnvironmentVolume
+    - name: MirrorPitch
+      guid: bed20ae000ef2045bf2172dab54d8893
+      id: 4026013542
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MirrorPitch
+        ObjectType: 13
+      Path: Default Work Unit\MirrorPitch
     - name: MoodReceptorValue
       guid: 439092d15a872145b9ba22b88e408a94
       id: 467945479

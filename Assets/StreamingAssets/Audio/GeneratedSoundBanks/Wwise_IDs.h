@@ -27,6 +27,8 @@ namespace AK
         static const AkUniqueID GATESYMBOLSHOW = 2775288295U;
         static const AkUniqueID MAZECENTREDISCOVERY = 1409261969U;
         static const AkUniqueID MINDRELICGET = 2100819074U;
+        static const AkUniqueID MIRRORBACKGROUNDSPARKLE = 3762912606U;
+        static const AkUniqueID MIRRORPROMPTCOMPLETE = 349496443U;
         static const AkUniqueID OPENCHEST = 4187372360U;
         static const AkUniqueID OPENGATE = 604601532U;
         static const AkUniqueID OPENINGCINEMATIC = 3875903466U;
@@ -44,6 +46,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID ENVIRONMENTVOLUME = 3211196718U;
+        static const AkUniqueID MIRRORPITCH = 4026013542U;
         static const AkUniqueID MOODRECEPTORVALUE = 467945479U;
         static const AkUniqueID RAININTENSITY = 1866329414U;
     } // namespace GAME_PARAMETERS

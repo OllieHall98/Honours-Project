@@ -26,6 +26,9 @@ public class MirrorPuzzle : MonoBehaviour
     //public Material mirrorMat;
     
     [SerializeField] private AK.Wwise.Event RelicGet;
+    [SerializeField] private AK.Wwise.Event MirrorPromptComplete;
+    [SerializeField] private AK.Wwise.Event MirrorSparkle;
+    [SerializeField] private AK.Wwise.RTPC mirrorPromptPitch;
     
     [SerializeField] private GameObject soulBeacon;
 
@@ -55,6 +58,8 @@ public class MirrorPuzzle : MonoBehaviour
         // Move player in front of mirror
         PlayerStateScript.Instance.SetMovementActive(false, true);
 
+        MirrorSparkle.Post(gameObject);
+        
         if (!_coroutineExecuting) StartCoroutine(MoveToMirror());
     }
 
@@ -100,6 +105,9 @@ public class MirrorPuzzle : MonoBehaviour
         while (!CheckPlayerEmotion("joy"))
             yield return null;
 
+        mirrorPromptPitch.SetValue(gameObject, 0);
+        MirrorPromptComplete.Post(gameObject);
+        
         var material = mirrorMat.GetComponent<Renderer>().materials[1];
         
         var tweenEmissive = LeanTween.value(mirrorMat, color0, color1 * 5, 1f);
@@ -110,6 +118,9 @@ public class MirrorPuzzle : MonoBehaviour
         while (!CheckPlayerEmotion("surprise"))
             yield return null;
         
+        mirrorPromptPitch.SetValue(gameObject, 1);
+        MirrorPromptComplete.Post(gameObject);
+        
         tweenEmissive = LeanTween.value(mirrorMat, color1 * 5, color2 * 5, 1f);
         tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
         
@@ -117,6 +128,9 @@ public class MirrorPuzzle : MonoBehaviour
         
         while (!CheckPlayerEmotion("sadness"))
             yield return null;
+        
+        mirrorPromptPitch.SetValue(gameObject, 2);
+        MirrorPromptComplete.Post(gameObject);
         
         tweenEmissive = LeanTween.value(mirrorMat, color2 * 5, color3 * 5, 1f);
         tweenEmissive.setOnUpdate((Color color) => { material.color = color; });

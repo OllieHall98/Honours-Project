@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="1901734140">
+		<SoundBank Id="782826392" Language="SFX" Hash="826051943">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -121,6 +121,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3762912606" Name="MirrorBackgroundSparkle" ObjectPath="\Events\Default Work Unit\MirrorBackgroundSparkle" DurationType="OneShot" DurationMin="23.540861" DurationMax="23.540861">
+					<IncludedMemoryFiles>
+						<File Id="604979757" Language="SFX">
+							<ShortName>MirrorSparkle.wav</ShortName>
+							<Path>SFX\MirrorSparkle_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="349496443" Name="MirrorPromptComplete" ObjectPath="\Events\Default Work Unit\MirrorPromptComplete" DurationType="OneShot" DurationMin="3.510499" DurationMax="3.510499">
+					<IncludedMemoryFiles>
+						<File Id="564342958" Language="SFX">
+							<ShortName>MirrorMagic.wav</ShortName>
+							<Path>SFX\MirrorMagic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4187372360" Name="OpenChest" ObjectPath="\Events\Default Work Unit\OpenChest" DurationType="OneShot" DurationMin="10.716848" DurationMax="10.716848">
 					<IncludedMemoryFiles>
 						<File Id="755188457" Language="SFX">
@@ -213,9 +229,10 @@
 				<GameParameter Id="467945479" Name="MoodReceptorValue" ObjectPath="\Game Parameters\Default Work Unit\MoodReceptorValue"/>
 				<GameParameter Id="1866329414" Name="RainIntensity" ObjectPath="\Game Parameters\Default Work Unit\RainIntensity"/>
 				<GameParameter Id="3211196718" Name="EnvironmentVolume" ObjectPath="\Game Parameters\Default Work Unit\EnvironmentVolume"/>
+				<GameParameter Id="4026013542" Name="MirrorPitch" ObjectPath="\Game Parameters\Default Work Unit\MirrorPitch"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3192912063">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3204490413">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	122842808	DesertAudio			\Default Work Unit\DesertAudio	
+	349496443	MirrorPromptComplete			\Default Work Unit\MirrorPromptComplete	
 	530129416	Teleport			\Default Work Unit\Teleport	
 	579976681	PickupPaper			\Default Work Unit\PickupPaper	
 	604601532	OpenGate			\Default Work Unit\OpenGate	
@@ -21,6 +22,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3241912412	ForestAudio			\Default Work Unit\ForestAudio	
 	3594869627	BridgeForestEntry			\Default Work Unit\BridgeForestEntry	
 	3599883275	PortalHum			\Default Work Unit\PortalHum	
+	3762912606	MirrorBackgroundSparkle			\Default Work Unit\MirrorBackgroundSparkle	
 	3807001816	GameplayStartMusic			\Default Work Unit\GameplayStartMusic	
 	3875903466	OpeningCinematic			\Default Work Unit\OpeningCinematic	
 	4082919014	ForestEntry			\Default Work Unit\ForestEntry	
@@ -30,6 +32,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	467945479	MoodReceptorValue			\Default Work Unit\MoodReceptorValue	
 	1866329414	RainIntensity			\Default Work Unit\RainIntensity	
 	3211196718	EnvironmentVolume			\Default Work Unit\EnvironmentVolume	
+	4026013542	MirrorPitch			\Default Work Unit\MirrorPitch	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171071513	pickup	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pickup		52280
@@ -46,7 +49,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	528281650	MindRelicGet	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\MindRelicGet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MindRelicGet		2087488
 	537129767	FinalTeleport	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\FinalTeleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FinalTeleport		799872
 	541904421	MazeCentreDiscovery	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\MazeCentreDiscovery_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MazeCentreDiscovery		2208900
+	564342958	MirrorMagic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\MirrorMagic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MirrorMagic		619316
 	570604354	GameplayStartMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\GameplayStartMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameplayStartMusic		17287264
+	604979757	MirrorSparkle	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\MirrorSparkle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MirrorSparkle		4152672
 	733600970	Light Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Light Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Light Rain		5636116
 	755188457	ChestOpenSound	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ChestOpenSound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChestOpenSound		1890516
 	761277468	Clear Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Mood Receptor\Clear Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Clear Hum		2099348
