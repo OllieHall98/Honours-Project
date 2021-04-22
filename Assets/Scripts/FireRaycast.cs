@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 
 public class FireRaycast : MonoBehaviour
@@ -59,6 +60,10 @@ public class FireRaycast : MonoBehaviour
                 if (!Input.GetButtonDown($"Interact")) return;
                 ReticleManager.Instance.HideReticle();
                 MazePickup.Instance.Pickup();
+                break;
+            case "RelicCollider":
+                if (!Input.GetButtonDown($"Interact")) return;
+                NotificationText.Instance.DisplayMessage(TransitionType.Float, "<size=40>Find my <b><color=#40E0D0>Mind</color></b>.. <b><color=red>Body</color></b>.. and <b><color=yellow>Soul</color></b>..      follow the lights...</size>", 8f);
                 break;
             default:
                 ReticleManager.Instance.HideReticle();
