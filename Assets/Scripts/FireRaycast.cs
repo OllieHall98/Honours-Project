@@ -11,6 +11,8 @@ public class FireRaycast : MonoBehaviour
 
     private PlayerStateScript _playerStateScript;
 
+    public LayerMask mask;
+
     private void Awake()
     {
         _cam = GetComponentInChildren<Camera>();
@@ -30,7 +32,7 @@ public class FireRaycast : MonoBehaviour
     {
         if (_playerStateScript.GetRaycastState() == RaycastState.Disabled) return;
 
-        if (!Physics.Raycast(_cam.transform.position, _cam.transform.forward, out var hit, raycastDistance))
+        if (!Physics.Raycast(_cam.transform.position, _cam.transform.forward, out var hit, raycastDistance, mask))
         {
             ReticleManager.Instance.HideReticle();
             return;

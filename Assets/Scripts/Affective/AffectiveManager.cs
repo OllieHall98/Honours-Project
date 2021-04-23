@@ -44,6 +44,8 @@ public class AffectiveManager : MonoBehaviour
         Instance = this;
         
         _emotionList = new Queue<string>();
+        
+        _currentEmotion = "neutral";
     }
 
     private void Start()
@@ -126,6 +128,8 @@ public class AffectiveManager : MonoBehaviour
             "joy" => _joyEvent,
             _ => _currentEvent
         };
+        
+        MetricScript.Instance.LogMetric("Emotion changed to " + _currentEmotion);
         
         _currentEvent.Invoke();
     }
