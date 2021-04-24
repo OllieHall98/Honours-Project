@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="826051943">
+		<SoundBank Id="782826392" Language="SFX" Hash="2836417485">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -167,6 +167,14 @@
 						<File Id="171071513" Language="SFX">
 							<ShortName>pickup.wav</ShortName>
 							<Path>SFX\pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2600866071" Name="PlayEndingMusic" ObjectPath="\Events\Default Work Unit\PlayEndingMusic" DurationType="OneShot" DurationMin="33.139469" DurationMax="33.139469">
+					<IncludedMemoryFiles>
+						<File Id="875143595" Language="SFX">
+							<ShortName>endingMusic.wav</ShortName>
+							<Path>SFX\endingMusic_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

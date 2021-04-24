@@ -54,11 +54,11 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6336912460073863273}
-  - screenRelativeHeight: 0.0625
+  - screenRelativeHeight: 0.09618239
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5631458208635920927}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.017948022
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 9031441507756409796}
@@ -127,6 +127,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7379896323390447187, guid: 950c2ec31bed05446bd3d031505dcc89,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7379896323390447187, guid: 950c2ec31bed05446bd3d031505dcc89,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -137,6 +142,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
     - target: {fileID: -5376085802326489870, guid: 950c2ec31bed05446bd3d031505dcc89,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5376085802326489870, guid: 950c2ec31bed05446bd3d031505dcc89,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -165,6 +175,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
+    - target: {fileID: 438145653369382185, guid: 950c2ec31bed05446bd3d031505dcc89,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 438145653369382185, guid: 950c2ec31bed05446bd3d031505dcc89,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -198,6 +213,11 @@ PrefabInstance:
     - target: {fileID: 942380945394163117, guid: 950c2ec31bed05446bd3d031505dcc89,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221066987573587588, guid: 950c2ec31bed05446bd3d031505dcc89,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3221066987573587588, guid: 950c2ec31bed05446bd3d031505dcc89,

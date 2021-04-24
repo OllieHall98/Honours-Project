@@ -73,7 +73,7 @@ LODGroup:
     - renderer: {fileID: 2262198429559518605}
     - renderer: {fileID: 3454900489289726182}
     - renderer: {fileID: 2277103273736376341}
-  - screenRelativeHeight: 0.022783909
+  - screenRelativeHeight: 0.027913768
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 8562564188527794267}
@@ -142,7 +142,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359354164192483859}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -265,7 +265,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2374929516749545000}
-  - component: {fileID: 6410083510150733510}
   m_Layer: 0
   m_Name: LOD2
   m_TagString: Untagged
@@ -292,21 +291,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6410083510150733510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726380843531194584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &1011975986872838893
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +300,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976131487733993069}
-  - component: {fileID: 1517393007313699881}
   m_Layer: 0
   m_Name: LOD0
   m_TagString: Untagged
@@ -343,21 +326,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1517393007313699881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011975986872838893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &1147960598427824039
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +698,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3651615956712511969}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -892,7 +860,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4636822365911795389}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -973,7 +941,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5179783222478394125}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -1096,7 +1064,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2110846392838245322}
-  - component: {fileID: 2224052906464584344}
   m_Layer: 0
   m_Name: LOD1
   m_TagString: Untagged
@@ -1123,21 +1090,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2224052906464584344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5913377088168858486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &8084785637280067150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,7 +1138,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8084785637280067150}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1

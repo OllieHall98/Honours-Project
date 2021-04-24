@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Default" ID="{F1D2CE1E-C9EF-46B8-B3CA-73A567B39D78}">
 					<ObjectInclusionList>
+						<ObjectRef Name="PlayEndingMusic" ID="{E4A48526-1E31-40BF-9BA0-636955E8C085}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cicadas" ID="{9B83A557-F5AE-4111-B4D5-CBE3999B07D3}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ForestAudio" ID="{FF0D8CEF-C903-4125-B706-0FD72A74EA36}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpeningCinematic" ID="{FD0BEE06-0353-41B8-9E7F-08AAE29B7B5B}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>

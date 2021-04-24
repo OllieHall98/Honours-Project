@@ -54,11 +54,11 @@ LODGroup:
     fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 8110077847403093533}
-  - screenRelativeHeight: 0.06
+  - screenRelativeHeight: 0.11742515
     fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 2584619455384579937}
-  - screenRelativeHeight: 0.0134425545
+  - screenRelativeHeight: 0.039162107
     fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 8923239584385965648}
@@ -123,6 +123,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8961a421e95ca1e4c8ef83eb2f22ea36,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7714448176467678801, guid: 8961a421e95ca1e4c8ef83eb2f22ea36,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7714448176467678801, guid: 8961a421e95ca1e4c8ef83eb2f22ea36,

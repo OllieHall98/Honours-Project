@@ -73,7 +73,7 @@ LODGroup:
     - renderer: {fileID: 6628655130496860405}
     - renderer: {fileID: 7840098444222093776}
     - renderer: {fileID: 7356094131865575620}
-  - screenRelativeHeight: 0.02000399
+  - screenRelativeHeight: 0.032191824
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1693852825367107175}
@@ -103,7 +103,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2285350177528590098}
-  - component: {fileID: 233691277514397970}
   m_Layer: 0
   m_Name: LOD0
   m_TagString: Untagged
@@ -130,21 +129,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &233691277514397970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984672465240822724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &1097766461172934734
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +177,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097766461172934734}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -478,7 +462,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8256729744275405949}
-  - component: {fileID: 5073138268436505835}
   m_Layer: 0
   m_Name: LOD1
   m_TagString: Untagged
@@ -505,21 +488,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5073138268436505835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2771395601344863331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &2922690355539744669
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +497,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8576868532922271435}
-  - component: {fileID: 8506947520789016284}
   m_Layer: 0
   m_Name: LOD2
   m_TagString: Untagged
@@ -556,21 +523,6 @@ Transform:
   m_Father: {fileID: 400012}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8506947520789016284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2922690355539744669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 941c0587abec57c4985143c5bfc6376f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generateTriangleStrips: 1
-  castShadows: 1
-  receiveShadows: 1
 --- !u!1 &3840542298817941558
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,7 +814,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4467923509935441979}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -943,7 +895,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4555136523283876525}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -1024,7 +976,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5847008152288922213}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -1348,7 +1300,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8741829210071110717}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1

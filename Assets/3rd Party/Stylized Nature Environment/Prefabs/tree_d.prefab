@@ -54,7 +54,7 @@ LODGroup:
     fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 7221285863129537001}
-  - screenRelativeHeight: 0.0004725898
+  - screenRelativeHeight: 0.027913768
     fadeTransitionWidth: 0.05
     renderers:
     - renderer: {fileID: 8270324751892367539}
@@ -133,6 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2329467159262858550, guid: 190363b5af9c4f343b1c2fad46576f40,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2329467159262858550, guid: 190363b5af9c4f343b1c2fad46576f40,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -143,6 +148,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
     - target: {fileID: -1626999185551358719, guid: 190363b5af9c4f343b1c2fad46576f40,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1626999185551358719, guid: 190363b5af9c4f343b1c2fad46576f40,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -151,6 +161,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
+    - target: {fileID: -1420374171475942174, guid: 190363b5af9c4f343b1c2fad46576f40,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1420374171475942174, guid: 190363b5af9c4f343b1c2fad46576f40,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -174,6 +189,11 @@ PrefabInstance:
     - target: {fileID: 7006775868191801640, guid: 190363b5af9c4f343b1c2fad46576f40,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194817087843079259, guid: 190363b5af9c4f343b1c2fad46576f40,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9194817087843079259, guid: 190363b5af9c4f343b1c2fad46576f40,

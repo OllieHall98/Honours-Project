@@ -357,6 +357,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayEndingMusic" ID="{E4A48526-1E31-40BF-9BA0-636955E8C085}">
+					<ChildrenList>
+						<Action Name="" ID="{49963051-7971-4A05-BF69-6E2E3A0EC78F}" ShortID="1058514176">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="endingMusic" ID="{834B4054-91C3-472F-B2B9-C803E4E63E90}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

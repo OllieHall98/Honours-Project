@@ -56,7 +56,7 @@ LODGroup:
     fadeTransitionWidth: 0.01
     renderers:
     - renderer: {fileID: 7877720052878033258}
-  - screenRelativeHeight: 0.06
+  - screenRelativeHeight: 0.07479209
     fadeTransitionWidth: 0.01
     renderers:
     - renderer: {fileID: 5822256192431277541}
@@ -191,7 +191,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5855186799672972750}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1

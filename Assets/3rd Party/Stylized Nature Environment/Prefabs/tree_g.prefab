@@ -58,7 +58,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4875574479199197016}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.019079003
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6654200020846308852}
@@ -162,6 +162,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
     - target: {fileID: -6576834823724941015, guid: baaba9a3eb7befe4f93f2e46a750a241,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6576834823724941015, guid: baaba9a3eb7befe4f93f2e46a750a241,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -180,6 +185,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
+    - target: {fileID: -4950703853513933947, guid: baaba9a3eb7befe4f93f2e46a750a241,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4950703853513933947, guid: baaba9a3eb7befe4f93f2e46a750a241,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

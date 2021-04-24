@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID OPENINGCINEMATIC = 3875903466U;
         static const AkUniqueID PAUSE = 3092587493U;
         static const AkUniqueID PICKUPPAPER = 579976681U;
+        static const AkUniqueID PLAYENDINGMUSIC = 2600866071U;
         static const AkUniqueID PORTALHUM = 3599883275U;
         static const AkUniqueID PORTALOPEN = 2461641043U;
         static const AkUniqueID RESUME = 953277036U;

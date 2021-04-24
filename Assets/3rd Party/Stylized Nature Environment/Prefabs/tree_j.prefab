@@ -58,7 +58,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3136493599908927256}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.019656789
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5563229975684196830}
@@ -127,6 +127,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6919437084687846828, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6919437084687846828, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9805a8b56b94a2d438dcd166f90c4c36, type: 2}
@@ -135,6 +140,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2772c74f6361879409221eb29b573be7, type: 2}
+    - target: {fileID: -5017288857487492952, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5017288857487492952, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -158,6 +168,11 @@ PrefabInstance:
     - target: {fileID: -979498486782779974, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 389133153006539606, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 389133153006539606, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
@@ -253,6 +268,11 @@ PrefabInstance:
     - target: {fileID: 4864955302034187864, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193931913691000208, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7193931913691000208, guid: fa3b6ac2f89dbaf4ba0d52f84ab28dd9,

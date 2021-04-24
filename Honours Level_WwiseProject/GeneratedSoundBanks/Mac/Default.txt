@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2502713118	StopMoodReceptorHum			\Default Work Unit\StopMoodReceptorHum	
 	2597147220	StartMoodReceptorHum			\Default Work Unit\StartMoodReceptorHum	
 	2598825076	FireConveyanceBeam_Stop			\Default Work Unit\FireConveyanceBeam_Stop	
+	2600866071	PlayEndingMusic			\Default Work Unit\PlayEndingMusic	
 	2775288295	GateSymbolShow			\Default Work Unit\GateSymbolShow	
 	3092587493	Pause			\Default Work Unit\Pause	
 	3241912412	ForestAudio			\Default Work Unit\ForestAudio	
@@ -57,6 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	761277468	Clear Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Mood Receptor\Clear Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Clear Hum		2099348
 	816237619	Forest ambience	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Forest ambience_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest ambience		27513596
 	826374212	PortalOpen	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\PortalOpen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PortalOpen		1462920
+	875143595	endingMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\endingMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\endingMusic		4241916
 	890530718	Sparkle Hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Mood Receptor\Sparkle Hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mood Receptor\MoodReceptorHum\Sparkle Hum		2590456
 	947005409	Beam Laser	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Conveyance Cube\Beam Laser_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Conveyance Cube\Beam Laser		322830
 	964361258	ConveyanceCubeMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\ConveyanceCubeMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ConveyanceCubeMusic		5012264
