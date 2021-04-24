@@ -46,8 +46,6 @@ public class EndingCutscene : MonoBehaviour
         yield return new WaitForSecondsRealtime(2.0f);
 
         endingMusic.Post(gameObject);
-        
-        yield return new WaitForSecondsRealtime(1.5f);
 
         endingAnimator.SetTrigger(Start);
         

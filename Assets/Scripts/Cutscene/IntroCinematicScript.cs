@@ -36,6 +36,8 @@ public class IntroCinematicScript : MonoBehaviour
             
             UIVisibilityScript.Instance.ShowUI(2f);
             
+            PortalScript.Instance.Disable();
+            
             return;
         }
 

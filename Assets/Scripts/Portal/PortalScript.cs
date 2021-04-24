@@ -35,10 +35,12 @@ public class PortalScript : MonoBehaviour
     public void Enable()
     {
         portalLight.SetActive(true);
+        portalLight.GetComponent<Renderer>().enabled = true;
     }
     
     public void Disable()
     {
+        portalLight.GetComponent<Renderer>().enabled = false;
         portalLight.SetActive(false);
     }
 
