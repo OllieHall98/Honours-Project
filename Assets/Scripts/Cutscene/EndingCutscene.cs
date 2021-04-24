@@ -20,6 +20,8 @@ public class EndingCutscene : MonoBehaviour
 
     private IEnumerator End()
     {
+        MetricScript.LogMetric("End of game");
+        
         teleportSound.Post(gameObject);
         
         PlayerStateScript.Instance.SetMovementActive(false, true);

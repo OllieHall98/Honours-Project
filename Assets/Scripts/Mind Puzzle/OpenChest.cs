@@ -88,6 +88,8 @@ public class OpenChest : MonoBehaviour
 
     public IEnumerator EndPuzzleCutscene()
     {
+        MetricScript.LogMetric("Mind Puzzle completed");
+        
         PlayerStateScript.Instance.SetMovementActive(false, false);
         BlackBarTransitioner.Instance.Show(1f);
         UIVisibilityScript.Instance.HideUI(1.0f);

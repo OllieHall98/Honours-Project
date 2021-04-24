@@ -129,7 +129,7 @@ public class AffectiveManager : MonoBehaviour
             _ => _currentEvent
         };
         
-        MetricScript.Instance.LogMetric("Emotion changed to " + _currentEmotion);
+        MetricScript.LogMetric("Emotion changed to " + _currentEmotion);
         
         _currentEvent.Invoke();
     }

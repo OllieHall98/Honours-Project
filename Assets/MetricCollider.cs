@@ -10,7 +10,7 @@ public class MetricCollider : MonoBehaviour
         if (other.gameObject.name != "Player") return;
         
         string s = gameObject.name + " entered, emotion is " + AffectiveManager.Instance.GetCurrentEmotion();
-        MetricScript.Instance.LogMetric(s);
+        MetricScript.LogMetric(s);
     }
 
     private void OnTriggerExit(Collider other)
@@ -18,6 +18,6 @@ public class MetricCollider : MonoBehaviour
         if (other.gameObject.name != "Player") return;
         
         string s = gameObject.name + " exited, emotion is " + AffectiveManager.Instance.GetCurrentEmotion();
-        MetricScript.Instance.LogMetric(s);
+        MetricScript.LogMetric(s);
     }
 }

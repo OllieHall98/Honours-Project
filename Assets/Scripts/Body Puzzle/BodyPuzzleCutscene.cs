@@ -30,6 +30,8 @@ public class BodyPuzzleCutscene : MonoBehaviour
 
     private IEnumerator Cutscene()
     {
+        MetricScript.LogMetric("Body Puzzle completed");
+        
         PlayerStateScript.Instance.SetMovementActive(false, false);
         UIVisibilityScript.Instance.HideUI(0.5f);
         BlackBarTransitioner.Instance.Show(1.5f);

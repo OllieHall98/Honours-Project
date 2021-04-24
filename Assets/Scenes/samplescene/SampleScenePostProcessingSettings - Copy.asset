@@ -275,8 +275,8 @@ MonoBehaviour:
     min: 0
     max: 1500
   minimumVelocity:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 5
     min: 0
     max: 64
   cameraMotionBlur:

@@ -1,31 +1,28 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class MetricScript : MonoBehaviour
 {
-    public static MetricScript Instance;
-
     private void Awake()
     {
-        Instance = this;
+        LogMetric("NEW GAME");
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public static void LogMetric(string s)
     {
+        var timeSpan = TimeSpan.FromSeconds((Time.time));
+        var timeText = $"{timeSpan.Minutes:D2}:{timeSpan.Seconds:D2}";
         
-    }
-
-    public void LogMetric(string s)
-    {
-        Debug.Log(s);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        string text = "(" + timeText + ") " + s;
         
+        Debug.Log(text);
+        
+        // Write to file
+        var writer = new StreamWriter(Application.dataPath + "/StreamingAssets/metrics.txt", true);
+        writer.WriteLine(text);
+        writer.Close();
     }
 }

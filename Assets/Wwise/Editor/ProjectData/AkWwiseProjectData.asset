@@ -484,5 +484,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Honours Level_WwiseProject
+  - /Honours Level_WwiseProject/Events
+  - /Honours Level_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

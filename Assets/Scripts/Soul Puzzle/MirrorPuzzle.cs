@@ -23,11 +23,10 @@ public class MirrorPuzzle : MonoBehaviour
     [SerializeField] private Animator cutsceneAnimator;
 
     public Affective.ProcessWebcamInput webcamScript;
-    //public Material mirrorMat;
-    
-    [SerializeField] private AK.Wwise.Event RelicGet;
-    [SerializeField] private AK.Wwise.Event MirrorPromptComplete;
-    [SerializeField] private AK.Wwise.Event MirrorSparkle;
+
+    [SerializeField] private AK.Wwise.Event relicGet;
+    [SerializeField] private AK.Wwise.Event mirrorPromptComplete;
+    [SerializeField] private AK.Wwise.Event mirrorSparkle;
     [SerializeField] private AK.Wwise.RTPC mirrorPromptPitch;
     
     [SerializeField] private GameObject soulBeacon;
@@ -58,7 +57,7 @@ public class MirrorPuzzle : MonoBehaviour
         // Move player in front of mirror
         PlayerStateScript.Instance.SetMovementActive(false, true);
 
-        MirrorSparkle.Post(gameObject);
+        mirrorSparkle.Post(gameObject);
         
         if (!_coroutineExecuting) StartCoroutine(MoveToMirror());
     }
@@ -100,37 +99,46 @@ public class MirrorPuzzle : MonoBehaviour
     {
         WeatherController.Instance.enabled = false;
         
-        NotificationText.Instance.DisplayMessage(TransitionType.Float, happySentence, 3f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float, happySentence, 0);
         
         while (!CheckPlayerEmotion("joy"))
             yield return null;
 
+        NotificationText.Instance.StopDisplayingText(TransitionType.Float);
+        yield return new WaitForSecondsRealtime(0.5f);
+        
         mirrorPromptPitch.SetValue(gameObject, 0);
-        MirrorPromptComplete.Post(gameObject);
+        mirrorPromptComplete.Post(gameObject);
         
         var material = mirrorMat.GetComponent<Renderer>().materials[1];
         
         var tweenEmissive = LeanTween.value(mirrorMat, color0, color1 * 5, 1f);
         tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
         
-        NotificationText.Instance.DisplayMessage(TransitionType.Float,surpriseSentence, 3f);
-        
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,surpriseSentence, 0);
+
         while (!CheckPlayerEmotion("surprise"))
             yield return null;
         
+        NotificationText.Instance.StopDisplayingText(TransitionType.Float);
+        yield return new WaitForSecondsRealtime(0.5f);
+        
         mirrorPromptPitch.SetValue(gameObject, 1);
-        MirrorPromptComplete.Post(gameObject);
+        mirrorPromptComplete.Post(gameObject);
         
         tweenEmissive = LeanTween.value(mirrorMat, color1 * 5, color2 * 5, 1f);
         tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
         
-        NotificationText.Instance.DisplayMessage(TransitionType.Float,sadSentence, 3f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Float,sadSentence, 0);
         
         while (!CheckPlayerEmotion("sadness"))
             yield return null;
+
+        NotificationText.Instance.StopDisplayingText(TransitionType.Float);
+
         
         mirrorPromptPitch.SetValue(gameObject, 2);
-        MirrorPromptComplete.Post(gameObject);
+        mirrorPromptComplete.Post(gameObject);
         
         tweenEmissive = LeanTween.value(mirrorMat, color2 * 5, color3 * 5, 1f);
         tweenEmissive.setOnUpdate((Color color) => { material.color = color; });
@@ -143,7 +151,7 @@ public class MirrorPuzzle : MonoBehaviour
 
     private IEnumerator PuzzleCompleteCutscene()
     {
-
+        MetricScript.LogMetric("Soul Puzzle completed");
         UIVisibilityScript.Instance.HideUI(1.0f);
         BlackBarTransitioner.Instance.Show(1.5f);
 
@@ -152,7 +160,7 @@ public class MirrorPuzzle : MonoBehaviour
         PlayerStateScript.Instance.SetMovementActive(false, false);
         
         cutsceneAnimator.SetTrigger(FinishedPuzzle);
-        RelicGet.Post(gameObject);
+        relicGet.Post(gameObject);
         
         yield return new WaitForSecondsRealtime(5.0f);
         
