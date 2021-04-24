@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="2836417485">
+		<SoundBank Id="782826392" Language="SFX" Hash="649595115">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -21,6 +21,14 @@
 						<File Id="498478077" Language="SFX">
 							<ShortName>AllRelicsCollected.wav</ShortName>
 							<Path>SFX\AllRelicsCollected_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1849502000" Name="ambientMusic" ObjectPath="\Events\Default Work Unit\ambientMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="994978612" Language="SFX">
+							<ShortName>ambientMusic.wav</ShortName>
+							<Path>SFX\ambientMusic_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

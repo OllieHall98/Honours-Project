@@ -38,6 +38,8 @@ public class MirrorPuzzle : MonoBehaviour
 
     [SerializeField] private string happySentence, surpriseSentence, sadSentence;
     
+    [SerializeField] private AK.Wwise.Event ambientMusic;
+    
     private float _ft;
     
     public float lerpDuration = 0.5f;
@@ -190,7 +192,7 @@ public class MirrorPuzzle : MonoBehaviour
         else
         {
             yield return new WaitForSecondsRealtime(2f);
-            
+            ambientMusic.Post(gameObject);
             PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
             PlayerStateScript.Instance.SetMovementActive(true, true);
             BlackBarTransitioner.Instance.Hide(2f);

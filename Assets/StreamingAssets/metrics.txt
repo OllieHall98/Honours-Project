@@ -592,3 +592,74 @@
 (01:08) Soul Puzzle exited, emotion is sadness
 (01:08) Stairs entered, emotion is sadness
 (01:24) End of game
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:03) Emotion changed to surprise
+(00:05) Emotion changed to joy
+(00:07) Emotion changed to disgust
+(00:07) Emotion changed to neutral
+(00:10) Emotion changed to sadness
+(00:10) Emotion changed to neutral
+(00:11) Emotion changed to sadness
+(00:21) Emotion changed to anger
+(00:25) Emotion changed to neutral
+(00:27) Emotion changed to disgust
+(00:28) Emotion changed to neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:04) Emotion changed to sadness
+(00:05) Emotion changed to surprise
+(00:09) Emotion changed to neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:01) Emotion changed to disgust
+(00:04) Emotion changed to neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:00) Emotion changed to joy
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:00) Emotion changed to sadness
+(00:01) Emotion changed to anger
+(00:04) Emotion changed to joy
+(00:06) Emotion changed to neutral
+(00:08) Emotion changed to anger
+(00:09) Emotion changed to sadness
+(00:10) Emotion changed to anger
+(00:10) Emotion changed to neutral
+(00:11) Emotion changed to anger
+(00:11) Emotion changed to neutral
+(00:12) Emotion changed to sadness
+(00:14) Emotion changed to anger
+(00:15) Emotion changed to sadness
+(00:17) Emotion changed to anger
+(00:17) Emotion changed to sadness
+(00:17) Emotion changed to anger
+(00:18) Emotion changed to sadness
+(00:21) Emotion changed to neutral
+(00:22) Emotion changed to anger
+(00:23) Emotion changed to sadness
+(00:23) Emotion changed to anger
+(00:24) Emotion changed to sadness
+(00:24) Emotion changed to anger
+(00:27) Emotion changed to sadness
+(00:28) Emotion changed to anger
+(00:31) Emotion changed to joy
+(00:31) Emotion changed to disgust
+(00:32) Emotion changed to anger
+(00:33) Emotion changed to sadness
+(00:37) Emotion changed to neutral
+(00:38) Emotion changed to sadness
+(00:47) Emotion changed to anger
+(00:49) Emotion changed to neutral
+(00:52) Emotion changed to anger
+(00:58) Emotion changed to joy
+(01:02) Stairs exited, emotion is joy
+(01:05) Emotion changed to anger
+(01:05) Emotion changed to joy
+(01:07) Emotion changed to anger
+(01:11) Emotion changed to neutral
+(01:11) Emotion changed to anger
+(01:11) Emotion changed to neutral

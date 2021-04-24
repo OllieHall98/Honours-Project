@@ -13,6 +13,7 @@ public class BodyPuzzleCutscene : MonoBehaviour
 
     [SerializeField] private AK.Wwise.Event relicAcquired;
     [SerializeField] private AK.Wwise.Event mazeDiscovery;
+    [SerializeField] private AK.Wwise.Event ambientMusic;
     
     [SerializeField] private GameObject bodyBeacon;
     [SerializeField] private Image fader;
@@ -79,6 +80,7 @@ public class BodyPuzzleCutscene : MonoBehaviour
         else
         {
             yield return new WaitForSecondsRealtime(3f);
+            ambientMusic.Post(gameObject);
             PlayerStateScript.Instance.SetMovementActive(true, true);
             BlackBarTransitioner.Instance.Hide(2f);
             UIVisibilityScript.Instance.ShowUI(2.0f);

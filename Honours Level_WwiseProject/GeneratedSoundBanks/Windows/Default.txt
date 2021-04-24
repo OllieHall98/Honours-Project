@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1409261969	MazeCentreDiscovery			\Default Work Unit\MazeCentreDiscovery	
 	1479917130	FinalTeleport			\Default Work Unit\FinalTeleport	
 	1826863455	ConveyanceCube_Music			\Default Work Unit\ConveyanceCube_Music	
+	1849502000	ambientMusic			\Default Work Unit\ambientMusic	
 	2100819074	MindRelicGet			\Default Work Unit\MindRelicGet	
 	2241193683	AllRelicsCollected			\Default Work Unit\AllRelicsCollected	
 	2407527377	StartRain			\Default Work Unit\StartRain	
@@ -63,5 +64,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	947005409	Beam Laser	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Conveyance Cube\Beam Laser_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Conveyance Cube\Beam Laser		322830
 	964361258	ConveyanceCubeMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ConveyanceCubeMusic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ConveyanceCubeMusic		5012264
 	988523118	BridgeForest Intro Music	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\BridgeForest Intro Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BridgeForest Intro Music		11206200
+	994978612	ambientMusic	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\ambientMusic_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambientMusic		86376064
 	1010257280	Cicadas	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Windows\SFX\Cicadas_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cicadas		9063100
 

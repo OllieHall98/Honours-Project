@@ -46,6 +46,7 @@ public class PortalScript : MonoBehaviour
 
     public void OpenPortal()
     {
+        AffectiveWeather.Instance.canChangeWeather = false;
         WeatherController.Instance.ChangeWeather(sunset, 1.0f);
         
         StartCoroutine(PortalCutscene());

@@ -50,6 +50,8 @@ public class IntroCinematicScript : MonoBehaviour
     private IEnumerator Cutscene()
     {
         PlayerStateScript.Instance.playerCamera.enabled = false;
+
+        AffectiveWeather.Instance.canChangeWeather = false;
         
         cutsceneAnimator.SetTrigger(StartAnim);
         UIVisibilityScript.Instance.HideUIInstant();
@@ -81,8 +83,9 @@ public class IntroCinematicScript : MonoBehaviour
             tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
             // After cutscene ended
         yield return new WaitForSecondsRealtime(5.5f);
-        
 
+        AffectiveWeather.Instance.canChangeWeather = true;
+        
         tweenOpacity = LeanTween.value(fader.gameObject, 1, 0, 2f);
         tweenOpacity.setOnUpdate((float opacity) => { fader.color = new Color(1,1,1, opacity); });
         PlayerStateScript.Instance.playerCamera.enabled = true;

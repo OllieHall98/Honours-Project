@@ -23,6 +23,7 @@ public class OpenChest : MonoBehaviour
     [SerializeField] private AK.Wwise.Event startMusic;
     [SerializeField] private AK.Wwise.Event teleportSound;
     [SerializeField] private AK.Wwise.Event RelicGet;
+    [SerializeField] private AK.Wwise.Event ambientMusic;
     
     public Image fader;
     
@@ -134,6 +135,7 @@ public class OpenChest : MonoBehaviour
         else
         {
             yield return new WaitForSecondsRealtime(1f);
+            ambientMusic.Post(gameObject);
             PlayerStateScript.Instance.SetRaycastState(RaycastState.Enabled);
             PlayerStateScript.Instance.SetMovementActive(true, true);
             BlackBarTransitioner.Instance.Hide(2f);

@@ -368,6 +368,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ambientMusic" ID="{C969898A-FD46-46D3-B26F-92EF66B31E56}">
+					<ChildrenList>
+						<Action Name="" ID="{A2CC2201-C7C9-4154-B444-20E485BDD8D4}" ShortID="128665865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambientMusic" ID="{B7575BDA-16C8-476A-B595-94CBB234FA7C}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

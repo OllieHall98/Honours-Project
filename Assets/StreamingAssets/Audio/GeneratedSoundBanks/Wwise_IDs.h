@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID ALLRELICSCOLLECTED = 2241193683U;
+        static const AkUniqueID AMBIENTMUSIC = 1849502000U;
         static const AkUniqueID BRIDGEFORESTENTRY = 3594869627U;
         static const AkUniqueID CICADAS = 701139723U;
         static const AkUniqueID CONVEYANCECUBE_MUSIC = 1826863455U;
