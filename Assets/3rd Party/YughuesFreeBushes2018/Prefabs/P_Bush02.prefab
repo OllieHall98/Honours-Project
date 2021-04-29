@@ -112,7 +112,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7992715529498157145}
   - component: {fileID: 7992715529511154937}
-  - component: {fileID: -1769971172100719188}
   m_Layer: 0
   m_Name: P_Bush02
   m_TagString: Untagged
@@ -156,11 +155,11 @@ LODGroup:
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 7992715529495863993}
-  - screenRelativeHeight: 0.19868377
+  - screenRelativeHeight: 0.3532464
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 7992715529495863995}
-  - screenRelativeHeight: 0.05154473
+  - screenRelativeHeight: 0.12778203
     fadeTransitionWidth: 0.2
     renderers:
     - renderer: {fileID: 7992715529495863997}
@@ -169,18 +168,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 7992715529495863999}
   m_Enabled: 1
---- !u!114 &-1769971172100719188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7992715529498131577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af4c2651278bdf141a0adc9045cd1669, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7992715529498131579
 GameObject:
   m_ObjectHideFlags: 0

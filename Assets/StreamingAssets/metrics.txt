@@ -663,3 +663,87 @@
 (01:11) Emotion changed to neutral
 (01:11) Emotion changed to anger
 (01:11) Emotion changed to neutral
+(00:02) Emotion changed to joy
+(00:04) Emotion changed to anger
+(00:06) Emotion changed to sadness
+(00:03) Emotion changed to sadness
+(00:01) Emotion changed to joy
+(00:03) Emotion changed to sadness
+(00:19) Emotion changed to neutral
+(00:23) Emotion changed to joy
+(00:38) Emotion changed to anger
+(00:39) Emotion changed to joy
+(00:40) Emotion changed to sadness
+(00:41) Emotion changed to joy
+(00:41) Emotion changed to sadness
+(00:42) Emotion changed to joy
+(00:42) Emotion changed to sadness
+(00:43) Emotion changed to joy
+(00:43) Emotion changed to sadness
+(00:44) Emotion changed to joy
+(00:45) Emotion changed to sadness
+(00:45) Emotion changed to joy
+(00:46) Emotion changed to sadness
+(00:04) Emotion changed to sadness
+(00:01) Emotion changed to sadness
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:02) Emotion changed to joy
+(00:06) Emotion changed to neutral
+(00:12) Stairs exited, emotion is neutral
+(00:12) Mind Path 1 entered, emotion is neutral
+(00:15) Emotion changed to surprise
+(00:22) Mind Path 1 exited, emotion is surprise
+(00:22) Mind Path 2 entered, emotion is surprise
+(00:24) Emotion changed to fear
+(00:30) Emotion changed to sadness
+(00:31) Emotion changed to anger
+(00:35) Emotion changed to joy
+(00:35) Mind Path 2 exited, emotion is joy
+(00:35) Mind Puzzle entered, emotion is joy
+(01:02) Emotion changed to anger
+(01:05) Emotion changed to joy
+(01:06) Emotion changed to anger
+(01:06) Emotion changed to joy
+(01:09) Emotion changed to anger
+(01:11) Emotion changed to joy
+(01:13) Emotion changed to anger
+(01:17) Mind Puzzle completed
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:03) Stairs exited, emotion is neutral
+(00:05) Mind Path 1 entered, emotion is neutral
+(00:09) Mind Path 1 exited, emotion is neutral
+(00:10) Mind Path 2 entered, emotion is neutral
+(00:11) Mind Path 2 exited, emotion is neutral
+(00:11) Mind Puzzle entered, emotion is neutral
+(00:21) Emotion changed to sadness
+(00:21) Emotion changed to anger
+(00:22) Emotion changed to joy
+(00:22) Emotion changed to sadness
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:02) Stairs exited, emotion is neutral
+(00:03) Mind Path 1 entered, emotion is neutral
+(00:06) Mind Path 1 exited, emotion is neutral
+(00:06) Mind Path 2 entered, emotion is neutral
+(00:08) Mind Path 2 exited, emotion is neutral
+(00:08) Mind Puzzle entered, emotion is neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:00) NEW GAME
+(00:00) Stairs entered, emotion is neutral
+(00:02) Stairs exited, emotion is neutral
+(00:03) Mind Path 1 entered, emotion is neutral
+(00:06) Mind Path 1 exited, emotion is neutral
+(00:06) Mind Path 2 entered, emotion is neutral
+(00:08) Mind Puzzle entered, emotion is neutral
+(00:08) Mind Path 2 exited, emotion is neutral
+(00:20) Emotion changed to joy
+(00:21) Emotion changed to sadness
+(00:24) Emotion changed to joy
+(00:28) Emotion changed to sadness
+(00:34) Emotion changed to joy
+(00:37) Mind Puzzle completed

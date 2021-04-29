@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID BRIDGEFORESTENTRY = 3594869627U;
         static const AkUniqueID CICADAS = 701139723U;
         static const AkUniqueID CONVEYANCECUBE_MUSIC = 1826863455U;
+        static const AkUniqueID CONVEYANCECUBECHANGENEGATIVE = 3637693694U;
+        static const AkUniqueID CONVEYANCECUBECHANGEPOSITIVE = 539128766U;
         static const AkUniqueID DESERTAUDIO = 122842808U;
         static const AkUniqueID FINALTELEPORT = 1479917130U;
         static const AkUniqueID FIRECONVEYANCEBEAM_START = 1332520360U;

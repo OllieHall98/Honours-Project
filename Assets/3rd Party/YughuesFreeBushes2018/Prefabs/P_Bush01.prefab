@@ -214,7 +214,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1253365200111565818}
   - component: {fileID: 1253365200124555098}
-  - component: {fileID: -4319807095692648893}
   m_Layer: 0
   m_Name: P_Bush01
   m_TagString: Untagged
@@ -254,15 +253,15 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6734615
+  - screenRelativeHeight: 0.7385248
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1253365200109271322}
-  - screenRelativeHeight: 0.24180613
+  - screenRelativeHeight: 0.39339498
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 1253365200109271320}
-  - screenRelativeHeight: 0.047677767
+  - screenRelativeHeight: 0.10962538
     fadeTransitionWidth: 0.2
     renderers:
     - renderer: {fileID: 1253365200109271326}
@@ -271,18 +270,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1253365200109271324}
   m_Enabled: 1
---- !u!114 &-4319807095692648893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253365200111527898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af4c2651278bdf141a0adc9045cd1669, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1253365200111527900
 GameObject:
   m_ObjectHideFlags: 0

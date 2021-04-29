@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee838671ef322d848b2e365761e37ce5, type: 3}
+  m_Script: {fileID: 11500000, guid: 11d76da5f2c09a84ea14d0eaa978e75d, type: 3}
   m_Name: PostProcess_Neutral
   m_EditorClassIdentifier: 
   whiteBalanceTemperature: 10

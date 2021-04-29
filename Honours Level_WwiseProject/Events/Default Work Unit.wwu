@@ -379,6 +379,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ConveyanceCubeChangePositive" ID="{264BB04B-E8EB-4D1B-B525-85156CC72902}">
+					<ChildrenList>
+						<Action Name="" ID="{F8ADEA64-ACEC-4F92-8CCF-21204BA67DD6}" ShortID="674362409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ConveyanceCubeChange" ID="{266FD16B-618A-4637-9882-76F854349904}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ConveyanceCubeChangeNegative" ID="{D7BAB560-21D4-41C2-8CCA-7171237EE240}">
+					<ChildrenList>
+						<Action Name="" ID="{3DDB7E7B-7A10-47F5-80DD-076DF4819219}" ShortID="1014861916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ConveyanceCubeChangeNegative" ID="{F0A1CA66-BAF2-4AEB-98CF-805E3131B9EC}" WorkUnitID="{4D90B476-75B6-4895-BC4A-DF2AA2826C4B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

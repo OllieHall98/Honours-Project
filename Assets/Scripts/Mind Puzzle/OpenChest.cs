@@ -82,7 +82,7 @@ public class OpenChest : MonoBehaviour
         
         conveyanceCube.SetActive(true);
         _receptorManager.SetConveyanceCube();
-        yield return new WaitForSecondsRealtime(2.75f);
+        yield return new WaitForSecondsRealtime(3.75f);
         
         EndCutscene();
     }

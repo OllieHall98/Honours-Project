@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	122842808	DesertAudio			\Default Work Unit\DesertAudio	
 	349496443	MirrorPromptComplete			\Default Work Unit\MirrorPromptComplete	
 	530129416	Teleport			\Default Work Unit\Teleport	
+	539128766	ConveyanceCubeChangePositive			\Default Work Unit\ConveyanceCubeChangePositive	
 	579976681	PickupPaper			\Default Work Unit\PickupPaper	
 	604601532	OpenGate			\Default Work Unit\OpenGate	
 	701139723	Cicadas			\Default Work Unit\Cicadas	
@@ -24,6 +25,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3241912412	ForestAudio			\Default Work Unit\ForestAudio	
 	3594869627	BridgeForestEntry			\Default Work Unit\BridgeForestEntry	
 	3599883275	PortalHum			\Default Work Unit\PortalHum	
+	3637693694	ConveyanceCubeChangeNegative			\Default Work Unit\ConveyanceCubeChangeNegative	
 	3762912606	MirrorBackgroundSparkle			\Default Work Unit\MirrorBackgroundSparkle	
 	3807001816	GameplayStartMusic			\Default Work Unit\GameplayStartMusic	
 	3875903466	OpeningCinematic			\Default Work Unit\OpeningCinematic	
@@ -38,7 +40,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171071513	pickup	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\pickup		52280
+	241981251	ConveyanceCubeChange	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\ConveyanceCubeChange_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ConveyanceCubeChange		175916
 	291267689	Portal hum	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Portal hum_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portal hum		2487388
+	317344934	ConveyanceCubeChangeNegative	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\ConveyanceCubeChangeNegative_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ConveyanceCubeChangeNegative		179212
 	318856110	DesertAudio	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\DesertAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\DesertAudio		44559424
 	345908968	CinematicIntroAudio	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\CinematicIntroAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\CinematicIntroAudio		9242260
 	345965029	Heavy Rain	C:\Users\ollie\Documents\Unity Projects\Honours Level\Honours Level_WwiseProject\.cache\Mac\SFX\Heavy Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weather\Rain\Heavy Rain		10379772

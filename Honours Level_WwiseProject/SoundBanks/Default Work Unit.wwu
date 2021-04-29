@@ -9,6 +9,7 @@
 						<ObjectRef Name="Cicadas" ID="{9B83A557-F5AE-4111-B4D5-CBE3999B07D3}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ForestAudio" ID="{FF0D8CEF-C903-4125-B706-0FD72A74EA36}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpeningCinematic" ID="{FD0BEE06-0353-41B8-9E7F-08AAE29B7B5B}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ConveyanceCubeChangeNegative" ID="{D7BAB560-21D4-41C2-8CCA-7171237EE240}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PortalOpen" ID="{ADB17AA0-4B7E-4203-869E-38DD18AB4641}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BridgeForestEntry" ID="{3D8DE07A-AC5F-420C-ACE3-32799B3BAD93}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OpenChest" ID="{EB95101F-C843-4222-9863-FBC1E9A9703C}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
@@ -30,6 +31,7 @@
 						<ObjectRef Name="AllRelicsCollected" ID="{2C386281-A463-4AD5-BF43-867DEBB9E7AB}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Teleport" ID="{1A797853-9B24-4B4E-A8B7-76DC34522D4E}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ForestEntry" ID="{A96E2EC5-1ECF-4C74-B829-A686CB3C4050}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ConveyanceCubeChangePositive" ID="{264BB04B-E8EB-4D1B-B525-85156CC72902}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MazeCentreDiscovery" ID="{506AEB84-977E-4D6B-B04D-C1089A64C14E}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartRain" ID="{61C69A30-A521-4DBF-9F69-FD084230C63A}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ConveyanceCube_Music" ID="{C4376770-8890-4E18-B146-DC2E4A239236}" WorkUnitID="{3A82F72C-E553-47BE-A47E-243015E32196}" Origin="Manual" Filter="7"/>

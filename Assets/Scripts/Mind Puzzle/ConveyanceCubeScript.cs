@@ -29,9 +29,12 @@ public class ConveyanceCubeScript : MonoBehaviour
 
     [SerializeField] private string cubePickupSentence;
     [SerializeField] private string cubePickupSentence2;
+    [SerializeField] private string cubePickupSentence3;
 
     [SerializeField] private AK.Wwise.Event startFireBeam;
     [SerializeField] private AK.Wwise.Event stopFireBeam;
+    [SerializeField] private AK.Wwise.Event changeCubeEnergy;
+    [SerializeField] private AK.Wwise.Event changeCubeEnergyNegative;
 
     
     private bool _firstFire;
@@ -94,7 +97,12 @@ public class ConveyanceCubeScript : MonoBehaviour
         InitialiseLineRenderer();
         SetBeamActive(false);
         
-        SetPositiveVisuals();
+        line.material = positivePreset.coreMaterial;
+        _hitParticles.trailMaterial = positivePreset.coreMaterial;
+        _hitLight.color = positivePreset.color;
+
+        StopParticleEffects(_negativeEffect);
+        StartParticleEffects(_positiveEffect);
     }
 
     private void GetComponents()
@@ -171,7 +179,11 @@ public class ConveyanceCubeScript : MonoBehaviour
         
         yield return new WaitForSecondsRealtime(2.5f);
         
-        NotificationText.Instance.DisplayMessage(TransitionType.Fade, cubePickupSentence2, 10.0f);
+        NotificationText.Instance.DisplayMessage(TransitionType.Fade, cubePickupSentence2, 6.0f);
+        
+        yield return new WaitForSecondsRealtime(6.2f);
+        
+        NotificationText.Instance.DisplayMessage(TransitionType.Fade, cubePickupSentence3, 5.0f);
     }
 
     public void StopUsingCube()
@@ -283,6 +295,8 @@ public class ConveyanceCubeScript : MonoBehaviour
 
     private void SetNegativeVisuals()
     {
+        changeCubeEnergyNegative.Post(gameObject);
+    
         line.material = negativePreset.coreMaterial;
         _hitParticles.trailMaterial = negativePreset.coreMaterial;
         _hitLight.color = negativePreset.color;
@@ -293,6 +307,8 @@ public class ConveyanceCubeScript : MonoBehaviour
 
     private void SetPositiveVisuals()
     {
+        
+        changeCubeEnergy.Post(gameObject);
         line.material = positivePreset.coreMaterial;
         _hitParticles.trailMaterial = positivePreset.coreMaterial;
         _hitLight.color = positivePreset.color;

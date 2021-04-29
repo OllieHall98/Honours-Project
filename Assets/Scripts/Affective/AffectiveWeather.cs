@@ -24,13 +24,13 @@ public class AffectiveWeather : ObjectState
     public override void Neutral_State()
     {
         if(canChangeWeather)
-            WeatherController.Instance.ChangeWeather(neutralWeather, 10f); 
+            WeatherController.Instance.ChangeWeather(neutralWeather, 7f); 
     }
 
     public override void Joy_State()
     {
         if(canChangeWeather)
-            WeatherController.Instance.ChangeWeather(joyWeather, 10f);
+            WeatherController.Instance.ChangeWeather(joyWeather, 7f);
     }
 
     public override void Sadness_State()
@@ -39,7 +39,7 @@ public class AffectiveWeather : ObjectState
             WeatherController.Instance.ChangeWeather(
             AffectiveManager.Instance.currentAffectiveMode == AffectiveManager.AffectiveMode.Reinforce
                 ? sadWeather
-                : joyWeather, 10f);
+                : joyWeather, 7f);
     }
     public override void Fear_State()     
     {
@@ -47,13 +47,13 @@ public class AffectiveWeather : ObjectState
             WeatherController.Instance.ChangeWeather(
             AffectiveManager.Instance.currentAffectiveMode == AffectiveManager.AffectiveMode.Reinforce
                 ? fearWeather
-                : joyWeather, 10f);
+                : joyWeather, 7f);
     }
 
     public override void Disgust_State()
     {
         if(canChangeWeather)
-            WeatherController.Instance.ChangeWeather(neutralWeather, 10f); 
+            WeatherController.Instance.ChangeWeather(neutralWeather, 7f); 
     }
 
     public override void Anger_State()
@@ -62,13 +62,13 @@ public class AffectiveWeather : ObjectState
             WeatherController.Instance.ChangeWeather(
             AffectiveManager.Instance.currentAffectiveMode == AffectiveManager.AffectiveMode.Reinforce
                 ? sadWeather
-                : joyWeather, 10f);
+                : joyWeather, 7f);
     }
 
     public override void Surprise_State()
     {
         if(canChangeWeather)
-            WeatherController.Instance.ChangeWeather(neutralWeather, 10f); 
+            WeatherController.Instance.ChangeWeather(neutralWeather, 7f); 
     }
     
 }

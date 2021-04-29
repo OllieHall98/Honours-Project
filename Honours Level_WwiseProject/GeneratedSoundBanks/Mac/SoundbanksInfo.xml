@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="649595115">
+		<SoundBank Id="782826392" Language="SFX" Hash="1419199141">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -53,6 +53,22 @@
 						<File Id="964361258" Language="SFX">
 							<ShortName>ConveyanceCubeMusic.wav</ShortName>
 							<Path>SFX\ConveyanceCubeMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3637693694" Name="ConveyanceCubeChangeNegative" ObjectPath="\Events\Default Work Unit\ConveyanceCubeChangeNegative" DurationType="OneShot" DurationMin="0.971959" DurationMax="1.061155">
+					<IncludedMemoryFiles>
+						<File Id="317344934" Language="SFX">
+							<ShortName>ConveyanceCubeChangeNegative.wav</ShortName>
+							<Path>SFX\ConveyanceCubeChangeNegative_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="539128766" Name="ConveyanceCubeChangePositive" ObjectPath="\Events\Default Work Unit\ConveyanceCubeChangePositive" DurationType="OneShot" DurationMin="0.954077" DurationMax="1.041631">
+					<IncludedMemoryFiles>
+						<File Id="241981251" Language="SFX">
+							<ShortName>ConveyanceCubeChange.wav</ShortName>
+							<Path>SFX\ConveyanceCubeChange_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

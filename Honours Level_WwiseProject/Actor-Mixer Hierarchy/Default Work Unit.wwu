@@ -1474,6 +1474,90 @@
 						<ActiveSource Name="ambientMusic" ID="{4DABA9A3-E080-4F5E-AE14-BC1D19EB0082}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ConveyanceCubeChange" ID="{266FD16B-618A-4637-9882-76F854349904}" ShortID="1006954402">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D9E31BDE-9721-4F81-811C-B0DBDF5813AC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="76"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ConveyanceCubeChange" ID="{F77FC947-8063-48B3-B99F-1E4BFA62A7FD}">
+							<Language>SFX</Language>
+							<AudioFile>ConveyanceCubeChange.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="241981251"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ConveyanceCubeChange" ID="{F77FC947-8063-48B3-B99F-1E4BFA62A7FD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ConveyanceCubeChangeNegative" ID="{F0A1CA66-BAF2-4AEB-98CF-805E3131B9EC}" ShortID="61440525">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D3665D2F-7F25-40D9-9600-B8D500B32428}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="76"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BEE3CB65-9A3C-4259-A5E5-1EE8E3930E31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FFE1FE88-0872-44E5-93F4-9DA1E412A0C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ConveyanceCubeChangeNegative" ID="{5E6B5051-49D5-4AA5-85D5-9323C60C9E12}">
+							<Language>SFX</Language>
+							<AudioFile>ConveyanceCubeChangeNegative.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="317344934"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ConveyanceCubeChangeNegative" ID="{5E6B5051-49D5-4AA5-85D5-9323C60C9E12}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
