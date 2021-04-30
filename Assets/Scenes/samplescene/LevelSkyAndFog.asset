@@ -67,13 +67,13 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 0.90566874, g: 0.7335796, b: 0.990566, a: 1}
+    m_Value: {r: 0.15607058, g: 0.61320555, b: 0.9995951, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   middle:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.67002255, b: 0.3915094, a: 1}
+    m_Value: {r: 0.80646884, g: 0.9152372, b: 0.99983066, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
@@ -169,7 +169,7 @@ MonoBehaviour:
     m_Value: 358.56528
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 4994.4136
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
@@ -217,12 +217,12 @@ MonoBehaviour:
     max: 512
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.33
+    m_Value: 0.22
     min: 0
     max: 1
   m_ResolutionDepthRatio:
     m_OverrideState: 0
-    m_Value: 0.666
+    m_Value: 0.7
     min: 0
     max: 1
   directionalLightsOnly:

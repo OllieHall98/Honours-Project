@@ -140,8 +140,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\ConveyanceCubeChangeNegative
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.061155
+      minDuration: 0.971959
     - name: ConveyanceCubeChangePositive
       guid: 4bb04b26ebe81b4db52585156cc72902
       id: 539128766
@@ -152,8 +152,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\ConveyanceCubeChangePositive
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.041631
+      minDuration: 0.954077
     - name: DesertAudio
       guid: 088236704137b744a11c159fe0d3924a
       id: 122842808

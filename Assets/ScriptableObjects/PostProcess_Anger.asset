@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11d76da5f2c09a84ea14d0eaa978e75d, type: 3}
-  m_Name: PostProcess_Anger 1
+  m_Name: PostProcess_Anger
   m_EditorClassIdentifier: 
   whiteBalanceTemperature: 0
-  vignetteIntensity: 0
+  vignetteIntensity: 0.25
   lensDistortionIntensity: 0

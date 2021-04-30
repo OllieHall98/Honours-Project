@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.685; Version 2004; 64bit' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 32702 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/ollie/Documents/Unity Projects/Honours Level
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49183
+64706
 Successfully changed project path to: C:/Users/ollie/Documents/Unity Projects/Honours Level
 C:/Users/ollie/Documents/Unity Projects/Honours Level
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 340.07 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 322.95 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,194 +35,67 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001746 seconds.
+Registered in 0.001966 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 249.53 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 238.51 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.393 seconds
+- Completed reload, in  1.444 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.041227 seconds.
+Registered in 0.037123 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 243.41 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 257.10 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.67 ms, found 6 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.054 seconds
+- Completed reload, in  3.480 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.64 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 412.4 MB.
-System memory in use after: 412.6 MB.
+System memory in use before: 415.2 MB.
+System memory in use after: 415.4 MB.
 
 Unloading 349 unused Assets to reduce memory usage. Loaded Objects now: 5546.
-Total: 6.925200 ms (FindLiveObjects: 0.850300 ms CreateObjectMapping: 0.455200 ms MarkObjects: 5.050300 ms  DeleteObjects: 0.568000 ms)
+Total: 6.860600 ms (FindLiveObjects: 0.788900 ms CreateObjectMapping: 0.444100 ms MarkObjects: 4.928900 ms  DeleteObjects: 0.697200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab
-  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773ba4f2e42380281308d65154a1f14') in 1.014777 seconds
-  Import took 1.030990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset
-  artifactKey: Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/samplescene/SampleScenePostProcessingSettings - Copy.asset using Guid(099ffa90d3bace54194f1ff90c5357a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb02aeaebcc01476db3b86eaf9d8f21') in 0.010864 seconds
-  Import took 0.020370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab
-  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ee2b1259122c8c6fb117d253eda6da') in 0.028959 seconds
-  Import took 0.040384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002722 seconds.
   path: Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset
   artifactKey: Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset using Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcc4858173db1e91161f2066c820d1a') in 0.007874 seconds
-  Import took 0.019245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 271.456879 seconds.
-  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
-  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34821a79db22edea3e9d94f8cef6efcb') in 0.073100 seconds
-  Import took 0.085829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush05.prefab
-  artifactKey: Guid(431e05c5e2b18ba4fa6b3b0a6f687786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush05.prefab using Guid(431e05c5e2b18ba4fa6b3b0a6f687786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351769814478cf7717dd8e21cd4d77dd') in 0.042295 seconds
-  Import took 0.052303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 3.prefab
-  artifactKey: Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 3.prefab using Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541e4b0cd559a18a25cf73e7079d155a') in 0.034175 seconds
-  Import took 0.044889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 5.prefab
-  artifactKey: Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 5.prefab using Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f727d60060a1db157e328373f705168') in 0.043713 seconds
-  Import took 0.060950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
-  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ecdff11cb0fe045ef2c4184c0c7a45') in 0.049751 seconds
-  Import took 0.060390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush01.prefab
-  artifactKey: Guid(8109e9e16ba4cc04b8e0928aea897927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush01.prefab using Guid(8109e9e16ba4cc04b8e0928aea897927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43442da313480ec78309acc3a61b67cd') in 0.030469 seconds
-  Import took 0.049564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 2.prefab
-  artifactKey: Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Low Poly Free Vegetation Pack/Prefabs/Tree 2.prefab using Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7928996e6170616e93687107f5c2baa8') in 0.035992 seconds
-  Import took 0.048228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
-  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42c7573f97ad9ed6e3712f77348a138') in 0.053803 seconds
-  Import took 0.066805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush03.prefab
-  artifactKey: Guid(ff0b0a3d7ae7a9e4f8505795785ad853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush03.prefab using Guid(ff0b0a3d7ae7a9e4f8505795785ad853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d4fe90d967daf8961d6301eaef9abb') in 0.035994 seconds
-  Import took 0.048973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab
-  artifactKey: Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup4.prefab using Guid(1ee76940f560f654fbbe86776c26942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42c7573f97ad9ed6e3712f77348a138') in 0.050613 seconds
-  Import took 0.061105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab
-  artifactKey: Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab using Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417ae1054f528f209fc48d56272feb9') in 0.038195 seconds
-  Import took 0.050733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush04.prefab
-  artifactKey: Guid(e334e6614ad50f749b0a37528784c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush04.prefab using Guid(e334e6614ad50f749b0a37528784c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3701ec87c27e3b9af296c8381bbc03f6') in 0.032444 seconds
-  Import took 0.043601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab
-  artifactKey: Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab using Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417ae1054f528f209fc48d56272feb9') in 0.032107 seconds
-  Import took 0.042651 seconds .
+Start importing Assets/Scenes/samplescene/HDRenderPipelineAsset - Copy.asset using Guid(8e7f164cdd47cd1488acf7cd9fb360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d49c22a7c0ffbbf225e0b330a70a548') in 0.033038 seconds
+  Import took 0.042779 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.034039 seconds.
+Registered in 0.040185 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.02 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.79 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 2.96 ms, found 6 plugins.
+DisplayProgressbar: Populating Wwise Picker
+Refreshing native plugins compatible for Editor in 2.80 ms, found 6 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.769 seconds
+- Completed reload, in  2.973 seconds
 Platform modules already initialized, skipping
 Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
 
@@ -260,13 +133,797 @@ Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJ
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
 Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
 
-Refreshing native plugins compatible for Editor in 3.45 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 3.35 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4823 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 397.4 MB.
-System memory in use after: 397.7 MB.
+Unloading 4844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 399.7 MB.
+System memory in use after: 400.0 MB.
 
-Unloading 335 unused Assets to reduce memory usage. Loaded Objects now: 5680.
-Total: 11.964500 ms (FindLiveObjects: 0.775900 ms CreateObjectMapping: 0.402100 ms MarkObjects: 9.961300 ms  DeleteObjects: 0.822600 ms)
+Unloading 366 unused Assets to reduce memory usage. Loaded Objects now: 5548.
+Total: 6.668700 ms (FindLiveObjects: 0.807800 ms CreateObjectMapping: 0.437100 ms MarkObjects: 4.629500 ms  DeleteObjects: 0.792600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.426 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.7 MB.
+System memory in use after: 395.0 MB.
+
+Unloading 367 unused Assets to reduce memory usage. Loaded Objects now: 5550.
+Total: 5.396500 ms (FindLiveObjects: 0.620300 ms CreateObjectMapping: 0.374500 ms MarkObjects: 3.883600 ms  DeleteObjects: 0.515700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.88 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.356 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.3 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5552.
+Total: 6.323200 ms (FindLiveObjects: 0.705000 ms CreateObjectMapping: 0.439000 ms MarkObjects: 4.693600 ms  DeleteObjects: 0.484200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.11 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.4 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5554.
+Total: 5.971200 ms (FindLiveObjects: 0.638500 ms CreateObjectMapping: 0.397800 ms MarkObjects: 4.428900 ms  DeleteObjects: 0.502800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.89 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.230 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 393.9 MB.
+System memory in use after: 394.2 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5556.
+Total: 7.589600 ms (FindLiveObjects: 1.026600 ms CreateObjectMapping: 0.637300 ms MarkObjects: 5.299800 ms  DeleteObjects: 0.623000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.215 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.3 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5558.
+Total: 10.504600 ms (FindLiveObjects: 0.741100 ms CreateObjectMapping: 0.495900 ms MarkObjects: 8.555300 ms  DeleteObjects: 0.709700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.39 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 4.77 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.803 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.3 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5560.
+Total: 14.075900 ms (FindLiveObjects: 1.130900 ms CreateObjectMapping: 0.687900 ms MarkObjects: 11.630400 ms  DeleteObjects: 0.623400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 4.90 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.614 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 5.40 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.3 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5562.
+Total: 5.953700 ms (FindLiveObjects: 0.831400 ms CreateObjectMapping: 0.413800 ms MarkObjects: 4.132300 ms  DeleteObjects: 0.573500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 4.41 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.0 MB.
+System memory in use after: 394.3 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5564.
+Total: 6.272200 ms (FindLiveObjects: 0.662200 ms CreateObjectMapping: 0.383900 ms MarkObjects: 4.759000 ms  DeleteObjects: 0.465800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3216.907649 seconds.
+  path: Assets/ScriptableObjects/PostProcess_Anger.asset
+  artifactKey: Guid(602281cb6ccf8e84990fd69e1342a669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/PostProcess_Anger.asset using Guid(602281cb6ccf8e84990fd69e1342a669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d789d3fe84a2e722bc7e821465d03') in 0.399426 seconds
+  Import took 0.416533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.805 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 393.9 MB.
+System memory in use after: 394.2 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5566.
+Total: 9.225400 ms (FindLiveObjects: 1.857100 ms CreateObjectMapping: 0.721000 ms MarkObjects: 5.969300 ms  DeleteObjects: 0.674800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.087542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.04 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.241 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.1 MB.
+System memory in use after: 394.4 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5568.
+Total: 9.290100 ms (FindLiveObjects: 0.785900 ms CreateObjectMapping: 0.601800 ms MarkObjects: 7.183000 ms  DeleteObjects: 0.716400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.15 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.33 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.842 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 3.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 394.6 MB.
+System memory in use after: 394.9 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5570.
+Total: 7.049300 ms (FindLiveObjects: 0.700100 ms CreateObjectMapping: 0.412900 ms MarkObjects: 5.410000 ms  DeleteObjects: 0.524200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 2.71 ms, found 6 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.238 seconds
+Platform modules already initialized, skipping
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': floating point division by zero at Level/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/ShaderLibrary/CommonMaterial.hlsl(302) (on d3d11)
+
+Compiling Vertex program with _VERTEX_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _NORMALMAP_TANGENT_SPACE _HEIGHTMAP _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT LOD_FADE_CROSSFADE _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _PIXEL_DISPLACEMENT _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Refreshing native plugins compatible for Editor in 4.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 395.1 MB.
+System memory in use after: 395.4 MB.
+
+Unloading 334 unused Assets to reduce memory usage. Loaded Objects now: 5572.
+Total: 10.448300 ms (FindLiveObjects: 0.940200 ms CreateObjectMapping: 0.572800 ms MarkObjects: 8.283800 ms  DeleteObjects: 0.649200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1838.931385 seconds.
+  path: Assets/Models/Vines/ivyblend.fbx
+  artifactKey: Guid(a3081674d8bab9b40b0a33bc732f0a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/ivyblend.fbx using Guid(a3081674d8bab9b40b0a33bc732f0a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eabec978aaa06e4c52fb4b0fe631fc4') in 1.245368 seconds
+  Import took 1.259200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040532 seconds.
+  path: Assets/Models/Vines/ivyblend.fbx
+  artifactKey: Guid(a3081674d8bab9b40b0a33bc732f0a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/ivyblend.fbx using Guid(a3081674d8bab9b40b0a33bc732f0a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eabec978aaa06e4c52fb4b0fe631fc4') in 0.272123 seconds
+  Import took 0.283049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 570.634336 seconds.
+  path: Assets/Models/Vines/Ivy.3ds
+  artifactKey: Guid(262da59b4a7956a4995f60cf672617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/Ivy.3ds using Guid(262da59b4a7956a4995f60cf672617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c678c8a2a1dd201556643bec4e911a2a') in 0.571276 seconds
+  Import took 0.582921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.363689 seconds.
+  path: Assets/Models/Vines/Ivy.3ds
+  artifactKey: Guid(262da59b4a7956a4995f60cf672617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/Ivy.3ds using Guid(262da59b4a7956a4995f60cf672617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523d2a23a528c5df229da258c3fcdf1') in 0.580183 seconds
+  Import took 0.591509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.323262 seconds.
+  path: Assets/Models/Vines/IvyOriginal.3ds
+  artifactKey: Guid(cc237b0e85fd68c429c06178a97feb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/IvyOriginal.3ds using Guid(cc237b0e85fd68c429c06178a97feb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7105024a5890324d2aebd93838dd42a4') in 0.252871 seconds
+  Import took 0.269557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.749798 seconds.
+  path: Assets/Models/Vines/Ivy.3ds
+  artifactKey: Guid(cc237b0e85fd68c429c06178a97feb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/Ivy.3ds using Guid(cc237b0e85fd68c429c06178a97feb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd60a46f239bee750562dab067364f63') in 0.207470 seconds
+  Import took 0.218728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.670516 seconds.
+  path: Assets/Models/Vines/Ivy.3ds
+  artifactKey: Guid(0356f89322d272d44a01a3b596e44d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vines/Ivy.3ds using Guid(0356f89322d272d44a01a3b596e44d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a20a7532ae26eb56776f3ef6c6e195') in 0.531766 seconds
+  Import took 0.544425 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
