@@ -126,8 +126,6 @@ public class OpenChest : MonoBehaviour
         _player.transform.position = PlayerStateScript.Instance.playerStartTransform.position;
         
         
-        
-        
         if (RelicHolderScript.Instance.CheckForAllRelics() == true)
         {
             PortalScript.Instance.OpenPortal();
@@ -155,42 +153,7 @@ public class OpenChest : MonoBehaviour
 
         startMusic.Post(gameObject);
     }
-
-    //private bool _coroutineExecuting;
     
-
-    // private IEnumerator MovePlayerToPosition()
-    // {
-    //     _coroutineExecuting = true;
-    //     
-    //     PlayerStateScript.Instance.SetMovementActive(false, true);
-    //
-    //     
-    //     float timer = 0;
-    //     
-    //     var targetPosition = targetTransform.position;
-    //     var startPosition = _player.transform.position;
-    //     var startForward = _cameraPivot.transform.localEulerAngles;
-    //
-    //     var modifiedTargetPosition = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
-    //
-    //     Vector3 targetForward = new Vector3(0, 0, 0);
-    //     
-    //     while(timer < lerpDuration)
-    //     {
-    //         _player.transform.position = Vector3.Lerp(startPosition, modifiedTargetPosition, timer / lerpDuration);
-    //         _cameraPivot.transform.localEulerAngles = Vector3.Lerp(startForward, targetForward, timer / lerpDuration);
-    //         timer += Time.deltaTime;
-    //         
-    //         yield return null;
-    //     }
-    //
-    //     _player.transform.position = modifiedTargetPosition;
-    //     _cameraPivot.transform.localEulerAngles = targetForward;
-    //
-    //     _coroutineExecuting = false;
-    // }
-
     void MovePlayerToPosition()
     {
         PlayerStateScript.Instance.SetMovementActive(false, true);

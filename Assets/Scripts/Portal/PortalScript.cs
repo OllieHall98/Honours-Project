@@ -34,14 +34,14 @@ public class PortalScript : MonoBehaviour
 
     public void Enable()
     {
-        portalLight.SetActive(true);
-        portalLight.GetComponent<Renderer>().enabled = true;
+        portalLight.GetComponent<MeshRenderer>().enabled = true;
+        //portalLight.SetActive(true);
     }
     
     public void Disable()
     {
-        portalLight.GetComponent<Renderer>().enabled = false;
-        portalLight.SetActive(false);
+        portalLight.GetComponent<MeshRenderer>().enabled = false;
+        //portalLight.SetActive(false);
     }
 
     public void OpenPortal()
@@ -54,6 +54,8 @@ public class PortalScript : MonoBehaviour
 
     IEnumerator PortalCutscene()
     {
+        GetComponent<Animator>().enabled = true;
+        
         cutsceneAnimator.SetTrigger(StartCutscene);
 
         allRelicsCollected.Post(gameObject);

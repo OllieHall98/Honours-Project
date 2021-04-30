@@ -231,7 +231,7 @@ MonoBehaviour:
       m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
-    supportDecals: 1
+    supportDecals: 0
     supportDecalLayers: 0
     decalLayerName0: Decal Layer default
     decalLayerName1: Decal Layer 1
@@ -362,7 +362,7 @@ MonoBehaviour:
         m_Id: With3Levels
     lodBias:
       m_Values:
-      - 2
+      - 0.75
       - 1
       - 2
       m_SchemaId:
